@@ -1,0 +1,340 @@
+********************************************************************************
+MEME - Motif discovery tool
+********************************************************************************
+MEME version 4.9.0 (Release date: Wed Oct  3 11:07:26 EST 2012)
+
+For further information on how to interpret these results or to get
+a copy of the MEME software please access http://meme.nbcr.net.
+
+This file may be used as input to the MAST algorithm for searching
+sequence databases for matches to groups of motifs.  MAST is available
+for interactive use and downloading at http://meme.nbcr.net.
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey and Charles Elkan,
+"Fitting a mixture model by expectation maximization to discover
+motifs in biopolymers", Proceedings of the Second International
+Conference on Intelligent Systems for Molecular Biology, pp. 28-36,
+AAAI Press, Menlo Park, California, 1994.
+********************************************************************************
+
+
+********************************************************************************
+TRAINING SET
+********************************************************************************
+DATAFILE= input.fa
+ALPHABET= ACGT
+Sequence name            Weight Length  Sequence name            Weight Length  
+-------------            ------ ------  -------------            ------ ------  
+SMa0045                  1.0000    309  SMa0612                  1.0000    305  
+SMa1809                  1.0000     86  SMa1822                  1.0000    216  
+SMa1961                  1.0000    287  SMc02862                 1.0000    235  
+SMc00429                 1.0000    118  SMc01723                 1.0000    129  
+SMc02174                 1.0000    236  SMc02146                 1.0000    195  
+SMc00801                 1.0000    316  SMc00819                 1.0000    194  
+SMc02634                 1.0000    245  SMc02601                 1.0000    183  
+SMc00618                 1.0000     65  SMc00620                 1.0000     71  
+SMc01907                 1.0000    231  SMc00171                 1.0000    244  
+SMc00170                 1.0000    206  SMc04239                 1.0000    401  
+SMc04280                 1.0000    401  SMc04317                 1.0000    382  
+SMc01852                 1.0000    343  SMc01848                 1.0000    344  
+SMc01605                 1.0000    186  SMc03961                 1.0000    128  
+SMc03994                 1.0000    241  SMc04053                 1.0000    153  
+SMc03124                 1.0000    382  SMc02490                 1.0000    121  
+SMc03243                 1.0000    157  
+********************************************************************************
+
+********************************************************************************
+COMMAND LINE SUMMARY
+********************************************************************************
+This information can also be useful in the event you wish to report a
+problem with the MEME software.
+
+command: meme -mod zoops -dna input.fa -bfile ../../genomes/bfile/Rm1021.ntfreq -cons TGTCANNNNNNTGTCA -maxw 20 
+
+model:  mod=         zoops    nmotifs=         1    evt=           inf
+object function=  E-value of product of p-values
+width:  minw=            8    maxw=           20    minic=        0.00
+width:  wg=             11    ws=              1    endgaps=       yes
+nsites: minsites=        2    maxsites=       31    wnsites=       0.8
+theta:  prob=            1    spmap=         uni    spfuzz=        0.5
+global: substring=      no    branching=      no    wbranch=        no
+em:     prior=   dirichlet    b=            0.01    maxiter=        50
+        distance=    1e-05
+data:   n=            7110    N=              31
+strands: +
+sample: seed=            0    seqfrac=         1
+Letter frequencies in dataset:
+A 0.226 C 0.282 G 0.273 T 0.219 
+Background letter frequencies (from ../../genomes/bfile/Rm1021.ntfreq):
+A 0.189 C 0.311 G 0.311 T 0.189 
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  1	width =   20   sites =  30   llr = 307   E-value = 7.4e-022
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 1 Description
+--------------------------------------------------------------------------------
+Simplified        A  :11:8263621:11272444
+pos.-specific     C  2::7:4232262:1713313
+probability       G  :8:12112:4315::2:331
+matrix            T  8191:312131748115:22
+
+         bits    2.4                     
+                 2.2                     
+                 1.9                     
+                 1.7 * *                 
+Relative         1.4 * * *        *      
+Entropy          1.2 * * *        *      
+(14.8 bits)      1.0 *** *      * *      
+                 0.7 *** * * *  ******   
+                 0.5 ***** * *  *******  
+                 0.2 ******* * **********
+                 0.0 --------------------
+
+Multilevel           TGTCACAAAGCTGTCATAAA
+consensus                 TCCCTGCT A CCGC
+sequence                    G        AGTT
+                            T            
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name             Start   P-value                    Site      
+-------------             ----- ---------            --------------------
+SMc00801                    243  1.91e-11 GGTCGCGCCT TGTCATAAAACTGTCACAAA GGCAGCTGAC
+SMc02146                     64  7.85e-10 CATGTTAGAC TGTCATAAATGTTTCACCGA ACTGACATAA
+SMc02601                     68  7.18e-09 GCTTGAAATC TGTCACAAAACTTTCTAAAT CAGTTCCGGC
+SMc02634                    152  9.80e-09 TTCATCCAAT TGTCGCAGAGCTGTCATGAA CTCGCTGGTA
+SMc01605                    112  9.42e-08 GGACAAAGCC TGTCACATAGGCTTCATCGC ATATCTTTAA
+SMc04280                    304  1.22e-07 GAATCCCGCC TTTTGTAAAGATTTCATAAA AGCCGAACGT
+SMc04317                    315  3.27e-07 GGCTTTTCGC TGTCACATCCCTGTAAAACA CCCGCTCTAT
+SMc00618                      2  1.02e-06          C TGTCACAGTTCCGTCGTCAA ACTGGGGTAG
+SMc01907                    133  1.57e-06 CAAGCCTCGC TGTCATCCAGCTGTTACAGG ACAGTTGCAA
+SMc03961                     72  1.94e-06 ACTGCAGCTT TGTCACAATCCTATCCTATC AGGACCCTGT
+SMc03243                     33  3.23e-06 AGGCAGCCCC CTTCACAGAACTGTCGCCAA ACCGTCCGAA
+SMc03994                    178  4.34e-06 GCATGCGGAC TGTCAGACAGGTTCAATGTC CGGTCGAGCG
+SMc03124                     94  4.78e-06 GTCACATCAG TGTTACACATGTGAACTAAT TGGCGTCTGA
+SMc04239                    287  4.78e-06 GCCCGATTTC TGTCGTGAAGGCTTCATCTT GCGGGGTTAT
+SMc00620                      7  4.78e-06     GACAAA CATCAAACAGTTGTCATCGA AGCCGCCTAT
+SMc02490                     64  5.79e-06 CCTTGGAATT TGTCATTGTTCGATCATATT GAACTGCAAT
+SMc01723                     49  6.36e-06 CTTCGGCCTC CGTCACTACCCTGACATGAA AAGCGCTCTA
+SMc00171                     45  1.01e-05 AGAGCGCGTT TGTGAAATCGCGTTCACGTC CGGTGCTGAT
+SMc01852                    222  1.10e-05 TCCACAGGCC TGTCATTTAATTTCCATCGG ATTTGGGTTA
+SMc01848                    281  1.44e-05 TGCGAAACCT CGTCATCAAAGTGTAGCCGA GTCACCTTAG
+SMc00819                    128  1.71e-05 TCGTGGCCGC TGTCGTTCAGCCGTCACGCT CTTCAGCGAG
+SMa0045                     199  2.03e-05 CAAGGTCATT TTACGCATCGCTTTCCAAAA TGTCGTCACC
+SMa0612                     271  4.60e-05 AGATGATCGT TGTCAGGGGCCTTTCATGAC GAGGGAGCAC
+SMc02174                    144  4.97e-05 GTCTCTAGAT TGTGAACGATCTGTCGCCGG GCGGGCGGCT
+SMa1961                     110  4.97e-05 TAAATTCGAC TGACAAACCGCCTTAGCGGA ACCAGCGTCC
+SMa1822                      11  4.97e-05 TCGCCTCCAT TGGCTCACATCGTTCAAAAC GCGTGAATTT
+SMc00170                    163  5.37e-05 AACCGGCCGC CGTAAACCATGTTTATTATA GGGGCAAGTT
+SMc02862                    194  1.39e-04 GCAAGTACAA TATGACAACTGCGTGACAAT CGACAGTTGG
+SMc00429                     11  2.09e-04 GCGTCGCTCC TTTTACCTCGCTGCCAAGCC TACCAAACCG
+SMc04053                     14  9.23e-04 ATAGTAATGT TGATATCAACATAATAAGTC AAGCGCCGGC
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+SMc00801                          1.9e-11  242_[+1]_54
+SMc02146                          7.9e-10  63_[+1]_112
+SMc02601                          7.2e-09  67_[+1]_96
+SMc02634                          9.8e-09  151_[+1]_74
+SMc01605                          9.4e-08  111_[+1]_55
+SMc04280                          1.2e-07  303_[+1]_78
+SMc04317                          3.3e-07  314_[+1]_48
+SMc00618                            1e-06  1_[+1]_44
+SMc01907                          1.6e-06  132_[+1]_79
+SMc03961                          1.9e-06  71_[+1]_37
+SMc03243                          3.2e-06  32_[+1]_105
+SMc03994                          4.3e-06  177_[+1]_44
+SMc03124                          4.8e-06  93_[+1]_269
+SMc04239                          4.8e-06  286_[+1]_95
+SMc00620                          4.8e-06  6_[+1]_45
+SMc02490                          5.8e-06  63_[+1]_38
+SMc01723                          6.4e-06  48_[+1]_61
+SMc00171                            1e-05  44_[+1]_180
+SMc01852                          1.1e-05  221_[+1]_102
+SMc01848                          1.4e-05  280_[+1]_44
+SMc00819                          1.7e-05  127_[+1]_47
+SMa0045                             2e-05  198_[+1]_91
+SMa0612                           4.6e-05  270_[+1]_15
+SMc02174                            5e-05  143_[+1]_73
+SMa1961                             5e-05  109_[+1]_158
+SMa1822                             5e-05  10_[+1]_186
+SMc00170                          5.4e-05  162_[+1]_24
+SMc02862                          0.00014  193_[+1]_22
+SMc00429                          0.00021  10_[+1]_88
+SMc04053                          0.00092  13_[+1]_120
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 1 width=20 seqs=30
+SMc00801                 (  243) TGTCATAAAACTGTCACAAA  1 
+SMc02146                 (   64) TGTCATAAATGTTTCACCGA  1 
+SMc02601                 (   68) TGTCACAAAACTTTCTAAAT  1 
+SMc02634                 (  152) TGTCGCAGAGCTGTCATGAA  1 
+SMc01605                 (  112) TGTCACATAGGCTTCATCGC  1 
+SMc04280                 (  304) TTTTGTAAAGATTTCATAAA  1 
+SMc04317                 (  315) TGTCACATCCCTGTAAAACA  1 
+SMc00618                 (    2) TGTCACAGTTCCGTCGTCAA  1 
+SMc01907                 (  133) TGTCATCCAGCTGTTACAGG  1 
+SMc03961                 (   72) TGTCACAATCCTATCCTATC  1 
+SMc03243                 (   33) CTTCACAGAACTGTCGCCAA  1 
+SMc03994                 (  178) TGTCAGACAGGTTCAATGTC  1 
+SMc03124                 (   94) TGTTACACATGTGAACTAAT  1 
+SMc04239                 (  287) TGTCGTGAAGGCTTCATCTT  1 
+SMc00620                 (    7) CATCAAACAGTTGTCATCGA  1 
+SMc02490                 (   64) TGTCATTGTTCGATCATATT  1 
+SMc01723                 (   49) CGTCACTACCCTGACATGAA  1 
+SMc00171                 (   45) TGTGAAATCGCGTTCACGTC  1 
+SMc01852                 (  222) TGTCATTTAATTTCCATCGG  1 
+SMc01848                 (  281) CGTCATCAAAGTGTAGCCGA  1 
+SMc00819                 (  128) TGTCGTTCAGCCGTCACGCT  1 
+SMa0045                  (  199) TTACGCATCGCTTTCCAAAA  1 
+SMa0612                  (  271) TGTCAGGGGCCTTTCATGAC  1 
+SMc02174                 (  144) TGTGAACGATCTGTCGCCGG  1 
+SMa1961                  (  110) TGACAAACCGCCTTAGCGGA  1 
+SMa1822                  (   11) TGGCTCACATCGTTCAAAAC  1 
+SMc00170                 (  163) CGTAAACCATGTTTATTATA  1 
+SMc02862                 (  194) TATGACAACTGCGTGACAAT  1 
+SMc00429                 (   11) TTTTACCTCGCTGCCAAGCC  1 
+SMc04053                 (   14) TGATATCAACATAATAAGTC  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 20 n= 6521 bayes= 9.03586 E= 7.4e-022 
+ -1155    -90  -1155    214 
+  -150  -1155    136    -50 
+   -92  -1155   -322    220 
+  -250    124   -164    -50 
+   208  -1155    -90   -250 
+   -18     48   -222     82 
+   167    -64   -222    -50 
+    82    -22    -64      8 
+   174    -41   -322    -92 
+   -18    -90     36     50 
+  -150     95    -22   -150 
+ -1155    -64   -164    189 
+   -92  -1155     59    120 
+   -92   -164  -1155    208 
+     8    117   -322   -150 
+   182   -164    -90   -150 
+     8     10  -1155    130 
+   108     -5     -5  -1155 
+   108   -164    -22     30 
+   120    -22   -164      8 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 20 nsites= 30 E= 7.4e-022 
+ 0.000000  0.166667  0.000000  0.833333 
+ 0.066667  0.000000  0.800000  0.133333 
+ 0.100000  0.000000  0.033333  0.866667 
+ 0.033333  0.733333  0.100000  0.133333 
+ 0.800000  0.000000  0.166667  0.033333 
+ 0.166667  0.433333  0.066667  0.333333 
+ 0.600000  0.200000  0.066667  0.133333 
+ 0.333333  0.266667  0.200000  0.200000 
+ 0.633333  0.233333  0.033333  0.100000 
+ 0.166667  0.166667  0.400000  0.266667 
+ 0.066667  0.600000  0.266667  0.066667 
+ 0.000000  0.200000  0.100000  0.700000 
+ 0.100000  0.000000  0.466667  0.433333 
+ 0.100000  0.100000  0.000000  0.800000 
+ 0.200000  0.700000  0.033333  0.066667 
+ 0.666667  0.100000  0.166667  0.066667 
+ 0.200000  0.333333  0.000000  0.466667 
+ 0.400000  0.300000  0.300000  0.000000 
+ 0.400000  0.100000  0.266667  0.233333 
+ 0.433333  0.266667  0.100000  0.200000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 regular expression
+--------------------------------------------------------------------------------
+TGTCA[CT][AC][ACGT][AC][GT][CG][TC][GT]T[CA]A[TCA][ACG][AGT][ACT]
+--------------------------------------------------------------------------------
+
+
+
+
+Time  1.38 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+SUMMARY OF MOTIFS
+********************************************************************************
+
+--------------------------------------------------------------------------------
+	Combined block diagrams: non-overlapping sites with p-value < 0.0001
+--------------------------------------------------------------------------------
+SEQUENCE NAME            COMBINED P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+SMa0045                          5.88e-03  198_[+1(2.03e-05)]_91
+SMa0612                          1.31e-02  270_[+1(4.60e-05)]_15
+SMa1809                          9.44e-01  86
+SMa1822                          9.74e-03  10_[+1(4.97e-05)]_186
+SMa1961                          1.32e-02  109_[+1(4.97e-05)]_158
+SMc02862                         2.96e-02  235
+SMc00429                         2.04e-02  118
+SMc01723                         7.00e-04  48_[+1(6.36e-06)]_61
+SMc02174                         1.07e-02  143_[+1(4.97e-05)]_73
+SMc02146                         1.38e-07  63_[+1(7.85e-10)]_112
+SMc00801                         5.69e-09  242_[+1(1.91e-11)]_54
+SMc00819                         3.00e-03  127_[+1(1.71e-05)]_47
+SMc02634                         2.22e-06  151_[+1(9.80e-09)]_74
+SMc02601                         1.18e-06  67_[+1(7.18e-09)]_96
+SMc00618                         4.71e-05  1_[+1(1.02e-06)]_44
+SMc00620                         2.48e-04  6_[+1(4.78e-06)]_45
+SMc01907                         3.34e-04  132_[+1(1.57e-06)]_79
+SMc00171                         2.27e-03  44_[+1(1.01e-05)]_111_\
+    [+1(9.76e-05)]_49
+SMc00170                         9.99e-03  162_[+1(5.37e-05)]_24
+SMc04239                         1.82e-03  286_[+1(4.78e-06)]_95
+SMc04280                         4.66e-05  303_[+1(1.22e-07)]_78
+SMc04317                         1.19e-04  314_[+1(3.27e-07)]_48
+SMc01852                         3.57e-03  221_[+1(1.10e-05)]_102
+SMc01848                         4.67e-03  280_[+1(1.44e-05)]_44
+SMc01605                         1.57e-05  111_[+1(9.42e-08)]_55
+SMc03961                         2.12e-04  71_[+1(1.94e-06)]_37
+SMc03994                         9.63e-04  177_[+1(4.34e-06)]_44
+SMc04053                         1.16e-01  153
+SMc03124                         2.13e-04  93_[+1(4.78e-06)]_159_\
+    [+1(5.86e-07)]_90
+SMc02490                         5.90e-04  63_[+1(5.79e-06)]_38
+SMc03243                         4.45e-04  32_[+1(3.23e-06)]_105
+--------------------------------------------------------------------------------
+
+********************************************************************************
+
+
+********************************************************************************
+Stopped because nmotifs = 1 reached.
+********************************************************************************
+
+CPU: bazzilab
+
+********************************************************************************

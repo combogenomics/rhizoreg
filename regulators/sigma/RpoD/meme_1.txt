@@ -1,0 +1,2622 @@
+********************************************************************************
+MEME - Motif discovery tool
+********************************************************************************
+MEME version 4.9.0 (Release date: Wed Oct  3 11:07:26 EST 2012)
+
+For further information on how to interpret these results or to get
+a copy of the MEME software please access http://meme.nbcr.net.
+
+This file may be used as input to the MAST algorithm for searching
+sequence databases for matches to groups of motifs.  MAST is available
+for interactive use and downloading at http://meme.nbcr.net.
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey and Charles Elkan,
+"Fitting a mixture model by expectation maximization to discover
+motifs in biopolymers", Proceedings of the Second International
+Conference on Intelligent Systems for Molecular Biology, pp. 28-36,
+AAAI Press, Menlo Park, California, 1994.
+********************************************************************************
+
+
+********************************************************************************
+TRAINING SET
+********************************************************************************
+DATAFILE= input29.fa
+ALPHABET= ACGT
+Sequence name            Weight Length  Sequence name            Weight Length  
+-------------            ------ ------  -------------            ------ ------  
+0                        1.0000     29  1                        1.0000     29  
+2                        1.0000     29  3                        1.0000     29  
+4                        1.0000     29  5                        1.0000     29  
+6                        1.0000     29  7                        1.0000     29  
+8                        1.0000     29  9                        1.0000     29  
+10                       1.0000     29  11                       1.0000     29  
+12                       1.0000     29  13                       1.0000     29  
+14                       1.0000     29  15                       1.0000     29  
+16                       1.0000     29  17                       1.0000     29  
+18                       1.0000     29  19                       1.0000     29  
+20                       1.0000     29  21                       1.0000     29  
+22                       1.0000     29  23                       1.0000     29  
+24                       1.0000     29  25                       1.0000     29  
+26                       1.0000     29  27                       1.0000     29  
+28                       1.0000     29  29                       1.0000     29  
+30                       1.0000     29  31                       1.0000     29  
+32                       1.0000     29  33                       1.0000     29  
+34                       1.0000     29  35                       1.0000     29  
+36                       1.0000     29  37                       1.0000     29  
+38                       1.0000     29  39                       1.0000     29  
+40                       1.0000     29  41                       1.0000     29  
+42                       1.0000     29  43                       1.0000     29  
+44                       1.0000     29  45                       1.0000     29  
+46                       1.0000     29  47                       1.0000     29  
+48                       1.0000     29  49                       1.0000     29  
+50                       1.0000     29  51                       1.0000     29  
+52                       1.0000     29  53                       1.0000     29  
+54                       1.0000     29  55                       1.0000     29  
+56                       1.0000     29  57                       1.0000     29  
+58                       1.0000     29  59                       1.0000     29  
+60                       1.0000     29  61                       1.0000     29  
+62                       1.0000     29  63                       1.0000     29  
+64                       1.0000     29  65                       1.0000     29  
+66                       1.0000     29  67                       1.0000     29  
+68                       1.0000     29  69                       1.0000     29  
+70                       1.0000     29  71                       1.0000     29  
+72                       1.0000     29  73                       1.0000     29  
+74                       1.0000     29  75                       1.0000     29  
+76                       1.0000     29  77                       1.0000     29  
+78                       1.0000     29  79                       1.0000     29  
+80                       1.0000     29  81                       1.0000     29  
+82                       1.0000     29  83                       1.0000     29  
+84                       1.0000     29  85                       1.0000     29  
+86                       1.0000     29  87                       1.0000     29  
+88                       1.0000     29  89                       1.0000     29  
+90                       1.0000     29  91                       1.0000     29  
+92                       1.0000     29  93                       1.0000     29  
+94                       1.0000     29  95                       1.0000     29  
+96                       1.0000     29  97                       1.0000     29  
+98                       1.0000     29  99                       1.0000     29  
+100                      1.0000     29  101                      1.0000     29  
+102                      1.0000     29  103                      1.0000     29  
+104                      1.0000     29  105                      1.0000     29  
+106                      1.0000     29  107                      1.0000     29  
+108                      1.0000     29  109                      1.0000     29  
+110                      1.0000     29  111                      1.0000     29  
+112                      1.0000     29  113                      1.0000     29  
+114                      1.0000     29  115                      1.0000     29  
+116                      1.0000     29  117                      1.0000     29  
+118                      1.0000     29  119                      1.0000     29  
+120                      1.0000     29  121                      1.0000     29  
+122                      1.0000     29  123                      1.0000     29  
+124                      1.0000     29  125                      1.0000     29  
+126                      1.0000     29  127                      1.0000     29  
+128                      1.0000     29  129                      1.0000     29  
+130                      1.0000     29  131                      1.0000     29  
+132                      1.0000     29  133                      1.0000     29  
+134                      1.0000     29  135                      1.0000     29  
+136                      1.0000     29  137                      1.0000     29  
+138                      1.0000     29  139                      1.0000     29  
+140                      1.0000     29  141                      1.0000     29  
+142                      1.0000     29  143                      1.0000     29  
+144                      1.0000     29  145                      1.0000     29  
+146                      1.0000     29  147                      1.0000     29  
+148                      1.0000     29  149                      1.0000     29  
+150                      1.0000     29  151                      1.0000     29  
+152                      1.0000     29  153                      1.0000     29  
+154                      1.0000     29  155                      1.0000     29  
+156                      1.0000     29  157                      1.0000     29  
+158                      1.0000     29  159                      1.0000     29  
+160                      1.0000     29  161                      1.0000     29  
+162                      1.0000     29  163                      1.0000     29  
+164                      1.0000     29  165                      1.0000     29  
+166                      1.0000     29  167                      1.0000     29  
+168                      1.0000     29  169                      1.0000     29  
+170                      1.0000     29  171                      1.0000     29  
+172                      1.0000     29  173                      1.0000     29  
+174                      1.0000     29  175                      1.0000     29  
+176                      1.0000     29  177                      1.0000     29  
+178                      1.0000     29  179                      1.0000     29  
+180                      1.0000     29  181                      1.0000     29  
+182                      1.0000     29  183                      1.0000     29  
+184                      1.0000     29  185                      1.0000     29  
+186                      1.0000     29  187                      1.0000     29  
+188                      1.0000     29  189                      1.0000     29  
+190                      1.0000     29  191                      1.0000     29  
+192                      1.0000     29  193                      1.0000     29  
+194                      1.0000     29  195                      1.0000     29  
+196                      1.0000     29  197                      1.0000     29  
+198                      1.0000     29  199                      1.0000     29  
+200                      1.0000     29  201                      1.0000     29  
+202                      1.0000     29  203                      1.0000     29  
+204                      1.0000     29  205                      1.0000     29  
+206                      1.0000     29  207                      1.0000     29  
+208                      1.0000     29  209                      1.0000     29  
+210                      1.0000     29  211                      1.0000     29  
+212                      1.0000     29  213                      1.0000     29  
+214                      1.0000     29  215                      1.0000     29  
+216                      1.0000     29  217                      1.0000     29  
+218                      1.0000     29  219                      1.0000     29  
+220                      1.0000     29  221                      1.0000     29  
+222                      1.0000     29  223                      1.0000     29  
+224                      1.0000     29  225                      1.0000     29  
+226                      1.0000     29  227                      1.0000     29  
+228                      1.0000     29  229                      1.0000     29  
+230                      1.0000     29  231                      1.0000     29  
+232                      1.0000     29  233                      1.0000     29  
+234                      1.0000     29  235                      1.0000     29  
+236                      1.0000     29  237                      1.0000     29  
+238                      1.0000     29  239                      1.0000     29  
+240                      1.0000     29  241                      1.0000     29  
+242                      1.0000     29  243                      1.0000     29  
+244                      1.0000     29  245                      1.0000     29  
+246                      1.0000     29  247                      1.0000     29  
+248                      1.0000     29  249                      1.0000     29  
+250                      1.0000     29  251                      1.0000     29  
+252                      1.0000     29  253                      1.0000     29  
+254                      1.0000     29  255                      1.0000     29  
+256                      1.0000     29  257                      1.0000     29  
+258                      1.0000     29  259                      1.0000     29  
+260                      1.0000     29  261                      1.0000     29  
+262                      1.0000     29  263                      1.0000     29  
+264                      1.0000     29  265                      1.0000     29  
+266                      1.0000     29  267                      1.0000     29  
+268                      1.0000     29  269                      1.0000     29  
+270                      1.0000     29  271                      1.0000     29  
+272                      1.0000     29  273                      1.0000     29  
+274                      1.0000     29  275                      1.0000     29  
+276                      1.0000     29  277                      1.0000     29  
+278                      1.0000     29  279                      1.0000     29  
+280                      1.0000     29  281                      1.0000     29  
+282                      1.0000     29  283                      1.0000     29  
+284                      1.0000     29  285                      1.0000     29  
+286                      1.0000     29  287                      1.0000     29  
+288                      1.0000     29  289                      1.0000     29  
+290                      1.0000     29  291                      1.0000     29  
+292                      1.0000     29  293                      1.0000     29  
+294                      1.0000     29  295                      1.0000     29  
+296                      1.0000     29  297                      1.0000     29  
+298                      1.0000     29  299                      1.0000     29  
+300                      1.0000     29  301                      1.0000     29  
+302                      1.0000     29  303                      1.0000     29  
+304                      1.0000     29  305                      1.0000     29  
+306                      1.0000     29  307                      1.0000     29  
+308                      1.0000     29  309                      1.0000     29  
+310                      1.0000     29  311                      1.0000     29  
+312                      1.0000     29  313                      1.0000     29  
+314                      1.0000     29  315                      1.0000     29  
+316                      1.0000     29  317                      1.0000     29  
+318                      1.0000     29  319                      1.0000     29  
+320                      1.0000     29  321                      1.0000     29  
+322                      1.0000     29  323                      1.0000     29  
+324                      1.0000     29  325                      1.0000     29  
+326                      1.0000     29  327                      1.0000     29  
+328                      1.0000     29  329                      1.0000     29  
+330                      1.0000     29  331                      1.0000     29  
+332                      1.0000     29  333                      1.0000     29  
+334                      1.0000     29  335                      1.0000     29  
+336                      1.0000     29  337                      1.0000     29  
+338                      1.0000     29  339                      1.0000     29  
+340                      1.0000     29  341                      1.0000     29  
+342                      1.0000     29  343                      1.0000     29  
+344                      1.0000     29  345                      1.0000     29  
+346                      1.0000     29  347                      1.0000     29  
+348                      1.0000     29  349                      1.0000     29  
+350                      1.0000     29  351                      1.0000     29  
+352                      1.0000     29  353                      1.0000     29  
+354                      1.0000     29  355                      1.0000     29  
+356                      1.0000     29  357                      1.0000     29  
+358                      1.0000     29  359                      1.0000     29  
+360                      1.0000     29  361                      1.0000     29  
+362                      1.0000     29  363                      1.0000     29  
+364                      1.0000     29  365                      1.0000     29  
+366                      1.0000     29  367                      1.0000     29  
+368                      1.0000     29  369                      1.0000     29  
+370                      1.0000     29  371                      1.0000     29  
+372                      1.0000     29  373                      1.0000     29  
+374                      1.0000     29  375                      1.0000     29  
+376                      1.0000     29  377                      1.0000     29  
+378                      1.0000     29  379                      1.0000     29  
+380                      1.0000     29  381                      1.0000     29  
+382                      1.0000     29  383                      1.0000     29  
+384                      1.0000     29  385                      1.0000     29  
+386                      1.0000     29  387                      1.0000     29  
+388                      1.0000     29  389                      1.0000     29  
+390                      1.0000     29  391                      1.0000     29  
+392                      1.0000     29  393                      1.0000     29  
+394                      1.0000     29  395                      1.0000     29  
+396                      1.0000     29  397                      1.0000     29  
+398                      1.0000     29  399                      1.0000     29  
+400                      1.0000     29  401                      1.0000     29  
+402                      1.0000     29  403                      1.0000     29  
+404                      1.0000     29  405                      1.0000     29  
+406                      1.0000     29  407                      1.0000     29  
+408                      1.0000     29  409                      1.0000     29  
+410                      1.0000     29  411                      1.0000     29  
+412                      1.0000     29  413                      1.0000     29  
+414                      1.0000     29  415                      1.0000     29  
+416                      1.0000     29  417                      1.0000     29  
+418                      1.0000     29  419                      1.0000     29  
+420                      1.0000     29  421                      1.0000     29  
+422                      1.0000     29  423                      1.0000     29  
+424                      1.0000     29  425                      1.0000     29  
+426                      1.0000     29  427                      1.0000     29  
+428                      1.0000     29  429                      1.0000     29  
+430                      1.0000     29  431                      1.0000     29  
+432                      1.0000     29  433                      1.0000     29  
+434                      1.0000     29  435                      1.0000     29  
+436                      1.0000     29  437                      1.0000     29  
+438                      1.0000     29  439                      1.0000     29  
+440                      1.0000     29  441                      1.0000     29  
+442                      1.0000     29  443                      1.0000     29  
+444                      1.0000     29  445                      1.0000     29  
+446                      1.0000     29  447                      1.0000     29  
+448                      1.0000     29  449                      1.0000     29  
+450                      1.0000     29  451                      1.0000     29  
+452                      1.0000     29  453                      1.0000     29  
+454                      1.0000     29  455                      1.0000     29  
+456                      1.0000     29  457                      1.0000     29  
+458                      1.0000     29  459                      1.0000     29  
+460                      1.0000     29  461                      1.0000     29  
+462                      1.0000     29  463                      1.0000     29  
+464                      1.0000     29  465                      1.0000     29  
+466                      1.0000     29  467                      1.0000     29  
+468                      1.0000     29  469                      1.0000     29  
+470                      1.0000     29  471                      1.0000     29  
+472                      1.0000     29  473                      1.0000     29  
+474                      1.0000     29  475                      1.0000     29  
+476                      1.0000     29  477                      1.0000     29  
+478                      1.0000     29  479                      1.0000     29  
+480                      1.0000     29  481                      1.0000     29  
+482                      1.0000     29  483                      1.0000     29  
+484                      1.0000     29  485                      1.0000     29  
+486                      1.0000     29  487                      1.0000     29  
+488                      1.0000     29  489                      1.0000     29  
+490                      1.0000     29  491                      1.0000     29  
+492                      1.0000     29  493                      1.0000     29  
+494                      1.0000     29  495                      1.0000     29  
+496                      1.0000     29  497                      1.0000     29  
+498                      1.0000     29  499                      1.0000     29  
+500                      1.0000     29  501                      1.0000     29  
+502                      1.0000     29  503                      1.0000     29  
+504                      1.0000     29  505                      1.0000     29  
+506                      1.0000     29  507                      1.0000     29  
+508                      1.0000     29  509                      1.0000     29  
+510                      1.0000     29  511                      1.0000     29  
+512                      1.0000     29  513                      1.0000     29  
+514                      1.0000     29  515                      1.0000     29  
+516                      1.0000     29  517                      1.0000     29  
+518                      1.0000     29  519                      1.0000     29  
+520                      1.0000     29  521                      1.0000     29  
+522                      1.0000     29  523                      1.0000     29  
+524                      1.0000     29  525                      1.0000     29  
+526                      1.0000     29  527                      1.0000     29  
+528                      1.0000     29  529                      1.0000     29  
+530                      1.0000     29  531                      1.0000     29  
+532                      1.0000     29  533                      1.0000     29  
+********************************************************************************
+
+********************************************************************************
+COMMAND LINE SUMMARY
+********************************************************************************
+This information can also be useful in the event you wish to report a
+problem with the MEME software.
+
+command: meme -dna input29.fa -mod oops -w 29 -oc meme_out_29 
+
+model:  mod=          oops    nmotifs=         1    evt=           inf
+object function=  E-value of product of p-values
+width:  minw=           29    maxw=           29    minic=        0.00
+width:  wg=             11    ws=              1    endgaps=       yes
+nsites: minsites=      534    maxsites=      534    wnsites=       0.8
+theta:  prob=            1    spmap=         uni    spfuzz=        0.5
+global: substring=     yes    branching=      no    wbranch=        no
+em:     prior=   dirichlet    b=            0.01    maxiter=        50
+        distance=    1e-05
+data:   n=           15486    N=             534
+strands: +
+sample: seed=            0    seqfrac=         1
+Letter frequencies in dataset:
+A 0.222 C 0.238 G 0.244 T 0.296 
+Background letter frequencies (from dataset with add-one prior applied):
+A 0.222 C 0.238 G 0.244 T 0.296 
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  1	width =   29   sites = 534   llr = 3707   E-value = 2.8e-1479
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 1 Description
+--------------------------------------------------------------------------------
+Simplified        A  2:::422222222222322222212a143
+pos.-specific     C  6:::443233333343233233342::::
+probability       G  2::8:23223333323333333322::32
+matrix            T  1aa2222322222222322322225:925
+
+         bits    2.2                          *   
+                 2.0                          *   
+                 1.7                          *   
+                 1.5  **                      *   
+Relative         1.3  **                      **  
+Entropy          1.1  ***                     **  
+(10.0 bits)      0.9  ***                     **  
+                 0.7  ***                     **  
+                 0.4 *****                    *** 
+                 0.2 ******                   ****
+                 0.0 -----------------------------
+
+Multilevel           CTTGACGTCGGCGGCGGCGGGGGCTATAT
+consensus                C CGGCCGCCGCAGCTCCCTC  GA
+sequence                 T ACTTAT ATATTACTTTG   T 
+                           TAA T     CATA         
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name             Start   P-value                        Site           
+-------------             ----- ---------            -----------------------------
+428                           1  3.98e-08          . CTTGACCGGCGCCGGGCGACGCGCGATAA           
+85                            1  5.82e-08          . CTTGACGCAGAGCGACAATACGGCAATAA           
+363                           1  1.69e-07          . CTTGACCGCGCCCGAATCCCTGTCCATGT           
+250                           1  2.36e-07          . CTTGACCGGCTGCGCGCGGATCGCCATGA           
+37                            1  2.36e-07          . GTTGACGTGGCCGCCGCTCTCGTCTATGA           
+435                           1  3.26e-07          . CTTGACCGCGCCGGATTCGCTCGTCATGT           
+310                           1  3.26e-07          . CTTGCCGTGACGGGCGCAAGTTTCTATAT           
+165                           1  3.26e-07          . CTTGAAACCGGTCGCGACAGGTGGCATAT           
+473                           1  4.46e-07          . CTTGATATGCGGCGCGAAAGGCTCTATGT           
+377                           1  4.46e-07          . ATTGACGCCGCCCGGCGCCGGGCCTAAAT           
+198                           1  4.46e-07          . CTTGACGATGGCCAGCACGTCGAAAATAT           
+248                           1  6.04e-07          . CTTGATGTCGTCGCCCTTGGCGCCGATGA           
+212                           1  6.04e-07          . CTTGATCTTGGCGGCGCCGCGATCCATGT           
+438                           1  8.10e-07          . CTTGAATGCGCGGGATCGGAGGGCGATAT           
+407                           1  8.10e-07          . CTTGACCCGGCCGGTGGCCCGTTCGATGA           
+339                           1  8.10e-07          . CTTGCGGGCTCCGCTCGAGGCTCCTATAT           
+141                           1  8.10e-07          . CTTGAACGCGATGAACACGTGTGCAATAT           
+520                           1  1.08e-06          . CTTGAACCGTGAGGCGAAAGAGAGTATAT           
+453                           1  1.08e-06          . CTTGCAGTCCGAAACGCCGGTCCTTATAT           
+357                           1  1.08e-06          . CTTTACATCGGCGGCGGGCATCGCTATTT           
+313                           1  1.08e-06          . CTTGACTGGCGGGCCACCTGTGACTATAG           
+302                           1  1.08e-06          . CTTGCCCTGCCGCCCGATTGCGTCTATTT           
+107                           1  1.08e-06          . CTTGATGAGGAGTGCGACGACGGCCATTA           
+459                           1  1.42e-06          . CTTGCAATTTACGGCGATGAAGCGTATAT           
+455                           1  1.42e-06          . ATTGCCGTGGCGGCGACCAAGTCCTATGT           
+404                           1  1.42e-06          . CTTGAAACCGGCCGTGCGGCGATCTATGA           
+341                           1  1.42e-06          . CTTGATTGCGCCCGGCCCGCCGTGCATAA           
+331                           1  1.42e-06          . ATTGCGCTCGACGCCGGCGGCTGCCATGT           
+284                           1  1.42e-06          . ATTGAAAGCCGCGGCGCCAGAAGTTATAT           
+271                           1  1.42e-06          . GTTGCCGGGAACAAACGCACCGCCTATAA           
+492                           1  1.85e-06          . CTTGAACTCGTGCGCGGGCATTCCCATGT           
+469                           1  1.85e-06          . CTTGACGTCGACAATGTTCTGGGCAATGG           
+402                           1  1.85e-06          . CTTGACGACTGGACGGCGCTCGACCATTT           
+288                           1  1.85e-06          . CTTGCCTTTTCCGGGATGTGCGGTTATAA           
+112                           1  2.40e-06          . CTTGAGCTGGAAGGCCGGGTACGCGATGT           
+98                            1  2.40e-06          . CTTGCCGACGCCGGGAAAGCCGAAGATAG           
+96                            1  2.40e-06          . CTTGTCCAGTGCGCCGACTGCGGTGATGT           
+362                           1  3.08e-06          . CTTGCCGCGCCGGGGTCCACGTTCTATAG           
+267                           1  3.08e-06          . CTTGAGGCAGGCCCGCCCTTCTTCTATGT           
+217                           1  3.08e-06          . CTTGACGTCTCGCGCCAGGATCGGAATGG           
+55                            1  3.08e-06          . CTTGCCGTCCCGGGCATTGACCGGTATTG           
+384                           1  3.92e-06          . CTTGACCTTGTTTGCGAGCTTCCGTATAA           
+337                           1  3.92e-06          . CTTGCACTCATTGCACACAGCCACCATAT           
+290                           1  3.92e-06          . CTTTTCCGACGCGCGGCGCCCGGCTATGT           
+289                           1  3.92e-06          . ATTGACGGGTTTGGCAAGCTGCGTTATAT           
+266                           1  3.92e-06          . GTTGCCTCCCTGCGAGGCGGTGCCTATGT           
+150                           1  3.92e-06          . CTTGACCCGGGATTCAGCGTCCCCTATTT           
+81                            1  3.92e-06          . CTTGAACTCGGCGCTCGATTTGTCAATAA           
+29                            1  3.92e-06          . CTTGAAATCCAGCCCATGGGGATGTATAT           
+376                           1  4.97e-06          . GTTGACCTTGCCAGAGCCTTTGGCTATTT           
+340                           1  4.97e-06          . CTTGCGGGCGCCGCGCGGCGTTGTAATGT           
+323                           1  4.97e-06          . CTTGACTATGCGGGTGCCTAAAACTATGT           
+304                           1  4.97e-06          . CTTGCCGCTGCCTACATGGCGCCGAATGT           
+242                           1  4.97e-06          . CTTGACGACCGGCTCGGTCTCGGTGATTT           
+237                           1  4.97e-06          . GTTGACGCCGAGGCCGTAGGCTGAAATGA           
+216                           1  4.97e-06          . CTTGAAAGCCGGTCGGTTCAGGGCCATTT           
+484                           1  6.24e-06          . CTTGCCTAAGCCGTCGCCGGAAGCTAAAT           
+416                           1  6.24e-06          . CTTGCACGCTTGGGAATGGCGGCTTATGT           
+314                           1  6.24e-06          . CTTGCGCGCCGGAACGACCGTGCTAATGA           
+300                           1  6.24e-06          . CTTGACTTTCGGCGCCTTTGGTCGTATGA           
+88                            1  6.24e-06          . ATTGCCCACAGTGCCGGCGCTGCCTATTA           
+531                           1  7.79e-06          . ATTGAAAGCGGCTACGGCCCTACCCATAT           
+414                           1  7.79e-06          . GTTGACAGCTCTGGCCCGGGAGCGCATGA           
+318                           1  7.79e-06          . ATTGCAACGCACAACCAAATCGGCTATAG           
+311                           1  7.79e-06          . CTTGCACTCTTGGTCGGCGCCGTTCATAT           
+225                           1  7.79e-06          . CTTGTGCCAGGCGGCCTTCGGCCACATGA           
+210                           1  7.79e-06          . CTTGCGGACCGGTGCCGGCTCGATCATGT           
+203                           1  7.79e-06          . GTTGACGTGTGCAACGCCCGACGTAATGT           
+197                           1  7.79e-06          . CTTGTCCTTGGCGAGGCGGACCGGAATAG           
+175                           1  7.79e-06          . CTTTACCTGGTGCCGCAAGAGGCGCATAT           
+125                           1  7.79e-06          . CTTGTGGTAGGCGACCTCGTGTTCGATAT           
+364                           1  9.65e-06          . GTTGACAGGACGAATGCAGGCGGTCATAT           
+345                           1  9.65e-06          . TTTGCCATTCCCCGCGCGGATCACTATAT           
+192                           1  9.65e-06          . CTTGCTAGCATCGCATGCGTCTCCTATAT           
+114                           1  9.65e-06          . CTTGCGCCCGATCACCATGCAGGACATGT           
+11                            1  9.65e-06          . GTTGAAGCGGCCGGCTATGTCGGCAATTT           
+500                           1  1.19e-05          . ATTGCAATGGACAAGGCGGCGCGCTATTT           
+489                           1  1.19e-05          . CTTGCATCCGGCACGCAAATGCCGGATGT           
+482                           1  1.19e-05          . CTTGTGCATGACGGCGTTCACCATCATAT           
+448                           1  1.19e-05          . CTTGATTTCGAGCTCGGCTCGGTGCATAA           
+332                           1  1.19e-05          . GTTGTCGTCGTCGATCCGGAGGAGCATAT           
+236                           1  1.19e-05          . GTTGATGATGTCGTCGGTCCGGGCCATGA           
+161                           1  1.19e-05          . CTTGTCGCGGCGGGTCAGGCGCCTAATTA           
+158                           1  1.19e-05          . ATTGCTCTATCCGACCGCCTCGCCAATGA           
+109                           1  1.19e-05          . GTTGTCGTCCTGGTCGAGAGGGAATATAT           
+425                           1  1.45e-05          . CTTGCCGCAGACACGTCACATGATTATGG           
+400                           1  1.45e-05          . CTTGACCACCTCTCCTATTCCCAGCATAT           
+252                           1  1.45e-05          . CTTGAAAGGCGGAACTGCGTTAACCATAT           
+215                           1  1.45e-05          . GTTGACGAAGAAGCCGGGAACGGCAATTG           
+206                           1  1.45e-05          . CTTGCCCTTCTTCTCGATCTTGGCAATGT           
+189                           1  1.45e-05          . GTTGACCGGCCGGCCGGAGATGCTAATTT           
+128                           1  1.45e-05          . CTTGTTCTGCGGACCGCCGCTGGTCATGA           
+119                           1  1.45e-05          . GTTGTCGGTTGGGCCTTCGGCGCCCATGT           
+529                           1  1.77e-05          . CTTGAAGATGCTGCACTGCAGCATTATTA           
+528                           1  1.77e-05          . CTTGGCGTCCGCGAGGACCTCAACTATAA           
+437                           1  1.77e-05          . CTTGCATTTAAGCCCGTTCTCGGCTATGG           
+406                           1  1.77e-05          . ATTTATGTCGGCCGGGAATTGGCCTATAT           
+388                           1  1.77e-05          . CTTGAGTGCCGCCACGGAAGTTGTAATGT           
+378                           1  1.77e-05          . CTTGCAAGACCGGGCGTCTTTCGACATAG           
+312                           1  1.77e-05          . CTTGTTGTGGCCCTCTGCAAACCCCATAA           
+239                           1  1.77e-05          . CTTGCATTTGCTGCGGATATTGCCGATAT           
+429                           1  2.14e-05          . CTTGTCTTGGGTCAGCCTTGCCGGTATGT           
+413                           1  2.14e-05          . ATTGACGCAAGCGCGGCCAGGCAGTATTG           
+205                           1  2.14e-05          . CTTGATGCGGGCTGCTTCGAAGTTCATGA           
+153                           1  2.14e-05          . CTTGAGAATGCCGACCTCTTGCTTAATGA           
+120                           1  2.14e-05          . CTTGAGCGCCGCATTGCAGGCGCGTATGG           
+84                            1  2.14e-05          . CTTGACGAACTGTCCCATCCTGCCTAAGT           
+8                             1  2.14e-05          . CTTGAAGAAGAAGAACAGGATGATGATGA           
+532                           1  2.57e-05          . CTTTTCTTGGGCGTCGGAAAGACCTATAT           
+509                           1  2.57e-05          . CTTGAAAAACAAAGAAACCGCTAATATAA           
+468                           1  2.57e-05          . CTTGTGGAACCGCGCAACCTGACGCATGT           
+433                           1  2.57e-05          . CTTGCGTGGGTCACCACATGTCGATATAT           
+411                           1  2.57e-05          . GTTGACATCGCGGTGCGAAATGGGAATAG           
+344                           1  2.57e-05          . CTTGATTTTTCGGGCCCAAACATCGATAT           
+230                           1  2.57e-05          . CTTGTCGCCGATCTTCATCGCCCGCATGT           
+117                           1  2.57e-05          . GTTGACCTCCGGCTCCTTGCCATCCATGA           
+116                           1  2.57e-05          . CTTGTCGTGGGACATCACATAGTCGATGA           
+111                           1  2.57e-05          . ATTGTTGCGCTCGGCACGGGCGCCGATAT           
+94                            1  2.57e-05          . CTTGACGAAATGGGCATCATGTAACATAG           
+472                           1  3.08e-05          . ATTGCACTTGGCGCCCGAAACCTGTATTT           
+386                           1  3.08e-05          . GTTGCCGGCACCGATGATCTGGTAAATAA           
+322                           1  3.08e-05          . CTTGCCGCCCGAAGCCCCTCTTTCTATTG           
+321                           1  3.08e-05          . GTTGCCGCGTTAACGGCCGGCCGATATGA           
+320                           1  3.08e-05          . CTTGCCCTGCCGGGCTCGCTTGGCTATTC           
+316                           1  3.08e-05          . ATTGCCCGGACCTCAGATCCGGGCAATTT           
+275                           1  3.08e-05          . ATTGCCGCCCCGTGCAAATATCGTCATGA           
+263                           1  3.08e-05          . CTTGAACCGCTGTGGCGCCTATGCCATAG           
+259                           1  3.08e-05          . CTTGCGAAGGGGGGCGGTTTCTGGCATAG           
+245                           1  3.08e-05          . TTTGAATCTCGCGGCATCGAGCGCCATGA           
+243                           1  3.08e-05          . CTTGCGGTCGATCGTCTTCAGCATGATAT           
+238                           1  3.08e-05          . GTTGCGGCCGACATTGCCCGAGCCGATAT           
+89                            1  3.08e-05          . CTTGTTTCAGCCGCCGCCTTGCTCCATTT           
+42                            1  3.08e-05          . GTTGCCGACGCGCTGAAAATAGCGCATGT           
+12                            1  3.08e-05          . ATTGAACAGGGGAAGCAGGACAGCTATGG           
+2                             1  3.08e-05          . GTTGACCAGCACGACGAAGGCGGAAAAAA           
+503                           1  3.66e-05          . GTTGCGGATCGCTGCGGCATTCGGTATGT           
+501                           1  3.66e-05          . CTTGCTTCCCCGCGGAATTCTGAATATAT           
+447                           1  3.66e-05          . CTTGCGGCGTTTCACGTGAATCGCTATTT           
+430                           1  3.66e-05          . CTTGCGCACTGCGGTGCAATAGAAAATAA           
+261                           1  3.66e-05          . CTTGAACGTCAATAGGGCGTTAACCATAT           
+218                           1  3.66e-05          . CTTGCCCGATTGCGAGTTGATGCGGATGA           
+214                           1  3.66e-05          . GTTGATGCCGCCCGACAGAATGCAGATGA           
+209                           1  3.66e-05          . CTTGCCGTTACGCTGCTGGATCATCATGA           
+201                           1  3.66e-05          . GTTGCCTTCGATCTCGGCTCCGCCGATGA           
+154                           1  3.66e-05          . ATTGACCGCGACACGTTCCGCGATAATTT           
+136                           1  3.66e-05          . CTTGAAGAATTAGGCCGATTGCGAAATGA           
+126                           1  3.66e-05          . CTTTCCGGTCTTCGCCAGTGCCGCGATAT           
+74                            1  3.66e-05          . GTTGCAGCTGTCGGCGTCGAAGTACATGT           
+36                            1  3.66e-05          . CTTGATGCTATACCGGGAGCCGTTTATGT           
+498                           1  4.33e-05          . ATTGCGGACCGGAAGCGACCTGCTTATGA           
+497                           1  4.33e-05          . CTTTTCCGTTCACACGGAAGTGCCTATAT           
+471                           1  4.33e-05          . CTTGTCAGGACCGATCACGTTCACGATTT           
+434                           1  4.33e-05          . CTTGCACATGGCGTGCGTGGCGCCTATCT           
+401                           1  4.33e-05          . CTTGAAGTGTAACGCTTAGTGTTATATAT           
+372                           1  4.33e-05          . ATTTCCGGCCAGGGCGGCTCGGCCAATAG           
+369                           1  4.33e-05          . GTTGAAAGCAATGCACATGATACCTATAA           
+329                           1  4.33e-05          . ATTGAAAGATGTTTCCGGCCGGCCTATGT           
+219                           1  4.33e-05          . CTTGCGGAGCCTCAGGCTGTAGCTCATGT           
+148                           1  4.33e-05          . CTTGAAACACCCGCGGTTTGCGAGTAAAA           
+115                           1  4.33e-05          . GTTGACATCGCTCTGCTACAGCCGCATAG           
+108                           1  4.33e-05          . GTTGTCCAGGATTGTCGCCGAGGCCATGT           
+93                            1  4.33e-05          . CTTTCCAACGGCCGCTCGGGCTTGTATGT           
+78                            1  4.33e-05          . GTTGAAGCGGGCGAGGAACGGCTGTATTG           
+41                            1  4.33e-05          . ATTGCGGCGGCCACCCATAACGAATATTT           
+511                           1  5.10e-05          . GTTGCCACTGGCTATCGCACACGTTATAG           
+460                           1  5.10e-05          . CTTGAACTTCCCGATTGCAGCGATAATTT           
+351                           1  5.10e-05          . CTTGCTGTCCGGATGAGCCCGTGGCATAG           
+324                           1  5.10e-05          . ATTGATTTTGCGCCGGGGTTGCGTCATAT           
+213                           1  5.10e-05          . ATTGATCGAGGACGGGTCGATGTCGATGT           
+196                           1  5.10e-05          . CTTGAAGTCCTTCCCCTGGCCATAGATAT           
+166                           1  5.10e-05          . CTTGACGGCGCCCGGATAAAATGGAATAC           
+102                           1  5.10e-05          . TTTGAACCCGATCCCGGGGCGGTTTATGT           
+63                            1  5.10e-05          . CTTGTCGACAACCCCATCGACCGTTATCT           
+60                            1  5.10e-05          . ATTGCCTGCGAAACTCGTGCGCGGCATGA           
+52                            1  5.10e-05          . ATTGATCGGCCGGACACTCGCAGTCATGA           
+523                           1  5.98e-05          . CTTTCACTGGGGCTCGCCTCGCGCTATGG           
+458                           1  5.98e-05          . GTTGCTCGGCCCCCTTGCCGAGGCTATGG           
+454                           1  5.98e-05          . CTTTCCCCGAGCGCGCAAGTACAATATGA           
+439                           1  5.98e-05          . CTTGACCGTCCCTCTCCTTTATCCCATAG           
+387                           1  5.98e-05          . GTTGCCTTTGTCGGCAATCTGACTGATAA           
+373                           1  5.98e-05          . CTTGAATCGGTAACGATTCAAGGACATAT           
+335                           1  5.98e-05          . CTTGACTGAGATGCAACACCGTTGCATTT           
+292                           1  5.98e-05          . CTTGTGTTTGCCACCGCAACTACCTATAG           
+273                           1  5.98e-05          . CTTGATCGCCGCGCTGGTGCCCTCTATCT           
+254                           1  5.98e-05          . CTTGCCGCGACAATGTGGCGTGACGATGT           
+220                           1  5.98e-05          . CTTGCACAATTTGCGCAGGAGCGAGATGA           
+149                           1  5.98e-05          . CTTGCCCAATTCTGTCGAGATCAGAATAA           
+137                           1  5.98e-05          . ATTGCATCGGCAACAGCCGATCCGTATAA           
+79                            1  5.98e-05          . ATTGCGGTCGGTGATATCAGTGAATATAT           
+33                            1  5.98e-05          . CTTTCAATGGCAGATAAATAGGACTATAT           
+527                           1  6.98e-05          . CTTGTTCAGAAATCCCCCTCCCTCTATAA           
+190                           1  6.98e-05          . CTTGCAGGCGTCACGGGCTCGACGGATTA           
+188                           1  6.98e-05          . CTTGCCGTGGATCATTCGCGATTGTATGA           
+130                           1  6.98e-05          . CTTGTTTCGAACACATTGGTCCCCTATAT           
+83                            1  6.98e-05          . CTTGCGAAATCAGGTGAGCCGAGGAATGA           
+50                            1  6.98e-05          . CTTGCACGCCTTACTGGCCTAAGCCATAG           
+28                            1  6.98e-05          . CTTTTAAAGTAGGCCGAGCGACGCCATAA           
+7                             1  6.98e-05          . CTTGATCGATTTGTCGAGCAGGATGATGA           
+522                           1  8.11e-05          . CTTGGCAAGGTCACCCCGGACACCTATGT           
+505                           1  8.11e-05          . CTTGACTTTATCCATGACATCTATAATGT           
+490                           1  8.11e-05          . GTTGACACGATTGGGTCGACACGGTATGT           
+441                           1  8.11e-05          . CTTGCTCCGCTTTACCAAGCCGTGTATAG           
+431                           1  8.11e-05          . CTTTTCATCGGCCGGCTTTCTGCGTATGA           
+394                           1  8.11e-05          . GTTGCTAAAGTGCCGCAACAACGCGATGA           
+370                           1  8.11e-05          . CTTGTCGCGCCGGACCGGTGCCCTTAATT           
+330                           1  8.11e-05          . CTTGTCGAAGATAAGAATGCGTTGTATGA           
+319                           1  8.11e-05          . ATTGTTCCAAACTACGATCCGTCCTATAT           
+232                           1  8.11e-05          . TTTGACCAAGTACGGCCCCATCAGTATGT           
+178                           1  8.11e-05          . ATTGACGTCACGAGCAATCGCGCGAAAAT           
+71                            1  8.11e-05          . CTTGCGAAATTGCATGGACTGACATATAT           
+10                            1  8.11e-05          . ATTGCTGAAACCTCTCAGCGGGGGTATTT           
+516                           1  9.38e-05          . CTTTCTCGGTGCCGGCAAGACGACGATGA           
+485                           1  9.38e-05          . CTCGACCGGGGCCGGATTGTCGCCCATGA           
+483                           1  9.38e-05          . CTTTTCGTTGACGAATACCCGTCGTATGT           
+395                           1  9.38e-05          . CTTGCATTCCAAGGGATTAGGCGCAATTG           
+393                           1  9.38e-05          . CTTTATCCGAGGGGCAAAGCCGTTAATAT           
+359                           1  9.38e-05          . CTTTTCCTCGGGGAACCATCAGTCTATAG           
+356                           1  9.38e-05          . ATTGAAATCACACGTTGCACGAGCGATAT           
+343                           1  9.38e-05          . CTTGACCAAATTCCAGTAATAAGCAATTT           
+328                           1  9.38e-05          . GTTGAGTTTGCCGATGGCAGTCGCTATTG           
+258                           1  9.38e-05          . GTTGATATACCACGCTTACGACTGTATAT           
+140                           1  9.38e-05          . ATTGACGGCAACTCTGGAGAGACTGATGA           
+110                           1  9.38e-05          . ATTGCGTGCCGGAGTGTGCACTGCAATAA           
+72                            1  9.38e-05          . CTTGCTTCCCCTGTCTTTGGCGAACATAA           
+31                            1  9.38e-05          . CTTGTTTCGCAGACATCGCCGCGGTATGT           
+16                            1  9.38e-05          . CTTGCAGCAGTTACGATTTAGGGTCATAG           
+474                           1  1.08e-04          . ATTGACTTTCGCCCGCAGCTTGTCCATTG           
+424                           1  1.08e-04          . CTTGCCGTTGAGCCGTCGTGTTCCTAAGT           
+409                           1  1.08e-04          . CTTGTAGTTGATAAACAGCGTCACCATTT           
+191                           1  1.08e-04          . GTTGAAGTGTGACATGTCCTGCGCTAAAT           
+147                           1  1.08e-04          . CTGGACCGCCAGCCCCGACACCGCCATGA           
+57                            1  1.08e-04          . ATTGAAACACGCGAGGAAGGGCTATATTG           
+27                            1  1.08e-04          . ATTGTAGACATTGGACCGATTGCCTATGT           
+13                            1  1.08e-04          . CTTTATCGAGGAAGGCGAGGCGATTATAG           
+0                             1  1.08e-04          . CTTGCGGAGGTCGCCCTTCGAATAGATGA           
+499                           1  1.24e-04          . ATTGCAATTTCGAGACAAGAACGGTATAG           
+461                           1  1.24e-04          . TTTGCGCATCGCCACCTCATCTCTTATAT           
+456                           1  1.24e-04          . ATTGCGCTTGCCCGCCCTTGCGCCTATCT           
+354                           1  1.24e-04          . CTTGTGGTTTTCGCAATCGGTCTTTATGT           
+287                           1  1.24e-04          . ATTTCCGAGACCGACGCCGCCCGCTATAC           
+199                           1  1.24e-04          . ATTGAGCAACTTTGAGGTCTCGGCCATGA           
+170                           1  1.24e-04          . GTTGACAGCTTGCGGAAACTCTGACATTT           
+100                           1  1.24e-04          . TTTGCGACCTCCAGCAGCGCCTCCCATGT           
+478                           1  1.42e-04          . ATTGAGAGCGGCGGGCCGTCTACACATTT           
+476                           1  1.42e-04          . CTTGCGATAGGCGCCCAGGCGTCTAAATT           
+440                           1  1.42e-04          . CTTGTCAGCCGCCCCGCGGGGTCTAAATT           
+423                           1  1.42e-04          . CTCGACGGCTCGATTGCCAAGGCCTATGA           
+421                           1  1.42e-04          . GTTGCGGACACCGTCCTCGCAAAGCATGA           
+397                           1  1.42e-04          . CTTGCGGCAATGAAGCCGGCCGCCTATCT           
+366                           1  1.42e-04          . ATTGACTCGAATTTGGTGAACACCTATAA           
+327                           1  1.42e-04          . CTTGTATTCTTGCCCCTTCCTTGCGATGT           
+317                           1  1.42e-04          . CTTGCATAAAGCAAATGCCACTGACATGA           
+282                           1  1.42e-04          . CTTGATCGTAGCCGGTCGAAGGACAAAAA           
+241                           1  1.42e-04          . CTCGACGAACGCACCGTAGTCGGTGATGT           
+211                           1  1.42e-04          . GTTGATGAGCAGAGAATTCGGCATCATGA           
+202                           1  1.42e-04          . CTTGCGTTCCAGTTGCCTACAGGCAATAG           
+182                           1  1.42e-04          . ATTGCCTTGTGACGCGTATGTGTTGATAT           
+181                           1  1.42e-04          . ATTGACTTAGTCGGTTGATTGGCGCATTA           
+164                           1  1.42e-04          . CTTGCTTGCACGGGATAGTGCCCGCATTA           
+160                           1  1.42e-04          . CTTGAACTCGCTGAAAAGAGACAACAAAT           
+144                           1  1.42e-04          . GTTGATCCCATCGTCGCAGAGAAGTATTT           
+118                           1  1.42e-04          . GTTGTTTCCGTTGCCGCCATCGACGATGT           
+353                           1  1.61e-04          . CTTCACGCCGGGCGGTTTTGCTCCCATAT           
+286                           1  1.61e-04          . CTTGCTTGATACTTCCGAAATGAGTATAG           
+285                           1  1.61e-04          . TTTGACAGAACTCGCCAAGATGATTATGG           
+283                           1  1.61e-04          . CTTTCCTTTTGGAACGGATTCGGTTATAG           
+179                           1  1.61e-04          . CTTGTGCAAGCGACCATTCTTCTGAATAT           
+173                           1  1.61e-04          . GTTGAAGAGAAAAGCGGGCGCTAATATAG           
+24                            1  1.61e-04          . CTTGAGAAATTTGACCAAATTGATAATAG           
+525                           1  1.83e-04          . ATTGCCGAACTGTCAAAAAATTGATATGA           
+479                           1  1.83e-04          . ATTGCGTGGGCCGACGGCGGAGGGAATAC           
+381                           1  1.83e-04          . TTTGCTTCGCAAGGCCGGCCGTGTCATAA           
+346                           1  1.83e-04          . GTTGACGTGCGGGCGGTTTCCCTTTATAC           
+338                           1  1.83e-04          . ATTGACGTAAAACCCCTAAAATTGCATAG           
+294                           1  1.83e-04          . CTTGAATCAGAGCTTCCATAGGTCTATAC           
+280                           1  1.83e-04          . GTTGTTTTTCGCAGACTCGCACCCGATAT           
+257                           1  1.83e-04          . GTTGATGGCTTGATGCTCGAGGTTGATAT           
+255                           1  1.83e-04          . CTTGACCCCTAACGTTTTCCATGGGATAG           
+234                           1  1.83e-04          . CTTGGCATAGGCAAGCGTCGACGTGATAT           
+184                           1  1.83e-04          . ATTGACAACGCCCAGCGAAGGTTGAAAAA           
+159                           1  1.83e-04          . CTTGCAAATTTGCATTGATTGCGCAATGT           
+145                           1  1.83e-04          . CTTTACCCTGCCGGAAACCTGAAAGATTA           
+138                           1  1.83e-04          . CTTCATGGCGCTGAGCGGAGCGGTCATGA           
+99                            1  1.83e-04          . GTTGACGGTTATGCCCGGCCGCGATAATT           
+86                            1  1.83e-04          . TTTGACGGATATCGCGGAAAGTTTAATAT           
+67                            1  1.83e-04          . CTTGTCATCTTTTATACTGTCAGTTATAT           
+43                            1  1.83e-04          . ATTGACATACGACGTTTTGTTGCAAATAA           
+477                           1  2.07e-04          . CTTTCGCTTCCGGGAAAAAACCTGTATGA           
+445                           1  2.07e-04          . TTTGAATGGTCTATCCTTCCGGACTATAT           
+392                           1  2.07e-04          . ATTGTCGCGATCTGCGGCAGCCCCTATCT           
+358                           1  2.07e-04          . GTTGATGCTTCAGGTTCCTGGCCATATGA           
+224                           1  2.07e-04          . CTTTCCCCGGGATAGGATCGTCAGCATGA           
+204                           1  2.07e-04          . CTTGCGAAAGCGGTATTCGTTCAGCATTT           
+92                            1  2.07e-04          . TTTGCAATCCTCCGATGGTTCGGCGATAT           
+32                            1  2.07e-04          . ATTGCTGACGACGCGACATGTCGATAAAT           
+19                            1  2.07e-04          . ATTGACTAAGTCCGTTCTCATCGTGATGA           
+488                           1  2.34e-04          . CTTGTTATCCCGCAGACCTTCATGTATAG           
+486                           1  2.34e-04          . CTTGATCGTTGCCGTGCAGCAAATTATTG           
+470                           1  2.34e-04          . TTTGTCACCGCCCTGCGTCTGTCCTATGG           
+385                           1  2.34e-04          . CTTTTTCGGTAGCACCGCCCGACCTATTT           
+264                           1  2.34e-04          . CTTTCCCGCGTGCCCGCTTTCCACTAAGA           
+240                           1  2.34e-04          . ATTGCGCACGGATGCTCCGGCATCCATTT           
+193                           1  2.34e-04          . GTTGATGGGCGTTCCCCTCATCGTCATTA           
+168                           1  2.34e-04          . CTTGATGCAGAATTTTGAATGACGTATGA           
+127                           1  2.34e-04          . CTTCATCCTGGCGCAGGCCATGCGTATAG           
+521                           1  2.63e-04          . GTTGACATAATCCGACCCCCCTCTTATCT           
+517                           1  2.63e-04          . GTTGCCAACACATAAAGATATCTTTATAT           
+475                           1  2.63e-04          . CTTGGCAGCCGTCCGGAAAATAGTCATAA           
+383                           1  2.63e-04          . CTTGTTTTGCACGGCACTCTGGTGCAAAT           
+293                           1  2.63e-04          . GTTGAACTTCATTGAAGCTTGGGGCATAG           
+279                           1  2.63e-04          . CTTTTTCAACGGTGAACCGGAGACTATGT           
+256                           1  2.63e-04          . CTTTCACATGCCGTTTTTTCGCCCTATGT           
+524                           1  2.94e-04          . GTTGCCCTTTTATGCATCACGGCTAATTA           
+487                           1  2.94e-04          . CTTCACACCTTTCCCCATCCTGCTTATGA           
+299                           1  2.94e-04          . CTTGACTTCGGCCTTTTTCGACTTCAAAT           
+247                           1  2.94e-04          . CTTTTCGACTGCAGCTTCCGACATGATGT           
+229                           1  2.94e-04          . GTTGTAGAAGAAGCTGATCGTTCCCATTT           
+195                           1  2.94e-04          . GTTGTCTTCGGGTCGATCGCCTTTCATGA           
+169                           1  2.94e-04          . CTTGTGCGAGACATAAAGTCAGTCCATTA           
+146                           1  2.94e-04          . CTTCACGCTGAACCCGTTTGGCGGTATGG           
+53                            1  2.94e-04          . GTTGTTGCTGAGCATCCCCGTTTATATAT           
+18                            1  2.94e-04          . CTTGCATTCAAACAATAGGTACTGGATAT           
+463                           1  3.29e-04          . CTTTTTGCCGCCACGCTTTTTGACGATAA           
+462                           1  3.29e-04          . GTTGCATTACCGCAGCCGCTGCCTCATTG           
+443                           1  3.29e-04          . CTTGCGCGCCATCGCAAGCCGCGCTAACA           
+436                           1  3.29e-04          . CTTGCATTCACCTTCAAGGACGCTAAAAA           
+380                           1  3.29e-04          . ATTGCAGTTATCATGGCAGCGCCCTAAAA           
+361                           1  3.29e-04          . GTTGCACGTTGTGCAACTCGCCTTTATAG           
+360                           1  3.29e-04          . CTGGACAAGGCGAAAGCGGCGCGGCATAA           
+333                           1  3.29e-04          . ATTGCTGCCGCGCTTTTCTTTCCCTATGG           
+305                           1  3.29e-04          . TTTGCCACCGGAATACGAATTCGCGATAG           
+296                           1  3.29e-04          . CTTTTCGCCTTCGGCGACTTTCATGATAG           
+278                           1  3.29e-04          . CTTGCGCATTGAGCATAACGCGTGAATGG           
+174                           1  3.29e-04          . TTTGCCGCTCTCTTGCTGCGATGCAATAA           
+73                            1  3.29e-04          . CTCGACGCAGACTGGCGCGTGCGCTATCT           
+51                            1  3.29e-04          . CTTGATTTGTTCCCTCGGGAGATAGATGA           
+432                           1  3.67e-04          . GTTTAGGTCTGAGCTGAGGTAGGATATGA           
+355                           1  3.67e-04          . CTTTACGCGCCGTAATGGCGTGAGCATTA           
+347                           1  3.67e-04          . GTTGTTGATCGAGCGGATGCCGGCTATCT           
+326                           1  3.67e-04          . ATTGCACTCAGGCTCTTCATCCGGTAAAA           
+306                           1  3.67e-04          . CTTGAGATTCCTCATTTCCTGATCAATTT           
+298                           1  3.67e-04          . CTCGACTGGCGTGATGTCGCCGACTATTA           
+246                           1  3.67e-04          . CTTGGCGGAAGGATCGTTGCCAGTTATGA           
+227                           1  3.67e-04          . GTTGCTCCGCCACGGAGATCACGGCATTA           
+223                           1  3.67e-04          . GTTGCGCACCAGCGACGTCATGTTGATTT           
+186                           1  3.67e-04          . CTTCACACGGGAAAACCTTGCGCTAATAT           
+180                           1  3.67e-04          . TTTGAAAGCCTTGATCCGGCTTGCGATAA           
+133                           1  3.67e-04          . CTTGTTAGACAGTGAATTCCAGACAATTT           
+95                            1  3.67e-04          . CTTGACAGATCGTTCCATTATTCTTAAGT           
+77                            1  3.67e-04          . GTTGTAAGGACGCTGCGGCTTTGCTATTT           
+65                            1  3.67e-04          . TTTGCTAATTCTGGCGATGGGAGCCATTA           
+54                            1  3.67e-04          . CTTTTCGGAAATCACCACCTACGCTAAGA           
+39                            1  3.67e-04          . ATTGACGTATCTGCAACGGTGTAGTATAC           
+14                            1  3.67e-04          . GTTGATGCCGTAGTACACTCTGATAATTT           
+508                           1  4.07e-04          . CTTCACTTTCGACCTGACTCTGTCCATAT           
+444                           1  4.07e-04          . CTTTCAGCCGAATCGTCAAAGAAGTATGT           
+419                           1  4.07e-04          . CTTGTCATGTTGTAATTACAACATTATAG           
+399                           1  4.07e-04          . CTTTTGGAAACGCTCGGCCGGATCGATAT           
+379                           1  4.07e-04          . CTTGCGTTCAGCATAATCATGAGTGATTA           
+276                           1  4.07e-04          . CTTGTGAAATCAAAAATGCTGTTCTATAG           
+274                           1  4.07e-04          . CTTTCGCGAACCTGTTCACGTGCTCATAT           
+269                           1  4.07e-04          . GTTGCCTCGACCCTCAGGTGGTGCAAAAA           
+157                           1  4.07e-04          . CTTGACGAAAGATTAAGTCTGAATGATAG           
+142                           1  4.07e-04          . ATTGCGCCTTCGGTTCTGTCGGCCGATTT           
+132                           1  4.07e-04          . CTTGCGCCGGGGAATGCGTCGTTCGAAAT           
+104                           1  4.07e-04          . CATGACATAGAAGCCGAGACAGGTGATGA           
+103                           1  4.07e-04          . CATGATCGCGGCGACGACCGTGTACATGA           
+101                           1  4.07e-04          . GTTTTCGGCCATGCTGGCGCGTGAAATAT           
+26                            1  4.07e-04          . CTTGCAACGGAAAGGCGGCGGATCAAATT           
+20                            1  4.07e-04          . CTTGGCAGCTTCCGACCCAAGCTTCATAG           
+533                           1  4.52e-04          . CTTGCCAATGTGACATGGAAAACATAAAA           
+530                           1  4.52e-04          . CTTGAAATGCCACATTTCAATCCACAAAT           
+513                           1  4.52e-04          . CTTGTCGTAAATCGATTTGAATGCCAAAA           
+502                           1  4.52e-04          . TTTGAATGATCAATCGCGTTGCACCATAA           
+426                           1  4.52e-04          . CTTTCCTACATGCCGGTGCCCGAGGATTT           
+403                           1  4.52e-04          . CTTTCCTGTAGCGCTTTCTATAGGTATGA           
+268                           1  4.52e-04          . TTTGCCATTCAGCCTGTATCGGTTAATGA           
+235                           1  4.52e-04          . GTTGCGTCTTGAACCGACGGCAAGGATGA           
+177                           1  4.52e-04          . ATTGCGGAAATTGCTGCATCGCATCATGA           
+97                            1  4.52e-04          . CTTTCGTCGGCCTCGAAATGCCGGTATGG           
+3                             1  4.52e-04          . CATGACGAAGAGTGCGGAAAGGGAGATGA           
+510                           1  5.00e-04          . ATTGCGTTATGCTATAACGTGTGCGATAG           
+450                           1  5.00e-04          . GTTGTTCGCCGGCCGTTTTGATGCTATTA           
+398                           1  5.00e-04          . CTTGCGATTATATCGCGAACGATTTATTT           
+390                           1  5.00e-04          . ATTGAGATTTGTGGCGATATGAATTATTG           
+342                           1  5.00e-04          . ATTGCGCAGAAGCTGCGAATGACAGATAA           
+194                           1  5.00e-04          . CTTTTGGAAAGTGCGCCGAGCGCATATTT           
+152                           1  5.00e-04          . ATTTTCAGCCACGTCAATCCGGTACATGA           
+56                            1  5.00e-04          . ATTGAGACAAAAGTCAGCGAAGGCAATAC           
+17                            1  5.00e-04          . GTTGTTCAGAAGCGCCTCGCGATAAATGA           
+518                           1  5.52e-04          . CTTCACGTCTTCTCCGGCGACGGCTATTC           
+507                           1  5.52e-04          . TTTGCGCCAATTGCCGTCGTCTCGCATGA           
+467                           1  5.52e-04          . GTTGTCCTGCGCAGTTGGACGGTGTATAC           
+420                           1  5.52e-04          . TTTGTCGAGGCGGCCTCTCCGCTTTATTG           
+418                           1  5.52e-04          . CTTGTGCCAGCCAATATTAGGCTTTAAGT           
+382                           1  5.52e-04          . CTTGGCAGCCATTGTGACGGCATCTATTA           
+375                           1  5.52e-04          . CTTGACGGGATGAAAAATTCTGGGAATCA           
+176                           1  5.52e-04          . GTTGAGCGACCCTTCTGCACTGATTAAAT           
+155                           1  5.52e-04          . CTTTCGACACGATCAAAATCGACCAATAT           
+123                           1  5.52e-04          . CTCGACGAAGCAAGGATCGAGCTTTATGG           
+91                            1  5.52e-04          . ATTTTCGCGATCATGGCGATGGCCGATAA           
+70                            1  5.52e-04          . TTTGACAAGTGTGCTACTGAGTAGCATGA           
+49                            1  5.52e-04          . ATTTCATTTTGATGCGACCAATCCTATAA           
+40                            1  5.52e-04          . TTTGTTCGGCCTGCTTGACATCACTATAT           
+410                           1  6.08e-04          . CTTGACGAAACCATATTGCTGTAGAATAC           
+307                           1  6.08e-04          . CTTGAATCATGCTTTCGCCGCACTTATCT           
+291                           1  6.08e-04          . TTTGACACCAGTTTACTTTTGGTCCATGA           
+251                           1  6.08e-04          . CTTTCGCCCGCTTGTTTCGATTGGTATGA           
+171                           1  6.08e-04          . CTTGTCCATGTTACAACGATGACATAAAA           
+135                           1  6.08e-04          . CTTGACACTGATTCGCGGAAGTGGGATTC           
+124                           1  6.08e-04          . ATTCACCGCGATCGTCTTACCTGCGATAT           
+106                           1  6.08e-04          . CTTTACAAGCATTTGCACCATTCTGATGT           
+66                            1  6.08e-04          . TTTGTTCCGACCGACAAGGGACATAATGT           
+4                             1  6.08e-04          . TTTGATGGTTGATAGGGGGTTGCCGATGT           
+519                           1  6.68e-04          . ATTTCCCTCGATACGAAGTTGCGCTAAGA           
+480                           1  6.68e-04          . ATTTTGACTGTCGAAGCCAAACATTATAT           
+396                           1  6.68e-04          . TTTGCGTCTCCGGTCAAAGACTTCTATTT           
+325                           1  6.68e-04          . ATTGCGCGGCCGCTCGGGCTATTTGATAG           
+272                           1  6.68e-04          . ATTGTGCGGCGCACAAAGTTTTGACATGA           
+222                           1  6.68e-04          . ATTGCGACTTTGGGACCGAACACGTAAAT           
+451                           1  7.33e-04          . CTTTCCTGGTACGAGAAGATAATCGATTA           
+442                           1  7.33e-04          . ATTGTTTTCGCCGTCGAGTCGCATTATCT           
+415                           1  7.33e-04          . CTTGTATTTTTTGTGCGCTGCAGCAATGG           
+391                           1  7.33e-04          . CTTTCTCGATGTGAAAACTTGCGCTAAGA           
+389                           1  7.33e-04          . ATTTCTCGCGATCCACAGGCCTGTCATTT           
+162                           1  7.33e-04          . TTTGCGGTATAGGTAAGAAGTGACCATTA           
+134                           1  7.33e-04          . CGTGACGGCAAGGAATTGGGCCGCTATGA           
+76                            1  7.33e-04          . CTTGTTCCCGACGCTCTTTGCTCTTATTC           
+48                            1  7.33e-04          . GTTGACGGTACTTGTACTAATATGTATAG           
+25                            1  7.33e-04          . CTTGATAGGTGTAGCACGGAGTGCTAGAT           
+156                           1  8.02e-04          . ATTTCCGCCTTTGTCGCGACGCGCGAAAT           
+90                            1  8.02e-04          . ATTTCGGTTCAAAGGCGCTCAGGCAATAG           
+58                            1  8.02e-04          . ATTGTGTGGGGATGTTGTTCCTGCTATGT           
+30                            1  8.02e-04          . GTTGTACGCTTCTCAAACCAATGATATGG           
+9                             1  8.02e-04          . GTTGTGCCAAATAATCAGGGCTGGCATAG           
+495                           1  8.77e-04          . CTTGACTTATTATGTTGATATCAACATTA           
+408                           1  8.77e-04          . CTTTTCTGCTTCGGCATGTCGCGCTATTC           
+309                           1  8.77e-04          . CTTTCGTTTACGGGCATCGTTAATCATAG           
+281                           1  8.77e-04          . CTTTTTCATCCTGTCCGGCTCACTCATGA           
+277                           1  8.77e-04          . CTTTTGTTTGCCGCGGCGGGCGTGTAAGT           
+143                           1  8.77e-04          . ATTCACCCCAAAACGGCAATACGCAATGA           
+87                            1  8.77e-04          . GTTGATCCGCTGCTGTCGCGTCCAAATTT           
+64                            1  8.77e-04          . ATTGCTGTTTTCGTATTTGGGCCTAATTT           
+504                           1  9.57e-04          . CTTGCGTCAATATGGGAAGAAGGATAATT           
+466                           1  9.57e-04          . CTTGACTTCGATCGATGTTCGGGAGAATG           
+452                           1  9.57e-04          . GTTGCATACATGCAGCCTGTATGTTATTG           
+449                           1  9.57e-04          . CTGGACGTACCAGAACATTGCCTCGATGA           
+427                           1  9.57e-04          . CTCGACAGCCGGAGATTTTTCGTCCATTT           
+422                           1  9.57e-04          . CTCGACAAGGTTTACGGCATTTGTCATGA           
+315                           1  9.57e-04          . CTCGACAAATATCACCGTCCCCGGTATTG           
+303                           1  9.57e-04          . TTTGCGGCGCGGGGCACTTGGATGTATTG           
+301                           1  9.57e-04          . GTTTTTGCTTGCCGGGTGTTTTGCTATGA           
+265                           1  9.57e-04          . TTTGCGCGCTATTTAATCTTGCGATATAT           
+262                           1  9.57e-04          . ATTGCGTGTTAACAGATTCTTCGCTATTG           
+38                            1  9.57e-04          . ATTGATCTGAACGATGATATAATGGATTA           
+34                            1  9.57e-04          . CGTGACAGCTACGCCAACCCGTGGCATAG           
+23                            1  9.57e-04          . GTTTTTTCTCAACAGCCAAACCGTTATAA           
+365                           1  1.04e-03          . GTTTTCACTCATAGGCAGCGGTAGTATTT           
+349                           1  1.04e-03          . CTTTCAGCCTTCATCATCTGCTTGAATGA           
+233                           1  1.04e-03          . CTTTCGAATCTTTTCGTCCGCGGCTAAGA           
+221                           1  1.04e-03          . GTTTTCTTTCGACGAAGGCTGCCGTATTT           
+167                           1  1.04e-03          . CTCGACGAGGTCGAGTTCGGCGACTATTC           
+163                           1  1.04e-03          . ATTGACGCTTGCGAAGAACAGGCGCTTAT           
+6                             1  1.04e-03          . CTTGCTCCCGATTCAGGTACTTTTTATCT           
+371                           1  1.13e-03          . TTTGTTTGCAGGCCTATAGGGTATTATGT           
+270                           1  1.13e-03          . GTTGCAACTACGCCTTGAGCCTGTCAAAA           
+253                           1  1.13e-03          . CTTGCACGGCGATTCGGCGCTACCTAGAT           
+200                           1  1.13e-03          . CTTCATATACGTCCGGCGTCCACATATGA           
+139                           1  1.13e-03          . CTTCACACTAACACATTAATGCATTATTA           
+491                           1  1.23e-03          . TTTGATTGTTGGAATTACCGGGCGAATTT           
+457                           1  1.23e-03          . ATTGGCGGCGATAGACGGTTGGTCTAAAA           
+59                            1  1.23e-03          . ATTGACTCATGTTCGCTTTGAGAACAAAT           
+22                            1  1.23e-03          . CTTGACTGTGATTCGTGGAAATGCGATTC           
+208                           1  1.34e-03          . CTTTTGATGGGACCTTAAACATTCGATAT           
+348                           1  1.45e-03          . CTAGACCGGCTGTGAGACTGACGGCATAG           
+260                           1  1.45e-03          . ATTTATGTTGGCTAATGTATCGTAAATAT           
+249                           1  1.45e-03          . TTTGATTGTGTTGTGGTCTTAAGTAATAT           
+446                           1  1.57e-03          . GTTGTAAGCCCAGGCCCTAAATGCTAGAT           
+352                           1  1.57e-03          . TTTGCCTTTTTCCGTGCGAAATCCTATCT           
+350                           1  1.57e-03          . ATTTCTCGTCCGCGACGAAGATGCTATCT           
+151                           1  1.57e-03          . CTGGACAACTCGTTGACGCTCGCCCATTA           
+45                            1  1.57e-03          . CTTGTGAAATCGTTGGCAGGACTATAAGT           
+481                           1  1.69e-03          . CTTTTAATGCCATAGGTTCGTTCCTAAAT           
+405                           1  1.69e-03          . TTTGCAGTGCGTGGGTTCGGTCTTAAAAT           
+231                           1  1.69e-03          . TTTGAACTCTCTCATTAGGTGGTTCATTG           
+47                            1  1.69e-03          . GTTGCAATTTCGAATTAGAGCAATCAAAT           
+21                            1  1.69e-03          . CTTTTTACCGATTGGTAGAATCTTTATTT           
+512                           1  1.83e-03          . GTTGCGCGGGGAAATTCTTTGATCTAAGT           
+496                           1  1.83e-03          . CTCGACATATGAATTCAGCTCACAGATAA           
+464                           1  1.83e-03          . CTTCACGCGCTTCTAGCAATCCCATAAAA           
+129                           1  1.83e-03          . GTTGACGTACTGGATAGGCAGCGGCTTAT           
+46                            1  1.83e-03          . TTTGCGGTAATGTCTCCCACCTCTGATAG           
+514                           1  1.97e-03          . ATTGGCTTTTGCGGTGCATTTTTCTATAG           
+374                           1  1.97e-03          . GTTTACTCGAAGAAGCGGTGAAGATAAAT           
+336                           1  1.97e-03          . CTCGACAGCCAATCTTTTTGAGCAAATAT           
+297                           1  1.97e-03          . ATTGTTAATTGTCTTCTTTTCGGATATGG           
+244                           1  1.97e-03          . GTTTTCCAATCTCCGAGAGCGTCGGATAG           
+185                           1  1.97e-03          . CTTTCTATCAAAATATCGCCGTTTTATTT           
+172                           1  1.97e-03          . ATTCACAAGCCGTCCTCTTTGGCCTAAAA           
+105                           1  1.97e-03          . GTTGCAATTTCAACAACCTGGTCGAATAC           
+61                            1  1.97e-03          . ATTTAACTATATTGTACTAGATAGTATAA           
+207                           1  2.29e-03          . CTTCATTCCCATGTCCGCATAGTAGATAG           
+131                           1  2.29e-03          . ATTCACTTATTTCAAATAAAGCTATATAT           
+35                            1  2.29e-03          . GTTGACGCATGTCAGGAAACATTTTAGAT           
+506                           1  2.46e-03          . CATGATTTGTGTTCTCAACATTGCTATGT           
+113                           1  2.46e-03          . TTTTATATAAGTATTGTTCCAGCTTATAT           
+80                            1  2.46e-03          . GTTGTTCAAACGTAAACCAGCTGGAATAC           
+68                            1  2.46e-03          . GTTTTACAATCATATAACTGACAGTATAA           
+183                           1  2.64e-03          . ATTTCTCTCGCGTTCATTATGTGTCATTG           
+69                            1  2.64e-03          . GTTTTTCGAGGCGTTTCCAAGAGAGATAG           
+62                            1  2.64e-03          . GTTGCAGGTTAGTCTATTTAACTATATTG           
+1                             1  2.64e-03          . CTAGACTGTCTAGCTATATAGTCCTATTT           
+417                           1  2.84e-03          . CTTGGTTTGTCCATGAAAAGAGCCTATCT           
+412                           1  2.84e-03          . TTTGATTTATTTATTGACACGGTGGATTT           
+187                           1  2.84e-03          . ATTGTGCGCTTTGTTTTTAAGCCTTAAAA           
+75                            1  2.84e-03          . CTAGACAAAAAAGGACTAGGGTAATAAAT           
+5                             1  2.84e-03          . CTTAAAATCGAAGTTCTGTCGGAACATAT           
+494                           1  3.26e-03          . CTTCATGATTTACGTTGACCGACCTAAAT           
+82                            1  3.26e-03          . GTTGACGCCGTTTAATTAAGCTGAGAATG           
+228                           1  3.49e-03          . CATGACTTTGAGTCGACCCGACCTAAAAT           
+122                           1  3.73e-03          . TTTGCACCTACGCAATGATCGTCGTAATT           
+44                            1  3.99e-03          . ATTTCCTAATCCTATATCAGATCATATAC           
+15                            1  3.99e-03          . CTAGACCGAACATCATGGCGTCAACATAG           
+493                           1  4.27e-03          . CTTTTTACCATGTCCGGTTCTTGCTATTC           
+368                           1  4.27e-03          . CTTTTTTTATGCCTTCAAACACGTTATTC           
+465                           1  4.55e-03          . GTTGACCACTGATCGCTTTGAAGGAAGAA           
+295                           1  4.55e-03          . CTGGACAGCATGATATGCGAACGATAAAA           
+526                           1  4.86e-03          . TTTGCAAAACGATTTATCCTCGATTATTC           
+334                           1  4.86e-03          . CCTGACTTTTCATGTCCGGCTGTTTATAT           
+121                           1  5.18e-03          . CTTTTCCCGAAGCGTATGATCGTCTTTAT           
+515                           1  5.52e-03          . GTTTCTTTGATGAGCCGATTCAATTATCT           
+308                           1  6.25e-03          . CTTAACAATCGGTTTACCAAATGTGATGT           
+226                           1  1.12e-02          . CATGACTATTTTGCTTTTTTCGGTAATAC           
+367                           1  1.53e-02          . ATTGTGTTTCTTACAAGGCACAATTTTAT           
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+428                                 4e-08  [+1]
+85                                5.8e-08  [+1]
+363                               1.7e-07  [+1]
+250                               2.4e-07  [+1]
+37                                2.4e-07  [+1]
+435                               3.3e-07  [+1]
+310                               3.3e-07  [+1]
+165                               3.3e-07  [+1]
+473                               4.5e-07  [+1]
+377                               4.5e-07  [+1]
+198                               4.5e-07  [+1]
+248                                 6e-07  [+1]
+212                                 6e-07  [+1]
+438                               8.1e-07  [+1]
+407                               8.1e-07  [+1]
+339                               8.1e-07  [+1]
+141                               8.1e-07  [+1]
+520                               1.1e-06  [+1]
+453                               1.1e-06  [+1]
+357                               1.1e-06  [+1]
+313                               1.1e-06  [+1]
+302                               1.1e-06  [+1]
+107                               1.1e-06  [+1]
+459                               1.4e-06  [+1]
+455                               1.4e-06  [+1]
+404                               1.4e-06  [+1]
+341                               1.4e-06  [+1]
+331                               1.4e-06  [+1]
+284                               1.4e-06  [+1]
+271                               1.4e-06  [+1]
+492                               1.8e-06  [+1]
+469                               1.8e-06  [+1]
+402                               1.8e-06  [+1]
+288                               1.8e-06  [+1]
+112                               2.4e-06  [+1]
+98                                2.4e-06  [+1]
+96                                2.4e-06  [+1]
+362                               3.1e-06  [+1]
+267                               3.1e-06  [+1]
+217                               3.1e-06  [+1]
+55                                3.1e-06  [+1]
+384                               3.9e-06  [+1]
+337                               3.9e-06  [+1]
+290                               3.9e-06  [+1]
+289                               3.9e-06  [+1]
+266                               3.9e-06  [+1]
+150                               3.9e-06  [+1]
+81                                3.9e-06  [+1]
+29                                3.9e-06  [+1]
+376                                 5e-06  [+1]
+340                                 5e-06  [+1]
+323                                 5e-06  [+1]
+304                                 5e-06  [+1]
+242                                 5e-06  [+1]
+237                                 5e-06  [+1]
+216                                 5e-06  [+1]
+484                               6.2e-06  [+1]
+416                               6.2e-06  [+1]
+314                               6.2e-06  [+1]
+300                               6.2e-06  [+1]
+88                                6.2e-06  [+1]
+531                               7.8e-06  [+1]
+414                               7.8e-06  [+1]
+318                               7.8e-06  [+1]
+311                               7.8e-06  [+1]
+225                               7.8e-06  [+1]
+210                               7.8e-06  [+1]
+203                               7.8e-06  [+1]
+197                               7.8e-06  [+1]
+175                               7.8e-06  [+1]
+125                               7.8e-06  [+1]
+364                               9.7e-06  [+1]
+345                               9.7e-06  [+1]
+192                               9.7e-06  [+1]
+114                               9.7e-06  [+1]
+11                                9.7e-06  [+1]
+500                               1.2e-05  [+1]
+489                               1.2e-05  [+1]
+482                               1.2e-05  [+1]
+448                               1.2e-05  [+1]
+332                               1.2e-05  [+1]
+236                               1.2e-05  [+1]
+161                               1.2e-05  [+1]
+158                               1.2e-05  [+1]
+109                               1.2e-05  [+1]
+425                               1.5e-05  [+1]
+400                               1.5e-05  [+1]
+252                               1.5e-05  [+1]
+215                               1.5e-05  [+1]
+206                               1.5e-05  [+1]
+189                               1.5e-05  [+1]
+128                               1.5e-05  [+1]
+119                               1.5e-05  [+1]
+529                               1.8e-05  [+1]
+528                               1.8e-05  [+1]
+437                               1.8e-05  [+1]
+406                               1.8e-05  [+1]
+388                               1.8e-05  [+1]
+378                               1.8e-05  [+1]
+312                               1.8e-05  [+1]
+239                               1.8e-05  [+1]
+429                               2.1e-05  [+1]
+413                               2.1e-05  [+1]
+205                               2.1e-05  [+1]
+153                               2.1e-05  [+1]
+120                               2.1e-05  [+1]
+84                                2.1e-05  [+1]
+8                                 2.1e-05  [+1]
+532                               2.6e-05  [+1]
+509                               2.6e-05  [+1]
+468                               2.6e-05  [+1]
+433                               2.6e-05  [+1]
+411                               2.6e-05  [+1]
+344                               2.6e-05  [+1]
+230                               2.6e-05  [+1]
+117                               2.6e-05  [+1]
+116                               2.6e-05  [+1]
+111                               2.6e-05  [+1]
+94                                2.6e-05  [+1]
+472                               3.1e-05  [+1]
+386                               3.1e-05  [+1]
+322                               3.1e-05  [+1]
+321                               3.1e-05  [+1]
+320                               3.1e-05  [+1]
+316                               3.1e-05  [+1]
+275                               3.1e-05  [+1]
+263                               3.1e-05  [+1]
+259                               3.1e-05  [+1]
+245                               3.1e-05  [+1]
+243                               3.1e-05  [+1]
+238                               3.1e-05  [+1]
+89                                3.1e-05  [+1]
+42                                3.1e-05  [+1]
+12                                3.1e-05  [+1]
+2                                 3.1e-05  [+1]
+503                               3.7e-05  [+1]
+501                               3.7e-05  [+1]
+447                               3.7e-05  [+1]
+430                               3.7e-05  [+1]
+261                               3.7e-05  [+1]
+218                               3.7e-05  [+1]
+214                               3.7e-05  [+1]
+209                               3.7e-05  [+1]
+201                               3.7e-05  [+1]
+154                               3.7e-05  [+1]
+136                               3.7e-05  [+1]
+126                               3.7e-05  [+1]
+74                                3.7e-05  [+1]
+36                                3.7e-05  [+1]
+498                               4.3e-05  [+1]
+497                               4.3e-05  [+1]
+471                               4.3e-05  [+1]
+434                               4.3e-05  [+1]
+401                               4.3e-05  [+1]
+372                               4.3e-05  [+1]
+369                               4.3e-05  [+1]
+329                               4.3e-05  [+1]
+219                               4.3e-05  [+1]
+148                               4.3e-05  [+1]
+115                               4.3e-05  [+1]
+108                               4.3e-05  [+1]
+93                                4.3e-05  [+1]
+78                                4.3e-05  [+1]
+41                                4.3e-05  [+1]
+511                               5.1e-05  [+1]
+460                               5.1e-05  [+1]
+351                               5.1e-05  [+1]
+324                               5.1e-05  [+1]
+213                               5.1e-05  [+1]
+196                               5.1e-05  [+1]
+166                               5.1e-05  [+1]
+102                               5.1e-05  [+1]
+63                                5.1e-05  [+1]
+60                                5.1e-05  [+1]
+52                                5.1e-05  [+1]
+523                                 6e-05  [+1]
+458                                 6e-05  [+1]
+454                                 6e-05  [+1]
+439                                 6e-05  [+1]
+387                                 6e-05  [+1]
+373                                 6e-05  [+1]
+335                                 6e-05  [+1]
+292                                 6e-05  [+1]
+273                                 6e-05  [+1]
+254                                 6e-05  [+1]
+220                                 6e-05  [+1]
+149                                 6e-05  [+1]
+137                                 6e-05  [+1]
+79                                  6e-05  [+1]
+33                                  6e-05  [+1]
+527                                 7e-05  [+1]
+190                                 7e-05  [+1]
+188                                 7e-05  [+1]
+130                                 7e-05  [+1]
+83                                  7e-05  [+1]
+50                                  7e-05  [+1]
+28                                  7e-05  [+1]
+7                                   7e-05  [+1]
+522                               8.1e-05  [+1]
+505                               8.1e-05  [+1]
+490                               8.1e-05  [+1]
+441                               8.1e-05  [+1]
+431                               8.1e-05  [+1]
+394                               8.1e-05  [+1]
+370                               8.1e-05  [+1]
+330                               8.1e-05  [+1]
+319                               8.1e-05  [+1]
+232                               8.1e-05  [+1]
+178                               8.1e-05  [+1]
+71                                8.1e-05  [+1]
+10                                8.1e-05  [+1]
+516                               9.4e-05  [+1]
+485                               9.4e-05  [+1]
+483                               9.4e-05  [+1]
+395                               9.4e-05  [+1]
+393                               9.4e-05  [+1]
+359                               9.4e-05  [+1]
+356                               9.4e-05  [+1]
+343                               9.4e-05  [+1]
+328                               9.4e-05  [+1]
+258                               9.4e-05  [+1]
+140                               9.4e-05  [+1]
+110                               9.4e-05  [+1]
+72                                9.4e-05  [+1]
+31                                9.4e-05  [+1]
+16                                9.4e-05  [+1]
+474                               0.00011  [+1]
+424                               0.00011  [+1]
+409                               0.00011  [+1]
+191                               0.00011  [+1]
+147                               0.00011  [+1]
+57                                0.00011  [+1]
+27                                0.00011  [+1]
+13                                0.00011  [+1]
+0                                 0.00011  [+1]
+499                               0.00012  [+1]
+461                               0.00012  [+1]
+456                               0.00012  [+1]
+354                               0.00012  [+1]
+287                               0.00012  [+1]
+199                               0.00012  [+1]
+170                               0.00012  [+1]
+100                               0.00012  [+1]
+478                               0.00014  [+1]
+476                               0.00014  [+1]
+440                               0.00014  [+1]
+423                               0.00014  [+1]
+421                               0.00014  [+1]
+397                               0.00014  [+1]
+366                               0.00014  [+1]
+327                               0.00014  [+1]
+317                               0.00014  [+1]
+282                               0.00014  [+1]
+241                               0.00014  [+1]
+211                               0.00014  [+1]
+202                               0.00014  [+1]
+182                               0.00014  [+1]
+181                               0.00014  [+1]
+164                               0.00014  [+1]
+160                               0.00014  [+1]
+144                               0.00014  [+1]
+118                               0.00014  [+1]
+353                               0.00016  [+1]
+286                               0.00016  [+1]
+285                               0.00016  [+1]
+283                               0.00016  [+1]
+179                               0.00016  [+1]
+173                               0.00016  [+1]
+24                                0.00016  [+1]
+525                               0.00018  [+1]
+479                               0.00018  [+1]
+381                               0.00018  [+1]
+346                               0.00018  [+1]
+338                               0.00018  [+1]
+294                               0.00018  [+1]
+280                               0.00018  [+1]
+257                               0.00018  [+1]
+255                               0.00018  [+1]
+234                               0.00018  [+1]
+184                               0.00018  [+1]
+159                               0.00018  [+1]
+145                               0.00018  [+1]
+138                               0.00018  [+1]
+99                                0.00018  [+1]
+86                                0.00018  [+1]
+67                                0.00018  [+1]
+43                                0.00018  [+1]
+477                               0.00021  [+1]
+445                               0.00021  [+1]
+392                               0.00021  [+1]
+358                               0.00021  [+1]
+224                               0.00021  [+1]
+204                               0.00021  [+1]
+92                                0.00021  [+1]
+32                                0.00021  [+1]
+19                                0.00021  [+1]
+488                               0.00023  [+1]
+486                               0.00023  [+1]
+470                               0.00023  [+1]
+385                               0.00023  [+1]
+264                               0.00023  [+1]
+240                               0.00023  [+1]
+193                               0.00023  [+1]
+168                               0.00023  [+1]
+127                               0.00023  [+1]
+521                               0.00026  [+1]
+517                               0.00026  [+1]
+475                               0.00026  [+1]
+383                               0.00026  [+1]
+293                               0.00026  [+1]
+279                               0.00026  [+1]
+256                               0.00026  [+1]
+524                               0.00029  [+1]
+487                               0.00029  [+1]
+299                               0.00029  [+1]
+247                               0.00029  [+1]
+229                               0.00029  [+1]
+195                               0.00029  [+1]
+169                               0.00029  [+1]
+146                               0.00029  [+1]
+53                                0.00029  [+1]
+18                                0.00029  [+1]
+463                               0.00033  [+1]
+462                               0.00033  [+1]
+443                               0.00033  [+1]
+436                               0.00033  [+1]
+380                               0.00033  [+1]
+361                               0.00033  [+1]
+360                               0.00033  [+1]
+333                               0.00033  [+1]
+305                               0.00033  [+1]
+296                               0.00033  [+1]
+278                               0.00033  [+1]
+174                               0.00033  [+1]
+73                                0.00033  [+1]
+51                                0.00033  [+1]
+432                               0.00037  [+1]
+355                               0.00037  [+1]
+347                               0.00037  [+1]
+326                               0.00037  [+1]
+306                               0.00037  [+1]
+298                               0.00037  [+1]
+246                               0.00037  [+1]
+227                               0.00037  [+1]
+223                               0.00037  [+1]
+186                               0.00037  [+1]
+180                               0.00037  [+1]
+133                               0.00037  [+1]
+95                                0.00037  [+1]
+77                                0.00037  [+1]
+65                                0.00037  [+1]
+54                                0.00037  [+1]
+39                                0.00037  [+1]
+14                                0.00037  [+1]
+508                               0.00041  [+1]
+444                               0.00041  [+1]
+419                               0.00041  [+1]
+399                               0.00041  [+1]
+379                               0.00041  [+1]
+276                               0.00041  [+1]
+274                               0.00041  [+1]
+269                               0.00041  [+1]
+157                               0.00041  [+1]
+142                               0.00041  [+1]
+132                               0.00041  [+1]
+104                               0.00041  [+1]
+103                               0.00041  [+1]
+101                               0.00041  [+1]
+26                                0.00041  [+1]
+20                                0.00041  [+1]
+533                               0.00045  [+1]
+530                               0.00045  [+1]
+513                               0.00045  [+1]
+502                               0.00045  [+1]
+426                               0.00045  [+1]
+403                               0.00045  [+1]
+268                               0.00045  [+1]
+235                               0.00045  [+1]
+177                               0.00045  [+1]
+97                                0.00045  [+1]
+3                                 0.00045  [+1]
+510                                0.0005  [+1]
+450                                0.0005  [+1]
+398                                0.0005  [+1]
+390                                0.0005  [+1]
+342                                0.0005  [+1]
+194                                0.0005  [+1]
+152                                0.0005  [+1]
+56                                 0.0005  [+1]
+17                                 0.0005  [+1]
+518                               0.00055  [+1]
+507                               0.00055  [+1]
+467                               0.00055  [+1]
+420                               0.00055  [+1]
+418                               0.00055  [+1]
+382                               0.00055  [+1]
+375                               0.00055  [+1]
+176                               0.00055  [+1]
+155                               0.00055  [+1]
+123                               0.00055  [+1]
+91                                0.00055  [+1]
+70                                0.00055  [+1]
+49                                0.00055  [+1]
+40                                0.00055  [+1]
+410                               0.00061  [+1]
+307                               0.00061  [+1]
+291                               0.00061  [+1]
+251                               0.00061  [+1]
+171                               0.00061  [+1]
+135                               0.00061  [+1]
+124                               0.00061  [+1]
+106                               0.00061  [+1]
+66                                0.00061  [+1]
+4                                 0.00061  [+1]
+519                               0.00067  [+1]
+480                               0.00067  [+1]
+396                               0.00067  [+1]
+325                               0.00067  [+1]
+272                               0.00067  [+1]
+222                               0.00067  [+1]
+451                               0.00073  [+1]
+442                               0.00073  [+1]
+415                               0.00073  [+1]
+391                               0.00073  [+1]
+389                               0.00073  [+1]
+162                               0.00073  [+1]
+134                               0.00073  [+1]
+76                                0.00073  [+1]
+48                                0.00073  [+1]
+25                                0.00073  [+1]
+156                                0.0008  [+1]
+90                                 0.0008  [+1]
+58                                 0.0008  [+1]
+30                                 0.0008  [+1]
+9                                  0.0008  [+1]
+495                               0.00088  [+1]
+408                               0.00088  [+1]
+309                               0.00088  [+1]
+281                               0.00088  [+1]
+277                               0.00088  [+1]
+143                               0.00088  [+1]
+87                                0.00088  [+1]
+64                                0.00088  [+1]
+504                               0.00096  [+1]
+466                               0.00096  [+1]
+452                               0.00096  [+1]
+449                               0.00096  [+1]
+427                               0.00096  [+1]
+422                               0.00096  [+1]
+315                               0.00096  [+1]
+303                               0.00096  [+1]
+301                               0.00096  [+1]
+265                               0.00096  [+1]
+262                               0.00096  [+1]
+38                                0.00096  [+1]
+34                                0.00096  [+1]
+23                                0.00096  [+1]
+365                                 0.001  [+1]
+349                                 0.001  [+1]
+233                                 0.001  [+1]
+221                                 0.001  [+1]
+167                                 0.001  [+1]
+163                                 0.001  [+1]
+6                                   0.001  [+1]
+371                                0.0011  [+1]
+270                                0.0011  [+1]
+253                                0.0011  [+1]
+200                                0.0011  [+1]
+139                                0.0011  [+1]
+491                                0.0012  [+1]
+457                                0.0012  [+1]
+59                                 0.0012  [+1]
+22                                 0.0012  [+1]
+208                                0.0013  [+1]
+348                                0.0014  [+1]
+260                                0.0014  [+1]
+249                                0.0014  [+1]
+446                                0.0016  [+1]
+352                                0.0016  [+1]
+350                                0.0016  [+1]
+151                                0.0016  [+1]
+45                                 0.0016  [+1]
+481                                0.0017  [+1]
+405                                0.0017  [+1]
+231                                0.0017  [+1]
+47                                 0.0017  [+1]
+21                                 0.0017  [+1]
+512                                0.0018  [+1]
+496                                0.0018  [+1]
+464                                0.0018  [+1]
+129                                0.0018  [+1]
+46                                 0.0018  [+1]
+514                                 0.002  [+1]
+374                                 0.002  [+1]
+336                                 0.002  [+1]
+297                                 0.002  [+1]
+244                                 0.002  [+1]
+185                                 0.002  [+1]
+172                                 0.002  [+1]
+105                                 0.002  [+1]
+61                                  0.002  [+1]
+207                                0.0023  [+1]
+131                                0.0023  [+1]
+35                                 0.0023  [+1]
+506                                0.0025  [+1]
+113                                0.0025  [+1]
+80                                 0.0025  [+1]
+68                                 0.0025  [+1]
+183                                0.0026  [+1]
+69                                 0.0026  [+1]
+62                                 0.0026  [+1]
+1                                  0.0026  [+1]
+417                                0.0028  [+1]
+412                                0.0028  [+1]
+187                                0.0028  [+1]
+75                                 0.0028  [+1]
+5                                  0.0028  [+1]
+494                                0.0033  [+1]
+82                                 0.0033  [+1]
+228                                0.0035  [+1]
+122                                0.0037  [+1]
+44                                  0.004  [+1]
+15                                  0.004  [+1]
+493                                0.0043  [+1]
+368                                0.0043  [+1]
+465                                0.0046  [+1]
+295                                0.0046  [+1]
+526                                0.0049  [+1]
+334                                0.0049  [+1]
+121                                0.0052  [+1]
+515                                0.0055  [+1]
+308                                0.0062  [+1]
+226                                 0.011  [+1]
+367                                 0.015  [+1]
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 1 width=29 seqs=534
+428                      (    1) CTTGACCGGCGCCGGGCGACGCGCGATAA  1 
+85                       (    1) CTTGACGCAGAGCGACAATACGGCAATAA  1 
+363                      (    1) CTTGACCGCGCCCGAATCCCTGTCCATGT  1 
+250                      (    1) CTTGACCGGCTGCGCGCGGATCGCCATGA  1 
+37                       (    1) GTTGACGTGGCCGCCGCTCTCGTCTATGA  1 
+435                      (    1) CTTGACCGCGCCGGATTCGCTCGTCATGT  1 
+310                      (    1) CTTGCCGTGACGGGCGCAAGTTTCTATAT  1 
+165                      (    1) CTTGAAACCGGTCGCGACAGGTGGCATAT  1 
+473                      (    1) CTTGATATGCGGCGCGAAAGGCTCTATGT  1 
+377                      (    1) ATTGACGCCGCCCGGCGCCGGGCCTAAAT  1 
+198                      (    1) CTTGACGATGGCCAGCACGTCGAAAATAT  1 
+248                      (    1) CTTGATGTCGTCGCCCTTGGCGCCGATGA  1 
+212                      (    1) CTTGATCTTGGCGGCGCCGCGATCCATGT  1 
+438                      (    1) CTTGAATGCGCGGGATCGGAGGGCGATAT  1 
+407                      (    1) CTTGACCCGGCCGGTGGCCCGTTCGATGA  1 
+339                      (    1) CTTGCGGGCTCCGCTCGAGGCTCCTATAT  1 
+141                      (    1) CTTGAACGCGATGAACACGTGTGCAATAT  1 
+520                      (    1) CTTGAACCGTGAGGCGAAAGAGAGTATAT  1 
+453                      (    1) CTTGCAGTCCGAAACGCCGGTCCTTATAT  1 
+357                      (    1) CTTTACATCGGCGGCGGGCATCGCTATTT  1 
+313                      (    1) CTTGACTGGCGGGCCACCTGTGACTATAG  1 
+302                      (    1) CTTGCCCTGCCGCCCGATTGCGTCTATTT  1 
+107                      (    1) CTTGATGAGGAGTGCGACGACGGCCATTA  1 
+459                      (    1) CTTGCAATTTACGGCGATGAAGCGTATAT  1 
+455                      (    1) ATTGCCGTGGCGGCGACCAAGTCCTATGT  1 
+404                      (    1) CTTGAAACCGGCCGTGCGGCGATCTATGA  1 
+341                      (    1) CTTGATTGCGCCCGGCCCGCCGTGCATAA  1 
+331                      (    1) ATTGCGCTCGACGCCGGCGGCTGCCATGT  1 
+284                      (    1) ATTGAAAGCCGCGGCGCCAGAAGTTATAT  1 
+271                      (    1) GTTGCCGGGAACAAACGCACCGCCTATAA  1 
+492                      (    1) CTTGAACTCGTGCGCGGGCATTCCCATGT  1 
+469                      (    1) CTTGACGTCGACAATGTTCTGGGCAATGG  1 
+402                      (    1) CTTGACGACTGGACGGCGCTCGACCATTT  1 
+288                      (    1) CTTGCCTTTTCCGGGATGTGCGGTTATAA  1 
+112                      (    1) CTTGAGCTGGAAGGCCGGGTACGCGATGT  1 
+98                       (    1) CTTGCCGACGCCGGGAAAGCCGAAGATAG  1 
+96                       (    1) CTTGTCCAGTGCGCCGACTGCGGTGATGT  1 
+362                      (    1) CTTGCCGCGCCGGGGTCCACGTTCTATAG  1 
+267                      (    1) CTTGAGGCAGGCCCGCCCTTCTTCTATGT  1 
+217                      (    1) CTTGACGTCTCGCGCCAGGATCGGAATGG  1 
+55                       (    1) CTTGCCGTCCCGGGCATTGACCGGTATTG  1 
+384                      (    1) CTTGACCTTGTTTGCGAGCTTCCGTATAA  1 
+337                      (    1) CTTGCACTCATTGCACACAGCCACCATAT  1 
+290                      (    1) CTTTTCCGACGCGCGGCGCCCGGCTATGT  1 
+289                      (    1) ATTGACGGGTTTGGCAAGCTGCGTTATAT  1 
+266                      (    1) GTTGCCTCCCTGCGAGGCGGTGCCTATGT  1 
+150                      (    1) CTTGACCCGGGATTCAGCGTCCCCTATTT  1 
+81                       (    1) CTTGAACTCGGCGCTCGATTTGTCAATAA  1 
+29                       (    1) CTTGAAATCCAGCCCATGGGGATGTATAT  1 
+376                      (    1) GTTGACCTTGCCAGAGCCTTTGGCTATTT  1 
+340                      (    1) CTTGCGGGCGCCGCGCGGCGTTGTAATGT  1 
+323                      (    1) CTTGACTATGCGGGTGCCTAAAACTATGT  1 
+304                      (    1) CTTGCCGCTGCCTACATGGCGCCGAATGT  1 
+242                      (    1) CTTGACGACCGGCTCGGTCTCGGTGATTT  1 
+237                      (    1) GTTGACGCCGAGGCCGTAGGCTGAAATGA  1 
+216                      (    1) CTTGAAAGCCGGTCGGTTCAGGGCCATTT  1 
+484                      (    1) CTTGCCTAAGCCGTCGCCGGAAGCTAAAT  1 
+416                      (    1) CTTGCACGCTTGGGAATGGCGGCTTATGT  1 
+314                      (    1) CTTGCGCGCCGGAACGACCGTGCTAATGA  1 
+300                      (    1) CTTGACTTTCGGCGCCTTTGGTCGTATGA  1 
+88                       (    1) ATTGCCCACAGTGCCGGCGCTGCCTATTA  1 
+531                      (    1) ATTGAAAGCGGCTACGGCCCTACCCATAT  1 
+414                      (    1) GTTGACAGCTCTGGCCCGGGAGCGCATGA  1 
+318                      (    1) ATTGCAACGCACAACCAAATCGGCTATAG  1 
+311                      (    1) CTTGCACTCTTGGTCGGCGCCGTTCATAT  1 
+225                      (    1) CTTGTGCCAGGCGGCCTTCGGCCACATGA  1 
+210                      (    1) CTTGCGGACCGGTGCCGGCTCGATCATGT  1 
+203                      (    1) GTTGACGTGTGCAACGCCCGACGTAATGT  1 
+197                      (    1) CTTGTCCTTGGCGAGGCGGACCGGAATAG  1 
+175                      (    1) CTTTACCTGGTGCCGCAAGAGGCGCATAT  1 
+125                      (    1) CTTGTGGTAGGCGACCTCGTGTTCGATAT  1 
+364                      (    1) GTTGACAGGACGAATGCAGGCGGTCATAT  1 
+345                      (    1) TTTGCCATTCCCCGCGCGGATCACTATAT  1 
+192                      (    1) CTTGCTAGCATCGCATGCGTCTCCTATAT  1 
+114                      (    1) CTTGCGCCCGATCACCATGCAGGACATGT  1 
+11                       (    1) GTTGAAGCGGCCGGCTATGTCGGCAATTT  1 
+500                      (    1) ATTGCAATGGACAAGGCGGCGCGCTATTT  1 
+489                      (    1) CTTGCATCCGGCACGCAAATGCCGGATGT  1 
+482                      (    1) CTTGTGCATGACGGCGTTCACCATCATAT  1 
+448                      (    1) CTTGATTTCGAGCTCGGCTCGGTGCATAA  1 
+332                      (    1) GTTGTCGTCGTCGATCCGGAGGAGCATAT  1 
+236                      (    1) GTTGATGATGTCGTCGGTCCGGGCCATGA  1 
+161                      (    1) CTTGTCGCGGCGGGTCAGGCGCCTAATTA  1 
+158                      (    1) ATTGCTCTATCCGACCGCCTCGCCAATGA  1 
+109                      (    1) GTTGTCGTCCTGGTCGAGAGGGAATATAT  1 
+425                      (    1) CTTGCCGCAGACACGTCACATGATTATGG  1 
+400                      (    1) CTTGACCACCTCTCCTATTCCCAGCATAT  1 
+252                      (    1) CTTGAAAGGCGGAACTGCGTTAACCATAT  1 
+215                      (    1) GTTGACGAAGAAGCCGGGAACGGCAATTG  1 
+206                      (    1) CTTGCCCTTCTTCTCGATCTTGGCAATGT  1 
+189                      (    1) GTTGACCGGCCGGCCGGAGATGCTAATTT  1 
+128                      (    1) CTTGTTCTGCGGACCGCCGCTGGTCATGA  1 
+119                      (    1) GTTGTCGGTTGGGCCTTCGGCGCCCATGT  1 
+529                      (    1) CTTGAAGATGCTGCACTGCAGCATTATTA  1 
+528                      (    1) CTTGGCGTCCGCGAGGACCTCAACTATAA  1 
+437                      (    1) CTTGCATTTAAGCCCGTTCTCGGCTATGG  1 
+406                      (    1) ATTTATGTCGGCCGGGAATTGGCCTATAT  1 
+388                      (    1) CTTGAGTGCCGCCACGGAAGTTGTAATGT  1 
+378                      (    1) CTTGCAAGACCGGGCGTCTTTCGACATAG  1 
+312                      (    1) CTTGTTGTGGCCCTCTGCAAACCCCATAA  1 
+239                      (    1) CTTGCATTTGCTGCGGATATTGCCGATAT  1 
+429                      (    1) CTTGTCTTGGGTCAGCCTTGCCGGTATGT  1 
+413                      (    1) ATTGACGCAAGCGCGGCCAGGCAGTATTG  1 
+205                      (    1) CTTGATGCGGGCTGCTTCGAAGTTCATGA  1 
+153                      (    1) CTTGAGAATGCCGACCTCTTGCTTAATGA  1 
+120                      (    1) CTTGAGCGCCGCATTGCAGGCGCGTATGG  1 
+84                       (    1) CTTGACGAACTGTCCCATCCTGCCTAAGT  1 
+8                        (    1) CTTGAAGAAGAAGAACAGGATGATGATGA  1 
+532                      (    1) CTTTTCTTGGGCGTCGGAAAGACCTATAT  1 
+509                      (    1) CTTGAAAAACAAAGAAACCGCTAATATAA  1 
+468                      (    1) CTTGTGGAACCGCGCAACCTGACGCATGT  1 
+433                      (    1) CTTGCGTGGGTCACCACATGTCGATATAT  1 
+411                      (    1) GTTGACATCGCGGTGCGAAATGGGAATAG  1 
+344                      (    1) CTTGATTTTTCGGGCCCAAACATCGATAT  1 
+230                      (    1) CTTGTCGCCGATCTTCATCGCCCGCATGT  1 
+117                      (    1) GTTGACCTCCGGCTCCTTGCCATCCATGA  1 
+116                      (    1) CTTGTCGTGGGACATCACATAGTCGATGA  1 
+111                      (    1) ATTGTTGCGCTCGGCACGGGCGCCGATAT  1 
+94                       (    1) CTTGACGAAATGGGCATCATGTAACATAG  1 
+472                      (    1) ATTGCACTTGGCGCCCGAAACCTGTATTT  1 
+386                      (    1) GTTGCCGGCACCGATGATCTGGTAAATAA  1 
+322                      (    1) CTTGCCGCCCGAAGCCCCTCTTTCTATTG  1 
+321                      (    1) GTTGCCGCGTTAACGGCCGGCCGATATGA  1 
+320                      (    1) CTTGCCCTGCCGGGCTCGCTTGGCTATTC  1 
+316                      (    1) ATTGCCCGGACCTCAGATCCGGGCAATTT  1 
+275                      (    1) ATTGCCGCCCCGTGCAAATATCGTCATGA  1 
+263                      (    1) CTTGAACCGCTGTGGCGCCTATGCCATAG  1 
+259                      (    1) CTTGCGAAGGGGGGCGGTTTCTGGCATAG  1 
+245                      (    1) TTTGAATCTCGCGGCATCGAGCGCCATGA  1 
+243                      (    1) CTTGCGGTCGATCGTCTTCAGCATGATAT  1 
+238                      (    1) GTTGCGGCCGACATTGCCCGAGCCGATAT  1 
+89                       (    1) CTTGTTTCAGCCGCCGCCTTGCTCCATTT  1 
+42                       (    1) GTTGCCGACGCGCTGAAAATAGCGCATGT  1 
+12                       (    1) ATTGAACAGGGGAAGCAGGACAGCTATGG  1 
+2                        (    1) GTTGACCAGCACGACGAAGGCGGAAAAAA  1 
+503                      (    1) GTTGCGGATCGCTGCGGCATTCGGTATGT  1 
+501                      (    1) CTTGCTTCCCCGCGGAATTCTGAATATAT  1 
+447                      (    1) CTTGCGGCGTTTCACGTGAATCGCTATTT  1 
+430                      (    1) CTTGCGCACTGCGGTGCAATAGAAAATAA  1 
+261                      (    1) CTTGAACGTCAATAGGGCGTTAACCATAT  1 
+218                      (    1) CTTGCCCGATTGCGAGTTGATGCGGATGA  1 
+214                      (    1) GTTGATGCCGCCCGACAGAATGCAGATGA  1 
+209                      (    1) CTTGCCGTTACGCTGCTGGATCATCATGA  1 
+201                      (    1) GTTGCCTTCGATCTCGGCTCCGCCGATGA  1 
+154                      (    1) ATTGACCGCGACACGTTCCGCGATAATTT  1 
+136                      (    1) CTTGAAGAATTAGGCCGATTGCGAAATGA  1 
+126                      (    1) CTTTCCGGTCTTCGCCAGTGCCGCGATAT  1 
+74                       (    1) GTTGCAGCTGTCGGCGTCGAAGTACATGT  1 
+36                       (    1) CTTGATGCTATACCGGGAGCCGTTTATGT  1 
+498                      (    1) ATTGCGGACCGGAAGCGACCTGCTTATGA  1 
+497                      (    1) CTTTTCCGTTCACACGGAAGTGCCTATAT  1 
+471                      (    1) CTTGTCAGGACCGATCACGTTCACGATTT  1 
+434                      (    1) CTTGCACATGGCGTGCGTGGCGCCTATCT  1 
+401                      (    1) CTTGAAGTGTAACGCTTAGTGTTATATAT  1 
+372                      (    1) ATTTCCGGCCAGGGCGGCTCGGCCAATAG  1 
+369                      (    1) GTTGAAAGCAATGCACATGATACCTATAA  1 
+329                      (    1) ATTGAAAGATGTTTCCGGCCGGCCTATGT  1 
+219                      (    1) CTTGCGGAGCCTCAGGCTGTAGCTCATGT  1 
+148                      (    1) CTTGAAACACCCGCGGTTTGCGAGTAAAA  1 
+115                      (    1) GTTGACATCGCTCTGCTACAGCCGCATAG  1 
+108                      (    1) GTTGTCCAGGATTGTCGCCGAGGCCATGT  1 
+93                       (    1) CTTTCCAACGGCCGCTCGGGCTTGTATGT  1 
+78                       (    1) GTTGAAGCGGGCGAGGAACGGCTGTATTG  1 
+41                       (    1) ATTGCGGCGGCCACCCATAACGAATATTT  1 
+511                      (    1) GTTGCCACTGGCTATCGCACACGTTATAG  1 
+460                      (    1) CTTGAACTTCCCGATTGCAGCGATAATTT  1 
+351                      (    1) CTTGCTGTCCGGATGAGCCCGTGGCATAG  1 
+324                      (    1) ATTGATTTTGCGCCGGGGTTGCGTCATAT  1 
+213                      (    1) ATTGATCGAGGACGGGTCGATGTCGATGT  1 
+196                      (    1) CTTGAAGTCCTTCCCCTGGCCATAGATAT  1 
+166                      (    1) CTTGACGGCGCCCGGATAAAATGGAATAC  1 
+102                      (    1) TTTGAACCCGATCCCGGGGCGGTTTATGT  1 
+63                       (    1) CTTGTCGACAACCCCATCGACCGTTATCT  1 
+60                       (    1) ATTGCCTGCGAAACTCGTGCGCGGCATGA  1 
+52                       (    1) ATTGATCGGCCGGACACTCGCAGTCATGA  1 
+523                      (    1) CTTTCACTGGGGCTCGCCTCGCGCTATGG  1 
+458                      (    1) GTTGCTCGGCCCCCTTGCCGAGGCTATGG  1 
+454                      (    1) CTTTCCCCGAGCGCGCAAGTACAATATGA  1 
+439                      (    1) CTTGACCGTCCCTCTCCTTTATCCCATAG  1 
+387                      (    1) GTTGCCTTTGTCGGCAATCTGACTGATAA  1 
+373                      (    1) CTTGAATCGGTAACGATTCAAGGACATAT  1 
+335                      (    1) CTTGACTGAGATGCAACACCGTTGCATTT  1 
+292                      (    1) CTTGTGTTTGCCACCGCAACTACCTATAG  1 
+273                      (    1) CTTGATCGCCGCGCTGGTGCCCTCTATCT  1 
+254                      (    1) CTTGCCGCGACAATGTGGCGTGACGATGT  1 
+220                      (    1) CTTGCACAATTTGCGCAGGAGCGAGATGA  1 
+149                      (    1) CTTGCCCAATTCTGTCGAGATCAGAATAA  1 
+137                      (    1) ATTGCATCGGCAACAGCCGATCCGTATAA  1 
+79                       (    1) ATTGCGGTCGGTGATATCAGTGAATATAT  1 
+33                       (    1) CTTTCAATGGCAGATAAATAGGACTATAT  1 
+527                      (    1) CTTGTTCAGAAATCCCCCTCCCTCTATAA  1 
+190                      (    1) CTTGCAGGCGTCACGGGCTCGACGGATTA  1 
+188                      (    1) CTTGCCGTGGATCATTCGCGATTGTATGA  1 
+130                      (    1) CTTGTTTCGAACACATTGGTCCCCTATAT  1 
+83                       (    1) CTTGCGAAATCAGGTGAGCCGAGGAATGA  1 
+50                       (    1) CTTGCACGCCTTACTGGCCTAAGCCATAG  1 
+28                       (    1) CTTTTAAAGTAGGCCGAGCGACGCCATAA  1 
+7                        (    1) CTTGATCGATTTGTCGAGCAGGATGATGA  1 
+522                      (    1) CTTGGCAAGGTCACCCCGGACACCTATGT  1 
+505                      (    1) CTTGACTTTATCCATGACATCTATAATGT  1 
+490                      (    1) GTTGACACGATTGGGTCGACACGGTATGT  1 
+441                      (    1) CTTGCTCCGCTTTACCAAGCCGTGTATAG  1 
+431                      (    1) CTTTTCATCGGCCGGCTTTCTGCGTATGA  1 
+394                      (    1) GTTGCTAAAGTGCCGCAACAACGCGATGA  1 
+370                      (    1) CTTGTCGCGCCGGACCGGTGCCCTTAATT  1 
+330                      (    1) CTTGTCGAAGATAAGAATGCGTTGTATGA  1 
+319                      (    1) ATTGTTCCAAACTACGATCCGTCCTATAT  1 
+232                      (    1) TTTGACCAAGTACGGCCCCATCAGTATGT  1 
+178                      (    1) ATTGACGTCACGAGCAATCGCGCGAAAAT  1 
+71                       (    1) CTTGCGAAATTGCATGGACTGACATATAT  1 
+10                       (    1) ATTGCTGAAACCTCTCAGCGGGGGTATTT  1 
+516                      (    1) CTTTCTCGGTGCCGGCAAGACGACGATGA  1 
+485                      (    1) CTCGACCGGGGCCGGATTGTCGCCCATGA  1 
+483                      (    1) CTTTTCGTTGACGAATACCCGTCGTATGT  1 
+395                      (    1) CTTGCATTCCAAGGGATTAGGCGCAATTG  1 
+393                      (    1) CTTTATCCGAGGGGCAAAGCCGTTAATAT  1 
+359                      (    1) CTTTTCCTCGGGGAACCATCAGTCTATAG  1 
+356                      (    1) ATTGAAATCACACGTTGCACGAGCGATAT  1 
+343                      (    1) CTTGACCAAATTCCAGTAATAAGCAATTT  1 
+328                      (    1) GTTGAGTTTGCCGATGGCAGTCGCTATTG  1 
+258                      (    1) GTTGATATACCACGCTTACGACTGTATAT  1 
+140                      (    1) ATTGACGGCAACTCTGGAGAGACTGATGA  1 
+110                      (    1) ATTGCGTGCCGGAGTGTGCACTGCAATAA  1 
+72                       (    1) CTTGCTTCCCCTGTCTTTGGCGAACATAA  1 
+31                       (    1) CTTGTTTCGCAGACATCGCCGCGGTATGT  1 
+16                       (    1) CTTGCAGCAGTTACGATTTAGGGTCATAG  1 
+474                      (    1) ATTGACTTTCGCCCGCAGCTTGTCCATTG  1 
+424                      (    1) CTTGCCGTTGAGCCGTCGTGTTCCTAAGT  1 
+409                      (    1) CTTGTAGTTGATAAACAGCGTCACCATTT  1 
+191                      (    1) GTTGAAGTGTGACATGTCCTGCGCTAAAT  1 
+147                      (    1) CTGGACCGCCAGCCCCGACACCGCCATGA  1 
+57                       (    1) ATTGAAACACGCGAGGAAGGGCTATATTG  1 
+27                       (    1) ATTGTAGACATTGGACCGATTGCCTATGT  1 
+13                       (    1) CTTTATCGAGGAAGGCGAGGCGATTATAG  1 
+0                        (    1) CTTGCGGAGGTCGCCCTTCGAATAGATGA  1 
+499                      (    1) ATTGCAATTTCGAGACAAGAACGGTATAG  1 
+461                      (    1) TTTGCGCATCGCCACCTCATCTCTTATAT  1 
+456                      (    1) ATTGCGCTTGCCCGCCCTTGCGCCTATCT  1 
+354                      (    1) CTTGTGGTTTTCGCAATCGGTCTTTATGT  1 
+287                      (    1) ATTTCCGAGACCGACGCCGCCCGCTATAC  1 
+199                      (    1) ATTGAGCAACTTTGAGGTCTCGGCCATGA  1 
+170                      (    1) GTTGACAGCTTGCGGAAACTCTGACATTT  1 
+100                      (    1) TTTGCGACCTCCAGCAGCGCCTCCCATGT  1 
+478                      (    1) ATTGAGAGCGGCGGGCCGTCTACACATTT  1 
+476                      (    1) CTTGCGATAGGCGCCCAGGCGTCTAAATT  1 
+440                      (    1) CTTGTCAGCCGCCCCGCGGGGTCTAAATT  1 
+423                      (    1) CTCGACGGCTCGATTGCCAAGGCCTATGA  1 
+421                      (    1) GTTGCGGACACCGTCCTCGCAAAGCATGA  1 
+397                      (    1) CTTGCGGCAATGAAGCCGGCCGCCTATCT  1 
+366                      (    1) ATTGACTCGAATTTGGTGAACACCTATAA  1 
+327                      (    1) CTTGTATTCTTGCCCCTTCCTTGCGATGT  1 
+317                      (    1) CTTGCATAAAGCAAATGCCACTGACATGA  1 
+282                      (    1) CTTGATCGTAGCCGGTCGAAGGACAAAAA  1 
+241                      (    1) CTCGACGAACGCACCGTAGTCGGTGATGT  1 
+211                      (    1) GTTGATGAGCAGAGAATTCGGCATCATGA  1 
+202                      (    1) CTTGCGTTCCAGTTGCCTACAGGCAATAG  1 
+182                      (    1) ATTGCCTTGTGACGCGTATGTGTTGATAT  1 
+181                      (    1) ATTGACTTAGTCGGTTGATTGGCGCATTA  1 
+164                      (    1) CTTGCTTGCACGGGATAGTGCCCGCATTA  1 
+160                      (    1) CTTGAACTCGCTGAAAAGAGACAACAAAT  1 
+144                      (    1) GTTGATCCCATCGTCGCAGAGAAGTATTT  1 
+118                      (    1) GTTGTTTCCGTTGCCGCCATCGACGATGT  1 
+353                      (    1) CTTCACGCCGGGCGGTTTTGCTCCCATAT  1 
+286                      (    1) CTTGCTTGATACTTCCGAAATGAGTATAG  1 
+285                      (    1) TTTGACAGAACTCGCCAAGATGATTATGG  1 
+283                      (    1) CTTTCCTTTTGGAACGGATTCGGTTATAG  1 
+179                      (    1) CTTGTGCAAGCGACCATTCTTCTGAATAT  1 
+173                      (    1) GTTGAAGAGAAAAGCGGGCGCTAATATAG  1 
+24                       (    1) CTTGAGAAATTTGACCAAATTGATAATAG  1 
+525                      (    1) ATTGCCGAACTGTCAAAAAATTGATATGA  1 
+479                      (    1) ATTGCGTGGGCCGACGGCGGAGGGAATAC  1 
+381                      (    1) TTTGCTTCGCAAGGCCGGCCGTGTCATAA  1 
+346                      (    1) GTTGACGTGCGGGCGGTTTCCCTTTATAC  1 
+338                      (    1) ATTGACGTAAAACCCCTAAAATTGCATAG  1 
+294                      (    1) CTTGAATCAGAGCTTCCATAGGTCTATAC  1 
+280                      (    1) GTTGTTTTTCGCAGACTCGCACCCGATAT  1 
+257                      (    1) GTTGATGGCTTGATGCTCGAGGTTGATAT  1 
+255                      (    1) CTTGACCCCTAACGTTTTCCATGGGATAG  1 
+234                      (    1) CTTGGCATAGGCAAGCGTCGACGTGATAT  1 
+184                      (    1) ATTGACAACGCCCAGCGAAGGTTGAAAAA  1 
+159                      (    1) CTTGCAAATTTGCATTGATTGCGCAATGT  1 
+145                      (    1) CTTTACCCTGCCGGAAACCTGAAAGATTA  1 
+138                      (    1) CTTCATGGCGCTGAGCGGAGCGGTCATGA  1 
+99                       (    1) GTTGACGGTTATGCCCGGCCGCGATAATT  1 
+86                       (    1) TTTGACGGATATCGCGGAAAGTTTAATAT  1 
+67                       (    1) CTTGTCATCTTTTATACTGTCAGTTATAT  1 
+43                       (    1) ATTGACATACGACGTTTTGTTGCAAATAA  1 
+477                      (    1) CTTTCGCTTCCGGGAAAAAACCTGTATGA  1 
+445                      (    1) TTTGAATGGTCTATCCTTCCGGACTATAT  1 
+392                      (    1) ATTGTCGCGATCTGCGGCAGCCCCTATCT  1 
+358                      (    1) GTTGATGCTTCAGGTTCCTGGCCATATGA  1 
+224                      (    1) CTTTCCCCGGGATAGGATCGTCAGCATGA  1 
+204                      (    1) CTTGCGAAAGCGGTATTCGTTCAGCATTT  1 
+92                       (    1) TTTGCAATCCTCCGATGGTTCGGCGATAT  1 
+32                       (    1) ATTGCTGACGACGCGACATGTCGATAAAT  1 
+19                       (    1) ATTGACTAAGTCCGTTCTCATCGTGATGA  1 
+488                      (    1) CTTGTTATCCCGCAGACCTTCATGTATAG  1 
+486                      (    1) CTTGATCGTTGCCGTGCAGCAAATTATTG  1 
+470                      (    1) TTTGTCACCGCCCTGCGTCTGTCCTATGG  1 
+385                      (    1) CTTTTTCGGTAGCACCGCCCGACCTATTT  1 
+264                      (    1) CTTTCCCGCGTGCCCGCTTTCCACTAAGA  1 
+240                      (    1) ATTGCGCACGGATGCTCCGGCATCCATTT  1 
+193                      (    1) GTTGATGGGCGTTCCCCTCATCGTCATTA  1 
+168                      (    1) CTTGATGCAGAATTTTGAATGACGTATGA  1 
+127                      (    1) CTTCATCCTGGCGCAGGCCATGCGTATAG  1 
+521                      (    1) GTTGACATAATCCGACCCCCCTCTTATCT  1 
+517                      (    1) GTTGCCAACACATAAAGATATCTTTATAT  1 
+475                      (    1) CTTGGCAGCCGTCCGGAAAATAGTCATAA  1 
+383                      (    1) CTTGTTTTGCACGGCACTCTGGTGCAAAT  1 
+293                      (    1) GTTGAACTTCATTGAAGCTTGGGGCATAG  1 
+279                      (    1) CTTTTTCAACGGTGAACCGGAGACTATGT  1 
+256                      (    1) CTTTCACATGCCGTTTTTTCGCCCTATGT  1 
+524                      (    1) GTTGCCCTTTTATGCATCACGGCTAATTA  1 
+487                      (    1) CTTCACACCTTTCCCCATCCTGCTTATGA  1 
+299                      (    1) CTTGACTTCGGCCTTTTTCGACTTCAAAT  1 
+247                      (    1) CTTTTCGACTGCAGCTTCCGACATGATGT  1 
+229                      (    1) GTTGTAGAAGAAGCTGATCGTTCCCATTT  1 
+195                      (    1) GTTGTCTTCGGGTCGATCGCCTTTCATGA  1 
+169                      (    1) CTTGTGCGAGACATAAAGTCAGTCCATTA  1 
+146                      (    1) CTTCACGCTGAACCCGTTTGGCGGTATGG  1 
+53                       (    1) GTTGTTGCTGAGCATCCCCGTTTATATAT  1 
+18                       (    1) CTTGCATTCAAACAATAGGTACTGGATAT  1 
+463                      (    1) CTTTTTGCCGCCACGCTTTTTGACGATAA  1 
+462                      (    1) GTTGCATTACCGCAGCCGCTGCCTCATTG  1 
+443                      (    1) CTTGCGCGCCATCGCAAGCCGCGCTAACA  1 
+436                      (    1) CTTGCATTCACCTTCAAGGACGCTAAAAA  1 
+380                      (    1) ATTGCAGTTATCATGGCAGCGCCCTAAAA  1 
+361                      (    1) GTTGCACGTTGTGCAACTCGCCTTTATAG  1 
+360                      (    1) CTGGACAAGGCGAAAGCGGCGCGGCATAA  1 
+333                      (    1) ATTGCTGCCGCGCTTTTCTTTCCCTATGG  1 
+305                      (    1) TTTGCCACCGGAATACGAATTCGCGATAG  1 
+296                      (    1) CTTTTCGCCTTCGGCGACTTTCATGATAG  1 
+278                      (    1) CTTGCGCATTGAGCATAACGCGTGAATGG  1 
+174                      (    1) TTTGCCGCTCTCTTGCTGCGATGCAATAA  1 
+73                       (    1) CTCGACGCAGACTGGCGCGTGCGCTATCT  1 
+51                       (    1) CTTGATTTGTTCCCTCGGGAGATAGATGA  1 
+432                      (    1) GTTTAGGTCTGAGCTGAGGTAGGATATGA  1 
+355                      (    1) CTTTACGCGCCGTAATGGCGTGAGCATTA  1 
+347                      (    1) GTTGTTGATCGAGCGGATGCCGGCTATCT  1 
+326                      (    1) ATTGCACTCAGGCTCTTCATCCGGTAAAA  1 
+306                      (    1) CTTGAGATTCCTCATTTCCTGATCAATTT  1 
+298                      (    1) CTCGACTGGCGTGATGTCGCCGACTATTA  1 
+246                      (    1) CTTGGCGGAAGGATCGTTGCCAGTTATGA  1 
+227                      (    1) GTTGCTCCGCCACGGAGATCACGGCATTA  1 
+223                      (    1) GTTGCGCACCAGCGACGTCATGTTGATTT  1 
+186                      (    1) CTTCACACGGGAAAACCTTGCGCTAATAT  1 
+180                      (    1) TTTGAAAGCCTTGATCCGGCTTGCGATAA  1 
+133                      (    1) CTTGTTAGACAGTGAATTCCAGACAATTT  1 
+95                       (    1) CTTGACAGATCGTTCCATTATTCTTAAGT  1 
+77                       (    1) GTTGTAAGGACGCTGCGGCTTTGCTATTT  1 
+65                       (    1) TTTGCTAATTCTGGCGATGGGAGCCATTA  1 
+54                       (    1) CTTTTCGGAAATCACCACCTACGCTAAGA  1 
+39                       (    1) ATTGACGTATCTGCAACGGTGTAGTATAC  1 
+14                       (    1) GTTGATGCCGTAGTACACTCTGATAATTT  1 
+508                      (    1) CTTCACTTTCGACCTGACTCTGTCCATAT  1 
+444                      (    1) CTTTCAGCCGAATCGTCAAAGAAGTATGT  1 
+419                      (    1) CTTGTCATGTTGTAATTACAACATTATAG  1 
+399                      (    1) CTTTTGGAAACGCTCGGCCGGATCGATAT  1 
+379                      (    1) CTTGCGTTCAGCATAATCATGAGTGATTA  1 
+276                      (    1) CTTGTGAAATCAAAAATGCTGTTCTATAG  1 
+274                      (    1) CTTTCGCGAACCTGTTCACGTGCTCATAT  1 
+269                      (    1) GTTGCCTCGACCCTCAGGTGGTGCAAAAA  1 
+157                      (    1) CTTGACGAAAGATTAAGTCTGAATGATAG  1 
+142                      (    1) ATTGCGCCTTCGGTTCTGTCGGCCGATTT  1 
+132                      (    1) CTTGCGCCGGGGAATGCGTCGTTCGAAAT  1 
+104                      (    1) CATGACATAGAAGCCGAGACAGGTGATGA  1 
+103                      (    1) CATGATCGCGGCGACGACCGTGTACATGA  1 
+101                      (    1) GTTTTCGGCCATGCTGGCGCGTGAAATAT  1 
+26                       (    1) CTTGCAACGGAAAGGCGGCGGATCAAATT  1 
+20                       (    1) CTTGGCAGCTTCCGACCCAAGCTTCATAG  1 
+533                      (    1) CTTGCCAATGTGACATGGAAAACATAAAA  1 
+530                      (    1) CTTGAAATGCCACATTTCAATCCACAAAT  1 
+513                      (    1) CTTGTCGTAAATCGATTTGAATGCCAAAA  1 
+502                      (    1) TTTGAATGATCAATCGCGTTGCACCATAA  1 
+426                      (    1) CTTTCCTACATGCCGGTGCCCGAGGATTT  1 
+403                      (    1) CTTTCCTGTAGCGCTTTCTATAGGTATGA  1 
+268                      (    1) TTTGCCATTCAGCCTGTATCGGTTAATGA  1 
+235                      (    1) GTTGCGTCTTGAACCGACGGCAAGGATGA  1 
+177                      (    1) ATTGCGGAAATTGCTGCATCGCATCATGA  1 
+97                       (    1) CTTTCGTCGGCCTCGAAATGCCGGTATGG  1 
+3                        (    1) CATGACGAAGAGTGCGGAAAGGGAGATGA  1 
+510                      (    1) ATTGCGTTATGCTATAACGTGTGCGATAG  1 
+450                      (    1) GTTGTTCGCCGGCCGTTTTGATGCTATTA  1 
+398                      (    1) CTTGCGATTATATCGCGAACGATTTATTT  1 
+390                      (    1) ATTGAGATTTGTGGCGATATGAATTATTG  1 
+342                      (    1) ATTGCGCAGAAGCTGCGAATGACAGATAA  1 
+194                      (    1) CTTTTGGAAAGTGCGCCGAGCGCATATTT  1 
+152                      (    1) ATTTTCAGCCACGTCAATCCGGTACATGA  1 
+56                       (    1) ATTGAGACAAAAGTCAGCGAAGGCAATAC  1 
+17                       (    1) GTTGTTCAGAAGCGCCTCGCGATAAATGA  1 
+518                      (    1) CTTCACGTCTTCTCCGGCGACGGCTATTC  1 
+507                      (    1) TTTGCGCCAATTGCCGTCGTCTCGCATGA  1 
+467                      (    1) GTTGTCCTGCGCAGTTGGACGGTGTATAC  1 
+420                      (    1) TTTGTCGAGGCGGCCTCTCCGCTTTATTG  1 
+418                      (    1) CTTGTGCCAGCCAATATTAGGCTTTAAGT  1 
+382                      (    1) CTTGGCAGCCATTGTGACGGCATCTATTA  1 
+375                      (    1) CTTGACGGGATGAAAAATTCTGGGAATCA  1 
+176                      (    1) GTTGAGCGACCCTTCTGCACTGATTAAAT  1 
+155                      (    1) CTTTCGACACGATCAAAATCGACCAATAT  1 
+123                      (    1) CTCGACGAAGCAAGGATCGAGCTTTATGG  1 
+91                       (    1) ATTTTCGCGATCATGGCGATGGCCGATAA  1 
+70                       (    1) TTTGACAAGTGTGCTACTGAGTAGCATGA  1 
+49                       (    1) ATTTCATTTTGATGCGACCAATCCTATAA  1 
+40                       (    1) TTTGTTCGGCCTGCTTGACATCACTATAT  1 
+410                      (    1) CTTGACGAAACCATATTGCTGTAGAATAC  1 
+307                      (    1) CTTGAATCATGCTTTCGCCGCACTTATCT  1 
+291                      (    1) TTTGACACCAGTTTACTTTTGGTCCATGA  1 
+251                      (    1) CTTTCGCCCGCTTGTTTCGATTGGTATGA  1 
+171                      (    1) CTTGTCCATGTTACAACGATGACATAAAA  1 
+135                      (    1) CTTGACACTGATTCGCGGAAGTGGGATTC  1 
+124                      (    1) ATTCACCGCGATCGTCTTACCTGCGATAT  1 
+106                      (    1) CTTTACAAGCATTTGCACCATTCTGATGT  1 
+66                       (    1) TTTGTTCCGACCGACAAGGGACATAATGT  1 
+4                        (    1) TTTGATGGTTGATAGGGGGTTGCCGATGT  1 
+519                      (    1) ATTTCCCTCGATACGAAGTTGCGCTAAGA  1 
+480                      (    1) ATTTTGACTGTCGAAGCCAAACATTATAT  1 
+396                      (    1) TTTGCGTCTCCGGTCAAAGACTTCTATTT  1 
+325                      (    1) ATTGCGCGGCCGCTCGGGCTATTTGATAG  1 
+272                      (    1) ATTGTGCGGCGCACAAAGTTTTGACATGA  1 
+222                      (    1) ATTGCGACTTTGGGACCGAACACGTAAAT  1 
+451                      (    1) CTTTCCTGGTACGAGAAGATAATCGATTA  1 
+442                      (    1) ATTGTTTTCGCCGTCGAGTCGCATTATCT  1 
+415                      (    1) CTTGTATTTTTTGTGCGCTGCAGCAATGG  1 
+391                      (    1) CTTTCTCGATGTGAAAACTTGCGCTAAGA  1 
+389                      (    1) ATTTCTCGCGATCCACAGGCCTGTCATTT  1 
+162                      (    1) TTTGCGGTATAGGTAAGAAGTGACCATTA  1 
+134                      (    1) CGTGACGGCAAGGAATTGGGCCGCTATGA  1 
+76                       (    1) CTTGTTCCCGACGCTCTTTGCTCTTATTC  1 
+48                       (    1) GTTGACGGTACTTGTACTAATATGTATAG  1 
+25                       (    1) CTTGATAGGTGTAGCACGGAGTGCTAGAT  1 
+156                      (    1) ATTTCCGCCTTTGTCGCGACGCGCGAAAT  1 
+90                       (    1) ATTTCGGTTCAAAGGCGCTCAGGCAATAG  1 
+58                       (    1) ATTGTGTGGGGATGTTGTTCCTGCTATGT  1 
+30                       (    1) GTTGTACGCTTCTCAAACCAATGATATGG  1 
+9                        (    1) GTTGTGCCAAATAATCAGGGCTGGCATAG  1 
+495                      (    1) CTTGACTTATTATGTTGATATCAACATTA  1 
+408                      (    1) CTTTTCTGCTTCGGCATGTCGCGCTATTC  1 
+309                      (    1) CTTTCGTTTACGGGCATCGTTAATCATAG  1 
+281                      (    1) CTTTTTCATCCTGTCCGGCTCACTCATGA  1 
+277                      (    1) CTTTTGTTTGCCGCGGCGGGCGTGTAAGT  1 
+143                      (    1) ATTCACCCCAAAACGGCAATACGCAATGA  1 
+87                       (    1) GTTGATCCGCTGCTGTCGCGTCCAAATTT  1 
+64                       (    1) ATTGCTGTTTTCGTATTTGGGCCTAATTT  1 
+504                      (    1) CTTGCGTCAATATGGGAAGAAGGATAATT  1 
+466                      (    1) CTTGACTTCGATCGATGTTCGGGAGAATG  1 
+452                      (    1) GTTGCATACATGCAGCCTGTATGTTATTG  1 
+449                      (    1) CTGGACGTACCAGAACATTGCCTCGATGA  1 
+427                      (    1) CTCGACAGCCGGAGATTTTTCGTCCATTT  1 
+422                      (    1) CTCGACAAGGTTTACGGCATTTGTCATGA  1 
+315                      (    1) CTCGACAAATATCACCGTCCCCGGTATTG  1 
+303                      (    1) TTTGCGGCGCGGGGCACTTGGATGTATTG  1 
+301                      (    1) GTTTTTGCTTGCCGGGTGTTTTGCTATGA  1 
+265                      (    1) TTTGCGCGCTATTTAATCTTGCGATATAT  1 
+262                      (    1) ATTGCGTGTTAACAGATTCTTCGCTATTG  1 
+38                       (    1) ATTGATCTGAACGATGATATAATGGATTA  1 
+34                       (    1) CGTGACAGCTACGCCAACCCGTGGCATAG  1 
+23                       (    1) GTTTTTTCTCAACAGCCAAACCGTTATAA  1 
+365                      (    1) GTTTTCACTCATAGGCAGCGGTAGTATTT  1 
+349                      (    1) CTTTCAGCCTTCATCATCTGCTTGAATGA  1 
+233                      (    1) CTTTCGAATCTTTTCGTCCGCGGCTAAGA  1 
+221                      (    1) GTTTTCTTTCGACGAAGGCTGCCGTATTT  1 
+167                      (    1) CTCGACGAGGTCGAGTTCGGCGACTATTC  1 
+163                      (    1) ATTGACGCTTGCGAAGAACAGGCGCTTAT  1 
+6                        (    1) CTTGCTCCCGATTCAGGTACTTTTTATCT  1 
+371                      (    1) TTTGTTTGCAGGCCTATAGGGTATTATGT  1 
+270                      (    1) GTTGCAACTACGCCTTGAGCCTGTCAAAA  1 
+253                      (    1) CTTGCACGGCGATTCGGCGCTACCTAGAT  1 
+200                      (    1) CTTCATATACGTCCGGCGTCCACATATGA  1 
+139                      (    1) CTTCACACTAACACATTAATGCATTATTA  1 
+491                      (    1) TTTGATTGTTGGAATTACCGGGCGAATTT  1 
+457                      (    1) ATTGGCGGCGATAGACGGTTGGTCTAAAA  1 
+59                       (    1) ATTGACTCATGTTCGCTTTGAGAACAAAT  1 
+22                       (    1) CTTGACTGTGATTCGTGGAAATGCGATTC  1 
+208                      (    1) CTTTTGATGGGACCTTAAACATTCGATAT  1 
+348                      (    1) CTAGACCGGCTGTGAGACTGACGGCATAG  1 
+260                      (    1) ATTTATGTTGGCTAATGTATCGTAAATAT  1 
+249                      (    1) TTTGATTGTGTTGTGGTCTTAAGTAATAT  1 
+446                      (    1) GTTGTAAGCCCAGGCCCTAAATGCTAGAT  1 
+352                      (    1) TTTGCCTTTTTCCGTGCGAAATCCTATCT  1 
+350                      (    1) ATTTCTCGTCCGCGACGAAGATGCTATCT  1 
+151                      (    1) CTGGACAACTCGTTGACGCTCGCCCATTA  1 
+45                       (    1) CTTGTGAAATCGTTGGCAGGACTATAAGT  1 
+481                      (    1) CTTTTAATGCCATAGGTTCGTTCCTAAAT  1 
+405                      (    1) TTTGCAGTGCGTGGGTTCGGTCTTAAAAT  1 
+231                      (    1) TTTGAACTCTCTCATTAGGTGGTTCATTG  1 
+47                       (    1) GTTGCAATTTCGAATTAGAGCAATCAAAT  1 
+21                       (    1) CTTTTTACCGATTGGTAGAATCTTTATTT  1 
+512                      (    1) GTTGCGCGGGGAAATTCTTTGATCTAAGT  1 
+496                      (    1) CTCGACATATGAATTCAGCTCACAGATAA  1 
+464                      (    1) CTTCACGCGCTTCTAGCAATCCCATAAAA  1 
+129                      (    1) GTTGACGTACTGGATAGGCAGCGGCTTAT  1 
+46                       (    1) TTTGCGGTAATGTCTCCCACCTCTGATAG  1 
+514                      (    1) ATTGGCTTTTGCGGTGCATTTTTCTATAG  1 
+374                      (    1) GTTTACTCGAAGAAGCGGTGAAGATAAAT  1 
+336                      (    1) CTCGACAGCCAATCTTTTTGAGCAAATAT  1 
+297                      (    1) ATTGTTAATTGTCTTCTTTTCGGATATGG  1 
+244                      (    1) GTTTTCCAATCTCCGAGAGCGTCGGATAG  1 
+185                      (    1) CTTTCTATCAAAATATCGCCGTTTTATTT  1 
+172                      (    1) ATTCACAAGCCGTCCTCTTTGGCCTAAAA  1 
+105                      (    1) GTTGCAATTTCAACAACCTGGTCGAATAC  1 
+61                       (    1) ATTTAACTATATTGTACTAGATAGTATAA  1 
+207                      (    1) CTTCATTCCCATGTCCGCATAGTAGATAG  1 
+131                      (    1) ATTCACTTATTTCAAATAAAGCTATATAT  1 
+35                       (    1) GTTGACGCATGTCAGGAAACATTTTAGAT  1 
+506                      (    1) CATGATTTGTGTTCTCAACATTGCTATGT  1 
+113                      (    1) TTTTATATAAGTATTGTTCCAGCTTATAT  1 
+80                       (    1) GTTGTTCAAACGTAAACCAGCTGGAATAC  1 
+68                       (    1) GTTTTACAATCATATAACTGACAGTATAA  1 
+183                      (    1) ATTTCTCTCGCGTTCATTATGTGTCATTG  1 
+69                       (    1) GTTTTTCGAGGCGTTTCCAAGAGAGATAG  1 
+62                       (    1) GTTGCAGGTTAGTCTATTTAACTATATTG  1 
+1                        (    1) CTAGACTGTCTAGCTATATAGTCCTATTT  1 
+417                      (    1) CTTGGTTTGTCCATGAAAAGAGCCTATCT  1 
+412                      (    1) TTTGATTTATTTATTGACACGGTGGATTT  1 
+187                      (    1) ATTGTGCGCTTTGTTTTTAAGCCTTAAAA  1 
+75                       (    1) CTAGACAAAAAAGGACTAGGGTAATAAAT  1 
+5                        (    1) CTTAAAATCGAAGTTCTGTCGGAACATAT  1 
+494                      (    1) CTTCATGATTTACGTTGACCGACCTAAAT  1 
+82                       (    1) GTTGACGCCGTTTAATTAAGCTGAGAATG  1 
+228                      (    1) CATGACTTTGAGTCGACCCGACCTAAAAT  1 
+122                      (    1) TTTGCACCTACGCAATGATCGTCGTAATT  1 
+44                       (    1) ATTTCCTAATCCTATATCAGATCATATAC  1 
+15                       (    1) CTAGACCGAACATCATGGCGTCAACATAG  1 
+493                      (    1) CTTTTTACCATGTCCGGTTCTTGCTATTC  1 
+368                      (    1) CTTTTTTTATGCCTTCAAACACGTTATTC  1 
+465                      (    1) GTTGACCACTGATCGCTTTGAAGGAAGAA  1 
+295                      (    1) CTGGACAGCATGATATGCGAACGATAAAA  1 
+526                      (    1) TTTGCAAAACGATTTATCCTCGATTATTC  1 
+334                      (    1) CCTGACTTTTCATGTCCGGCTGTTTATAT  1 
+121                      (    1) CTTTTCCCGAAGCGTATGATCGTCTTTAT  1 
+515                      (    1) GTTTCTTTGATGAGCCGATTCAATTATCT  1 
+308                      (    1) CTTAACAATCGGTTTACCAAATGTGATGT  1 
+226                      (    1) CATGACTATTTTGCTTTTTTCGGTAATAC  1 
+367                      (    1) ATTGTGTTTCTTACAAGGCACAATTTTAT  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 29 n= 534 bayes= -664.386 E= 2.8e-1479 
+   -30    124    -42   -198 
+  -430   -699   -602    173 
+  -489   -340   -470    170 
+  -589   -290    173    -93 
+    95     57   -370    -56 
+   -22     86    -44    -58 
+     1     19     32    -56 
+   -10      1      1      5 
+    -6     44      0    -42 
+   -33     11     49    -40 
+     3     20     21    -45 
+   -35     50     18    -47 
+   -23     22     49    -63 
+    -1     25     36    -69 
+   -23     57     -1    -46 
+   -10     31     40    -75 
+    19      1      7    -24 
+    -4     36      5    -39 
+     1     20     23    -45 
+     3      3     16    -20 
+   -32     24     39    -42 
+   -55     26     51    -46 
+   -25     12     48    -47 
+   -59     72    -20    -25 
+   -51     -2    -61     61 
+   216  -1570  -1570   -530 
+   -98  -1570   -470    157 
+    96   -282     40    -49 
+    49   -247    -49     67 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 29 nsites= 534 E= 2.8e-1479 
+ 0.179775  0.563670  0.181648  0.074906 
+ 0.011236  0.001873  0.003745  0.983146 
+ 0.007491  0.022472  0.009363  0.960674 
+ 0.003745  0.031835  0.808989  0.155431 
+ 0.428839  0.352060  0.018727  0.200375 
+ 0.191011  0.430712  0.179775  0.198502 
+ 0.222846  0.271536  0.305243  0.200375 
+ 0.207865  0.239700  0.245318  0.307116 
+ 0.213483  0.322097  0.243446  0.220974 
+ 0.176030  0.256554  0.342697  0.224719 
+ 0.226592  0.273408  0.282772  0.217228 
+ 0.174157  0.337079  0.275281  0.213483 
+ 0.189139  0.277154  0.342697  0.191011 
+ 0.220974  0.282772  0.312734  0.183521 
+ 0.189139  0.353933  0.241573  0.215356 
+ 0.207865  0.294007  0.322097  0.176030 
+ 0.252809  0.239700  0.256554  0.250936 
+ 0.215356  0.305243  0.252809  0.226592 
+ 0.222846  0.273408  0.286517  0.217228 
+ 0.226592  0.243446  0.271536  0.258427 
+ 0.177903  0.280899  0.320225  0.220974 
+ 0.151685  0.284644  0.348315  0.215356 
+ 0.187266  0.258427  0.340824  0.213483 
+ 0.147940  0.391386  0.211610  0.249064 
+ 0.155431  0.234082  0.159176  0.451311 
+ 0.992509  0.000000  0.000000  0.007491 
+ 0.112360  0.000000  0.009363  0.878277 
+ 0.432584  0.033708  0.322097  0.211610 
+ 0.312734  0.043071  0.174157  0.470037 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 regular expression
+--------------------------------------------------------------------------------
+CTTG[ACT]C[GCAT][TGCA][CGTA][GCT][GCAT][CGT][GC][GCA][CGT][GCA][GATC][CGTA][GCAT][GTCA][GCT][GCT][GCT][CTG][TC]AT[AGT][TA]
+--------------------------------------------------------------------------------
+
+
+
+
+Time 21.37 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+SUMMARY OF MOTIFS
+********************************************************************************
+
+--------------------------------------------------------------------------------
+	Combined block diagrams: non-overlapping sites with p-value < 0.0001
+--------------------------------------------------------------------------------
+SEQUENCE NAME            COMBINED P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+0                                1.08e-04  29
+1                                2.64e-03  29
+2                                3.08e-05  [+1(3.08e-05)]
+3                                4.52e-04  29
+4                                6.08e-04  29
+5                                2.84e-03  29
+6                                1.04e-03  29
+7                                6.98e-05  [+1(6.98e-05)]
+8                                2.14e-05  [+1(2.14e-05)]
+9                                8.02e-04  29
+10                               8.11e-05  [+1(8.11e-05)]
+11                               9.65e-06  [+1(9.65e-06)]
+12                               3.08e-05  [+1(3.08e-05)]
+13                               1.08e-04  29
+14                               3.67e-04  29
+15                               3.99e-03  29
+16                               9.38e-05  [+1(9.38e-05)]
+17                               5.00e-04  29
+18                               2.94e-04  29
+19                               2.07e-04  29
+20                               4.07e-04  29
+21                               1.69e-03  29
+22                               1.23e-03  29
+23                               9.57e-04  29
+24                               1.61e-04  29
+25                               7.33e-04  29
+26                               4.07e-04  29
+27                               1.08e-04  29
+28                               6.98e-05  [+1(6.98e-05)]
+29                               3.92e-06  [+1(3.92e-06)]
+30                               8.02e-04  29
+31                               9.38e-05  [+1(9.38e-05)]
+32                               2.07e-04  29
+33                               5.98e-05  [+1(5.98e-05)]
+34                               9.57e-04  29
+35                               2.29e-03  29
+36                               3.66e-05  [+1(3.66e-05)]
+37                               2.36e-07  [+1(2.36e-07)]
+38                               9.57e-04  29
+39                               3.67e-04  29
+40                               5.52e-04  29
+41                               4.33e-05  [+1(4.33e-05)]
+42                               3.08e-05  [+1(3.08e-05)]
+43                               1.83e-04  29
+44                               3.99e-03  29
+45                               1.57e-03  29
+46                               1.83e-03  29
+47                               1.69e-03  29
+48                               7.33e-04  29
+49                               5.52e-04  29
+50                               6.98e-05  [+1(6.98e-05)]
+51                               3.29e-04  29
+52                               5.10e-05  [+1(5.10e-05)]
+53                               2.94e-04  29
+54                               3.67e-04  29
+55                               3.08e-06  [+1(3.08e-06)]
+56                               5.00e-04  29
+57                               1.08e-04  29
+58                               8.02e-04  29
+59                               1.23e-03  29
+60                               5.10e-05  [+1(5.10e-05)]
+61                               1.97e-03  29
+62                               2.64e-03  29
+63                               5.10e-05  [+1(5.10e-05)]
+64                               8.77e-04  29
+65                               3.67e-04  29
+66                               6.08e-04  29
+67                               1.83e-04  29
+68                               2.46e-03  29
+69                               2.64e-03  29
+70                               5.52e-04  29
+71                               8.11e-05  [+1(8.11e-05)]
+72                               9.38e-05  [+1(9.38e-05)]
+73                               3.29e-04  29
+74                               3.66e-05  [+1(3.66e-05)]
+75                               2.84e-03  29
+76                               7.33e-04  29
+77                               3.67e-04  29
+78                               4.33e-05  [+1(4.33e-05)]
+79                               5.98e-05  [+1(5.98e-05)]
+80                               2.46e-03  29
+81                               3.92e-06  [+1(3.92e-06)]
+82                               3.26e-03  29
+83                               6.98e-05  [+1(6.98e-05)]
+84                               2.14e-05  [+1(2.14e-05)]
+85                               5.82e-08  [+1(5.82e-08)]
+86                               1.83e-04  29
+87                               8.77e-04  29
+88                               6.24e-06  [+1(6.24e-06)]
+89                               3.08e-05  [+1(3.08e-05)]
+90                               8.02e-04  29
+91                               5.52e-04  29
+92                               2.07e-04  29
+93                               4.33e-05  [+1(4.33e-05)]
+94                               2.57e-05  [+1(2.57e-05)]
+95                               3.67e-04  29
+96                               2.40e-06  [+1(2.40e-06)]
+97                               4.52e-04  29
+98                               2.40e-06  [+1(2.40e-06)]
+99                               1.83e-04  29
+100                              1.24e-04  29
+101                              4.07e-04  29
+102                              5.10e-05  [+1(5.10e-05)]
+103                              4.07e-04  29
+104                              4.07e-04  29
+105                              1.97e-03  29
+106                              6.08e-04  29
+107                              1.08e-06  [+1(1.08e-06)]
+108                              4.33e-05  [+1(4.33e-05)]
+109                              1.19e-05  [+1(1.19e-05)]
+110                              9.38e-05  [+1(9.38e-05)]
+111                              2.57e-05  [+1(2.57e-05)]
+112                              2.40e-06  [+1(2.40e-06)]
+113                              2.46e-03  29
+114                              9.65e-06  [+1(9.65e-06)]
+115                              4.33e-05  [+1(4.33e-05)]
+116                              2.57e-05  [+1(2.57e-05)]
+117                              2.57e-05  [+1(2.57e-05)]
+118                              1.42e-04  29
+119                              1.45e-05  [+1(1.45e-05)]
+120                              2.14e-05  [+1(2.14e-05)]
+121                              5.18e-03  29
+122                              3.73e-03  29
+123                              5.52e-04  29
+124                              6.08e-04  29
+125                              7.79e-06  [+1(7.79e-06)]
+126                              3.66e-05  [+1(3.66e-05)]
+127                              2.34e-04  29
+128                              1.45e-05  [+1(1.45e-05)]
+129                              1.83e-03  29
+130                              6.98e-05  [+1(6.98e-05)]
+131                              2.29e-03  29
+132                              4.07e-04  29
+133                              3.67e-04  29
+134                              7.33e-04  29
+135                              6.08e-04  29
+136                              3.66e-05  [+1(3.66e-05)]
+137                              5.98e-05  [+1(5.98e-05)]
+138                              1.83e-04  29
+139                              1.13e-03  29
+140                              9.38e-05  [+1(9.38e-05)]
+141                              8.10e-07  [+1(8.10e-07)]
+142                              4.07e-04  29
+143                              8.77e-04  29
+144                              1.42e-04  29
+145                              1.83e-04  29
+146                              2.94e-04  29
+147                              1.08e-04  29
+148                              4.33e-05  [+1(4.33e-05)]
+149                              5.98e-05  [+1(5.98e-05)]
+150                              3.92e-06  [+1(3.92e-06)]
+151                              1.57e-03  29
+152                              5.00e-04  29
+153                              2.14e-05  [+1(2.14e-05)]
+154                              3.66e-05  [+1(3.66e-05)]
+155                              5.52e-04  29
+156                              8.02e-04  29
+157                              4.07e-04  29
+158                              1.19e-05  [+1(1.19e-05)]
+159                              1.83e-04  29
+160                              1.42e-04  29
+161                              1.19e-05  [+1(1.19e-05)]
+162                              7.33e-04  29
+163                              1.04e-03  29
+164                              1.42e-04  29
+165                              3.26e-07  [+1(3.26e-07)]
+166                              5.10e-05  [+1(5.10e-05)]
+167                              1.04e-03  29
+168                              2.34e-04  29
+169                              2.94e-04  29
+170                              1.24e-04  29
+171                              6.08e-04  29
+172                              1.97e-03  29
+173                              1.61e-04  29
+174                              3.29e-04  29
+175                              7.79e-06  [+1(7.79e-06)]
+176                              5.52e-04  29
+177                              4.52e-04  29
+178                              8.11e-05  [+1(8.11e-05)]
+179                              1.61e-04  29
+180                              3.67e-04  29
+181                              1.42e-04  29
+182                              1.42e-04  29
+183                              2.64e-03  29
+184                              1.83e-04  29
+185                              1.97e-03  29
+186                              3.67e-04  29
+187                              2.84e-03  29
+188                              6.98e-05  [+1(6.98e-05)]
+189                              1.45e-05  [+1(1.45e-05)]
+190                              6.98e-05  [+1(6.98e-05)]
+191                              1.08e-04  29
+192                              9.65e-06  [+1(9.65e-06)]
+193                              2.34e-04  29
+194                              5.00e-04  29
+195                              2.94e-04  29
+196                              5.10e-05  [+1(5.10e-05)]
+197                              7.79e-06  [+1(7.79e-06)]
+198                              4.46e-07  [+1(4.46e-07)]
+199                              1.24e-04  29
+200                              1.13e-03  29
+201                              3.66e-05  [+1(3.66e-05)]
+202                              1.42e-04  29
+203                              7.79e-06  [+1(7.79e-06)]
+204                              2.07e-04  29
+205                              2.14e-05  [+1(2.14e-05)]
+206                              1.45e-05  [+1(1.45e-05)]
+207                              2.29e-03  29
+208                              1.34e-03  29
+209                              3.66e-05  [+1(3.66e-05)]
+210                              7.79e-06  [+1(7.79e-06)]
+211                              1.42e-04  29
+212                              6.04e-07  [+1(6.04e-07)]
+213                              5.10e-05  [+1(5.10e-05)]
+214                              3.66e-05  [+1(3.66e-05)]
+215                              1.45e-05  [+1(1.45e-05)]
+216                              4.97e-06  [+1(4.97e-06)]
+217                              3.08e-06  [+1(3.08e-06)]
+218                              3.66e-05  [+1(3.66e-05)]
+219                              4.33e-05  [+1(4.33e-05)]
+220                              5.98e-05  [+1(5.98e-05)]
+221                              1.04e-03  29
+222                              6.68e-04  29
+223                              3.67e-04  29
+224                              2.07e-04  29
+225                              7.79e-06  [+1(7.79e-06)]
+226                              1.12e-02  29
+227                              3.67e-04  29
+228                              3.49e-03  29
+229                              2.94e-04  29
+230                              2.57e-05  [+1(2.57e-05)]
+231                              1.69e-03  29
+232                              8.11e-05  [+1(8.11e-05)]
+233                              1.04e-03  29
+234                              1.83e-04  29
+235                              4.52e-04  29
+236                              1.19e-05  [+1(1.19e-05)]
+237                              4.97e-06  [+1(4.97e-06)]
+238                              3.08e-05  [+1(3.08e-05)]
+239                              1.77e-05  [+1(1.77e-05)]
+240                              2.34e-04  29
+241                              1.42e-04  29
+242                              4.97e-06  [+1(4.97e-06)]
+243                              3.08e-05  [+1(3.08e-05)]
+244                              1.97e-03  29
+245                              3.08e-05  [+1(3.08e-05)]
+246                              3.67e-04  29
+247                              2.94e-04  29
+248                              6.04e-07  [+1(6.04e-07)]
+249                              1.45e-03  29
+250                              2.36e-07  [+1(2.36e-07)]
+251                              6.08e-04  29
+252                              1.45e-05  [+1(1.45e-05)]
+253                              1.13e-03  29
+254                              5.98e-05  [+1(5.98e-05)]
+255                              1.83e-04  29
+256                              2.63e-04  29
+257                              1.83e-04  29
+258                              9.38e-05  [+1(9.38e-05)]
+259                              3.08e-05  [+1(3.08e-05)]
+260                              1.45e-03  29
+261                              3.66e-05  [+1(3.66e-05)]
+262                              9.57e-04  29
+263                              3.08e-05  [+1(3.08e-05)]
+264                              2.34e-04  29
+265                              9.57e-04  29
+266                              3.92e-06  [+1(3.92e-06)]
+267                              3.08e-06  [+1(3.08e-06)]
+268                              4.52e-04  29
+269                              4.07e-04  29
+270                              1.13e-03  29
+271                              1.42e-06  [+1(1.42e-06)]
+272                              6.68e-04  29
+273                              5.98e-05  [+1(5.98e-05)]
+274                              4.07e-04  29
+275                              3.08e-05  [+1(3.08e-05)]
+276                              4.07e-04  29
+277                              8.77e-04  29
+278                              3.29e-04  29
+279                              2.63e-04  29
+280                              1.83e-04  29
+281                              8.77e-04  29
+282                              1.42e-04  29
+283                              1.61e-04  29
+284                              1.42e-06  [+1(1.42e-06)]
+285                              1.61e-04  29
+286                              1.61e-04  29
+287                              1.24e-04  29
+288                              1.85e-06  [+1(1.85e-06)]
+289                              3.92e-06  [+1(3.92e-06)]
+290                              3.92e-06  [+1(3.92e-06)]
+291                              6.08e-04  29
+292                              5.98e-05  [+1(5.98e-05)]
+293                              2.63e-04  29
+294                              1.83e-04  29
+295                              4.55e-03  29
+296                              3.29e-04  29
+297                              1.97e-03  29
+298                              3.67e-04  29
+299                              2.94e-04  29
+300                              6.24e-06  [+1(6.24e-06)]
+301                              9.57e-04  29
+302                              1.08e-06  [+1(1.08e-06)]
+303                              9.57e-04  29
+304                              4.97e-06  [+1(4.97e-06)]
+305                              3.29e-04  29
+306                              3.67e-04  29
+307                              6.08e-04  29
+308                              6.25e-03  29
+309                              8.77e-04  29
+310                              3.26e-07  [+1(3.26e-07)]
+311                              7.79e-06  [+1(7.79e-06)]
+312                              1.77e-05  [+1(1.77e-05)]
+313                              1.08e-06  [+1(1.08e-06)]
+314                              6.24e-06  [+1(6.24e-06)]
+315                              9.57e-04  29
+316                              3.08e-05  [+1(3.08e-05)]
+317                              1.42e-04  29
+318                              7.79e-06  [+1(7.79e-06)]
+319                              8.11e-05  [+1(8.11e-05)]
+320                              3.08e-05  [+1(3.08e-05)]
+321                              3.08e-05  [+1(3.08e-05)]
+322                              3.08e-05  [+1(3.08e-05)]
+323                              4.97e-06  [+1(4.97e-06)]
+324                              5.10e-05  [+1(5.10e-05)]
+325                              6.68e-04  29
+326                              3.67e-04  29
+327                              1.42e-04  29
+328                              9.38e-05  [+1(9.38e-05)]
+329                              4.33e-05  [+1(4.33e-05)]
+330                              8.11e-05  [+1(8.11e-05)]
+331                              1.42e-06  [+1(1.42e-06)]
+332                              1.19e-05  [+1(1.19e-05)]
+333                              3.29e-04  29
+334                              4.86e-03  29
+335                              5.98e-05  [+1(5.98e-05)]
+336                              1.97e-03  29
+337                              3.92e-06  [+1(3.92e-06)]
+338                              1.83e-04  29
+339                              8.10e-07  [+1(8.10e-07)]
+340                              4.97e-06  [+1(4.97e-06)]
+341                              1.42e-06  [+1(1.42e-06)]
+342                              5.00e-04  29
+343                              9.38e-05  [+1(9.38e-05)]
+344                              2.57e-05  [+1(2.57e-05)]
+345                              9.65e-06  [+1(9.65e-06)]
+346                              1.83e-04  29
+347                              3.67e-04  29
+348                              1.45e-03  29
+349                              1.04e-03  29
+350                              1.57e-03  29
+351                              5.10e-05  [+1(5.10e-05)]
+352                              1.57e-03  29
+353                              1.61e-04  29
+354                              1.24e-04  29
+355                              3.67e-04  29
+356                              9.38e-05  [+1(9.38e-05)]
+357                              1.08e-06  [+1(1.08e-06)]
+358                              2.07e-04  29
+359                              9.38e-05  [+1(9.38e-05)]
+360                              3.29e-04  29
+361                              3.29e-04  29
+362                              3.08e-06  [+1(3.08e-06)]
+363                              1.69e-07  [+1(1.69e-07)]
+364                              9.65e-06  [+1(9.65e-06)]
+365                              1.04e-03  29
+366                              1.42e-04  29
+367                              1.53e-02  29
+368                              4.27e-03  29
+369                              4.33e-05  [+1(4.33e-05)]
+370                              8.11e-05  [+1(8.11e-05)]
+371                              1.13e-03  29
+372                              4.33e-05  [+1(4.33e-05)]
+373                              5.98e-05  [+1(5.98e-05)]
+374                              1.97e-03  29
+375                              5.52e-04  29
+376                              4.97e-06  [+1(4.97e-06)]
+377                              4.46e-07  [+1(4.46e-07)]
+378                              1.77e-05  [+1(1.77e-05)]
+379                              4.07e-04  29
+380                              3.29e-04  29
+381                              1.83e-04  29
+382                              5.52e-04  29
+383                              2.63e-04  29
+384                              3.92e-06  [+1(3.92e-06)]
+385                              2.34e-04  29
+386                              3.08e-05  [+1(3.08e-05)]
+387                              5.98e-05  [+1(5.98e-05)]
+388                              1.77e-05  [+1(1.77e-05)]
+389                              7.33e-04  29
+390                              5.00e-04  29
+391                              7.33e-04  29
+392                              2.07e-04  29
+393                              9.38e-05  [+1(9.38e-05)]
+394                              8.11e-05  [+1(8.11e-05)]
+395                              9.38e-05  [+1(9.38e-05)]
+396                              6.68e-04  29
+397                              1.42e-04  29
+398                              5.00e-04  29
+399                              4.07e-04  29
+400                              1.45e-05  [+1(1.45e-05)]
+401                              4.33e-05  [+1(4.33e-05)]
+402                              1.85e-06  [+1(1.85e-06)]
+403                              4.52e-04  29
+404                              1.42e-06  [+1(1.42e-06)]
+405                              1.69e-03  29
+406                              1.77e-05  [+1(1.77e-05)]
+407                              8.10e-07  [+1(8.10e-07)]
+408                              8.77e-04  29
+409                              1.08e-04  29
+410                              6.08e-04  29
+411                              2.57e-05  [+1(2.57e-05)]
+412                              2.84e-03  29
+413                              2.14e-05  [+1(2.14e-05)]
+414                              7.79e-06  [+1(7.79e-06)]
+415                              7.33e-04  29
+416                              6.24e-06  [+1(6.24e-06)]
+417                              2.84e-03  29
+418                              5.52e-04  29
+419                              4.07e-04  29
+420                              5.52e-04  29
+421                              1.42e-04  29
+422                              9.57e-04  29
+423                              1.42e-04  29
+424                              1.08e-04  29
+425                              1.45e-05  [+1(1.45e-05)]
+426                              4.52e-04  29
+427                              9.57e-04  29
+428                              3.98e-08  [+1(3.98e-08)]
+429                              2.14e-05  [+1(2.14e-05)]
+430                              3.66e-05  [+1(3.66e-05)]
+431                              8.11e-05  [+1(8.11e-05)]
+432                              3.67e-04  29
+433                              2.57e-05  [+1(2.57e-05)]
+434                              4.33e-05  [+1(4.33e-05)]
+435                              3.26e-07  [+1(3.26e-07)]
+436                              3.29e-04  29
+437                              1.77e-05  [+1(1.77e-05)]
+438                              8.10e-07  [+1(8.10e-07)]
+439                              5.98e-05  [+1(5.98e-05)]
+440                              1.42e-04  29
+441                              8.11e-05  [+1(8.11e-05)]
+442                              7.33e-04  29
+443                              3.29e-04  29
+444                              4.07e-04  29
+445                              2.07e-04  29
+446                              1.57e-03  29
+447                              3.66e-05  [+1(3.66e-05)]
+448                              1.19e-05  [+1(1.19e-05)]
+449                              9.57e-04  29
+450                              5.00e-04  29
+451                              7.33e-04  29
+452                              9.57e-04  29
+453                              1.08e-06  [+1(1.08e-06)]
+454                              5.98e-05  [+1(5.98e-05)]
+455                              1.42e-06  [+1(1.42e-06)]
+456                              1.24e-04  29
+457                              1.23e-03  29
+458                              5.98e-05  [+1(5.98e-05)]
+459                              1.42e-06  [+1(1.42e-06)]
+460                              5.10e-05  [+1(5.10e-05)]
+461                              1.24e-04  29
+462                              3.29e-04  29
+463                              3.29e-04  29
+464                              1.83e-03  29
+465                              4.55e-03  29
+466                              9.57e-04  29
+467                              5.52e-04  29
+468                              2.57e-05  [+1(2.57e-05)]
+469                              1.85e-06  [+1(1.85e-06)]
+470                              2.34e-04  29
+471                              4.33e-05  [+1(4.33e-05)]
+472                              3.08e-05  [+1(3.08e-05)]
+473                              4.46e-07  [+1(4.46e-07)]
+474                              1.08e-04  29
+475                              2.63e-04  29
+476                              1.42e-04  29
+477                              2.07e-04  29
+478                              1.42e-04  29
+479                              1.83e-04  29
+480                              6.68e-04  29
+481                              1.69e-03  29
+482                              1.19e-05  [+1(1.19e-05)]
+483                              9.38e-05  [+1(9.38e-05)]
+484                              6.24e-06  [+1(6.24e-06)]
+485                              9.38e-05  [+1(9.38e-05)]
+486                              2.34e-04  29
+487                              2.94e-04  29
+488                              2.34e-04  29
+489                              1.19e-05  [+1(1.19e-05)]
+490                              8.11e-05  [+1(8.11e-05)]
+491                              1.23e-03  29
+492                              1.85e-06  [+1(1.85e-06)]
+493                              4.27e-03  29
+494                              3.26e-03  29
+495                              8.77e-04  29
+496                              1.83e-03  29
+497                              4.33e-05  [+1(4.33e-05)]
+498                              4.33e-05  [+1(4.33e-05)]
+499                              1.24e-04  29
+500                              1.19e-05  [+1(1.19e-05)]
+501                              3.66e-05  [+1(3.66e-05)]
+502                              4.52e-04  29
+503                              3.66e-05  [+1(3.66e-05)]
+504                              9.57e-04  29
+505                              8.11e-05  [+1(8.11e-05)]
+506                              2.46e-03  29
+507                              5.52e-04  29
+508                              4.07e-04  29
+509                              2.57e-05  [+1(2.57e-05)]
+510                              5.00e-04  29
+511                              5.10e-05  [+1(5.10e-05)]
+512                              1.83e-03  29
+513                              4.52e-04  29
+514                              1.97e-03  29
+515                              5.52e-03  29
+516                              9.38e-05  [+1(9.38e-05)]
+517                              2.63e-04  29
+518                              5.52e-04  29
+519                              6.68e-04  29
+520                              1.08e-06  [+1(1.08e-06)]
+521                              2.63e-04  29
+522                              8.11e-05  [+1(8.11e-05)]
+523                              5.98e-05  [+1(5.98e-05)]
+524                              2.94e-04  29
+525                              1.83e-04  29
+526                              4.86e-03  29
+527                              6.98e-05  [+1(6.98e-05)]
+528                              1.77e-05  [+1(1.77e-05)]
+529                              1.77e-05  [+1(1.77e-05)]
+530                              4.52e-04  29
+531                              7.79e-06  [+1(7.79e-06)]
+532                              2.57e-05  [+1(2.57e-05)]
+533                              4.52e-04  29
+--------------------------------------------------------------------------------
+
+********************************************************************************
+
+
+********************************************************************************
+Stopped because nmotifs = 1 reached.
+********************************************************************************
+
+CPU: bazzilab
+
+********************************************************************************

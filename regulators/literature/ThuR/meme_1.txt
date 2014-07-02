@@ -1,0 +1,453 @@
+********************************************************************************
+MEME - Motif discovery tool
+********************************************************************************
+MEME version 4.9.0 (Release date: Wed Oct  3 11:07:26 EST 2012)
+
+For further information on how to interpret these results or to get
+a copy of the MEME software please access http://meme.nbcr.net.
+
+This file may be used as input to the MAST algorithm for searching
+sequence databases for matches to groups of motifs.  MAST is available
+for interactive use and downloading at http://meme.nbcr.net.
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey and Charles Elkan,
+"Fitting a mixture model by expectation maximization to discover
+motifs in biopolymers", Proceedings of the Second International
+Conference on Intelligent Systems for Molecular Biology, pp. 28-36,
+AAAI Press, Menlo Park, California, 1994.
+********************************************************************************
+
+
+********************************************************************************
+TRAINING SET
+********************************************************************************
+DATAFILE= input.fa
+ALPHABET= ACGT
+Sequence name            Weight Length  Sequence name            Weight Length  
+-------------            ------ ------  -------------            ------ ------  
+AGR_C_1045_1             1.0000     20  BruAb2_0879              1.0000     20  
+mll5113_1                1.0000     20  BMEII0945_1              1.0000     20  
+BruAb2_0877              1.0000     20  thuR                     1.0000     20  
+thuE_1                   1.0000     20  AGR_L_2970_1             1.0000     20  
+mll3105                  1.0000     20  AGR_L_2966               1.0000     20  
+mlr5115_1                1.0000     20  TM1040_3308              1.0000     20  
+BruAb2_0877_1            1.0000     20  BRA0304_1                1.0000     20  
+BMEII0946                1.0000     20  BMEII0945                1.0000     20  
+Meso_2855                1.0000     20  TM1040_3307              1.0000     20  
+BruAb2_0879_1            1.0000     20  BRA0302_1                1.0000     20  
+BRA0302                  1.0000     20  BRA0304                  1.0000     20  
+RHE_CH00695              1.0000     20  mll5113                  1.0000     20  
+AGR_L_2966_1             1.0000     20  thuE                     1.0000     20  
+AGR_C_1043_1             1.0000     20  Jann_1946_1              1.0000     20  
+AGR_L_770                1.0000     20  RHE_CH00695_1            1.0000     20  
+RHE_CH03256              1.0000     20  Jann_1945_1              1.0000     20  
+RHE_PF00211_1            1.0000     20  AGR_C_1045               1.0000     20  
+Jann_1945                1.0000     20  AGR_C_1043               1.0000     20  
+Jann_1946                1.0000     20  RHE_PF00210_1            1.0000     20  
+AGR_L_2970               1.0000     20  TM1040_3307_1            1.0000     20  
+aglE                     1.0000     20  RHE_CH00696              1.0000     20  
+TM1040_3308_1            1.0000     20  Meso_2854_1              1.0000     20  
+RHE_CH00696_1            1.0000     20  aglE_1                   1.0000     20  
+aglR_1                   1.0000     20  Meso_2855_1              1.0000     20  
+mll5109                  1.0000     20  BMEII0946_1              1.0000     20  
+Meso_2854                1.0000     20  aglR                     1.0000     20  
+mlr5115                  1.0000     20  thuR_1                   1.0000     20  
+RHE_PF00210              1.0000     20  RHE_PF00211              1.0000     20  
+********************************************************************************
+
+********************************************************************************
+COMMAND LINE SUMMARY
+********************************************************************************
+This information can also be useful in the event you wish to report a
+problem with the MEME software.
+
+command: meme -dna input.fa -mod oops -w 20 
+
+model:  mod=          oops    nmotifs=         1    evt=           inf
+object function=  E-value of product of p-values
+width:  minw=           20    maxw=           20    minic=        0.00
+width:  wg=             11    ws=              1    endgaps=       yes
+nsites: minsites=       56    maxsites=       56    wnsites=       0.8
+theta:  prob=            1    spmap=         uni    spfuzz=        0.5
+global: substring=     yes    branching=      no    wbranch=        no
+em:     prior=   dirichlet    b=            0.01    maxiter=        50
+        distance=    1e-05
+data:   n=            1120    N=              56
+strands: +
+sample: seed=            0    seqfrac=         1
+Letter frequencies in dataset:
+A 0.304 C 0.195 G 0.196 T 0.306 
+Background letter frequencies (from dataset with add-one prior applied):
+A 0.303 C 0.195 G 0.196 T 0.306 
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  1	width =   20   sites =  56   llr = 854   E-value = 3.7e-319
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 1 Description
+--------------------------------------------------------------------------------
+Simplified        A  46::1aaa1::1:::16722
+pos.-specific     C  21247:::1a:7:::2:111
+probability       G  111:2:::6:a1:::74212
+matrix            T  32751:::1::1aaa1::65
+
+         bits    2.4          **         
+                 2.1          **         
+                 1.9          **         
+                 1.7      *** ** ***     
+Relative         1.4      *** ** ***     
+Entropy          1.2      *** ** ***     
+(22.0 bits)      0.9    ***** ** *****   
+                 0.7   ****************  
+                 0.5   ****************  
+                 0.2  ****************** 
+                 0.0 --------------------
+
+Multilevel           AATTCAAAGCGCTTTGAATT
+consensus            TT CG          CG AA
+sequence             C                  G
+                                         
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name             Start   P-value                    Site      
+-------------             ----- ---------            --------------------
+aglR_1                        1  1.68e-10          . CATTCAAAGCGCTTTGAGTT           
+aglE                          1  2.04e-10          . AACTCAAAGCGCTTTGAATG           
+RHE_CH03256                   1  2.95e-10          . TTTCCAAAGCGCTTTGAATT           
+aglR                          1  4.13e-10          . TATTCAAAGCGCTTTGGAAG           
+aglE_1                        1  5.93e-10          . CTTCCAAAGCGCTTTGAATA           
+mll3105                       1  1.37e-09          . TATTCAAAGCGCTTTGGAGG           
+mlr5115_1                     1  3.35e-09          . CTTCCAAAGCGCTTTGGCTT           
+Meso_2854                     1  3.85e-09          . TGTCCAAAGCGCTTTGAACG           
+mll5113                       1  3.85e-09          . AAGCCAAAGCGCTTTGGAAG           
+Meso_2855_1                   1  4.50e-09          . CGTTCAAAGCGCTTTGGACA           
+AGR_L_770                     1  5.89e-09          . CATGCAAAGCGCTTTGGACT           
+BRA0302                       1  6.67e-09          . GATTGAAAGCGGTTTGGATT           
+BMEII0946                     1  6.67e-09          . GATTGAAAGCGGTTTGGATT           
+BRA0304_1                     1  6.67e-09          . AATCCAAACCGCTTTCAATC           
+BruAb2_0877_1                 1  6.67e-09          . AATCCAAACCGCTTTCAATC           
+BMEII0945_1                   1  6.67e-09          . AATCCAAACCGCTTTCAATC           
+BruAb2_0879                   1  6.67e-09          . GATTGAAAGCGGTTTGGATT           
+Jann_1945_1                   1  1.11e-08          . TTTTCAAAGCGCTTTGGGGT           
+TM1040_3308_1                 1  1.79e-08          . GATTCAAAGCGCTTTGATTG           
+Jann_1946                     1  1.79e-08          . ACCCCAAAGCGCTTTGAAAA           
+TM1040_3307                   1  1.79e-08          . CAATCAAAGCGCTTTGAATC           
+Meso_2855                     1  1.79e-08          . TTCTCAAAGCGCTTTGAGCT           
+Meso_2854_1                   1  2.82e-08          . AGCTCAAAGCGCTTTGAGAA           
+Jann_1945                     1  3.12e-08          . AATTCCAAGCGCTTTGAAAG           
+Jann_1946_1                   1  3.12e-08          . CTTTCAAAGCGCTTGGAATT           
+AGR_L_2970_1                  1  3.50e-08          . AATTGAAAGCGCTTTTGACT           
+AGR_C_1045_1                  1  3.87e-08          . TTCCCAAAGCGCTTTAGATT           
+RHE_CH00696                   1  4.32e-08          . GTGTCAAAGCGCTTTGAAAT           
+AGR_C_1043                    1  4.32e-08          . AATCTAAAGCGCTTTGGGAA           
+RHE_CH00695_1                 1  4.32e-08          . ATTTCAAAGCGCTTTGACAC           
+RHE_CH00695                   1  4.79e-08          . AATTAAAAGCGCTTTGAGCG           
+AGR_L_2966                    1  4.79e-08          . AGTCAAAAGCGCTTTCAATT           
+RHE_CH00696_1                 1  5.88e-08          . CGCTCAAAGCGCTTTTAATT           
+AGR_C_1045                    1  8.59e-08          . TAGCCAAAGCGCTTTGATTG           
+AGR_C_1043_1                  1  8.59e-08          . CAATCAAAGCGCTTTGGCTA           
+BRA0304                       1  8.59e-08          . TACCCAAACCGTTTTCGATT           
+BMEII0945                     1  8.59e-08          . TACCCAAACCGTTTTCGATT           
+BruAb2_0877                   1  8.59e-08          . TACCCAAACCGTTTTCGATT           
+BMEII0946_1                   1  1.14e-07          . AATCGAAAACGGTTTGGGTA           
+BRA0302_1                     1  1.14e-07          . AATCGAAAACGGTTTGGGTA           
+BruAb2_0879_1                 1  1.14e-07          . AATCGAAAACGGTTTGGGTA           
+TM1040_3308                   1  1.37e-07          . TTTTTAAAGCGCTTTGGAGG           
+TM1040_3307_1                 1  1.77e-07          . CCTCCAAAGCGCTTTAAAAA           
+AGR_L_2970                    1  1.77e-07          . AATTGAAATCGTTTTCAATT           
+RHE_PF00210_1                 1  1.77e-07          . AATTGAAATCGATTTCAATT           
+RHE_PF00211_1                 1  1.77e-07          . AATTGAAATCGATTTCAATT           
+AGR_L_2966_1                  1  1.77e-07          . AATTGAAAACGATTTCAATT           
+thuE                          1  1.92e-07          . TACCCAAACCGTTTTCGAAT           
+mlr5115                       1  2.09e-07          . ATTTAAAAGCGCTTTGAGGG           
+mll5113_1                     1  2.27e-07          . CCCTCAAAGCGCTTTTAAAT           
+RHE_PF00211                   1  2.68e-07          . AATTGAAATCGATTTGGACA           
+thuR_1                        1  2.68e-07          . ATTCGAAAACGGTTTGGGTA           
+RHE_PF00210                   1  2.90e-07          . TGTCCAAATCGATTTCAATT           
+thuE_1                        1  6.10e-07          . GATCCAAATCGTTTTAAATT           
+thuR                          1  6.55e-07          . AATTTAAAACGATTTGGATC           
+mll5109                       1  1.18e-06          . CATGCAATCCGCTTTGAAAG           
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+aglR_1                            1.7e-10  [+1]
+aglE                                2e-10  [+1]
+RHE_CH03256                         3e-10  [+1]
+aglR                              4.1e-10  [+1]
+aglE_1                            5.9e-10  [+1]
+mll3105                           1.4e-09  [+1]
+mlr5115_1                         3.3e-09  [+1]
+Meso_2854                         3.9e-09  [+1]
+mll5113                           3.9e-09  [+1]
+Meso_2855_1                       4.5e-09  [+1]
+AGR_L_770                         5.9e-09  [+1]
+BRA0302                           6.7e-09  [+1]
+BMEII0946                         6.7e-09  [+1]
+BRA0304_1                         6.7e-09  [+1]
+BruAb2_0877_1                     6.7e-09  [+1]
+BMEII0945_1                       6.7e-09  [+1]
+BruAb2_0879                       6.7e-09  [+1]
+Jann_1945_1                       1.1e-08  [+1]
+TM1040_3308_1                     1.8e-08  [+1]
+Jann_1946                         1.8e-08  [+1]
+TM1040_3307                       1.8e-08  [+1]
+Meso_2855                         1.8e-08  [+1]
+Meso_2854_1                       2.8e-08  [+1]
+Jann_1945                         3.1e-08  [+1]
+Jann_1946_1                       3.1e-08  [+1]
+AGR_L_2970_1                      3.5e-08  [+1]
+AGR_C_1045_1                      3.9e-08  [+1]
+RHE_CH00696                       4.3e-08  [+1]
+AGR_C_1043                        4.3e-08  [+1]
+RHE_CH00695_1                     4.3e-08  [+1]
+RHE_CH00695                       4.8e-08  [+1]
+AGR_L_2966                        4.8e-08  [+1]
+RHE_CH00696_1                     5.9e-08  [+1]
+AGR_C_1045                        8.6e-08  [+1]
+AGR_C_1043_1                      8.6e-08  [+1]
+BRA0304                           8.6e-08  [+1]
+BMEII0945                         8.6e-08  [+1]
+BruAb2_0877                       8.6e-08  [+1]
+BMEII0946_1                       1.1e-07  [+1]
+BRA0302_1                         1.1e-07  [+1]
+BruAb2_0879_1                     1.1e-07  [+1]
+TM1040_3308                       1.4e-07  [+1]
+TM1040_3307_1                     1.8e-07  [+1]
+AGR_L_2970                        1.8e-07  [+1]
+RHE_PF00210_1                     1.8e-07  [+1]
+RHE_PF00211_1                     1.8e-07  [+1]
+AGR_L_2966_1                      1.8e-07  [+1]
+thuE                              1.9e-07  [+1]
+mlr5115                           2.1e-07  [+1]
+mll5113_1                         2.3e-07  [+1]
+RHE_PF00211                       2.7e-07  [+1]
+thuR_1                            2.7e-07  [+1]
+RHE_PF00210                       2.9e-07  [+1]
+thuE_1                            6.1e-07  [+1]
+thuR                              6.6e-07  [+1]
+mll5109                           1.2e-06  [+1]
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 1 width=20 seqs=56
+aglR_1                   (    1) CATTCAAAGCGCTTTGAGTT  1 
+aglE                     (    1) AACTCAAAGCGCTTTGAATG  1 
+RHE_CH03256              (    1) TTTCCAAAGCGCTTTGAATT  1 
+aglR                     (    1) TATTCAAAGCGCTTTGGAAG  1 
+aglE_1                   (    1) CTTCCAAAGCGCTTTGAATA  1 
+mll3105                  (    1) TATTCAAAGCGCTTTGGAGG  1 
+mlr5115_1                (    1) CTTCCAAAGCGCTTTGGCTT  1 
+Meso_2854                (    1) TGTCCAAAGCGCTTTGAACG  1 
+mll5113                  (    1) AAGCCAAAGCGCTTTGGAAG  1 
+Meso_2855_1              (    1) CGTTCAAAGCGCTTTGGACA  1 
+AGR_L_770                (    1) CATGCAAAGCGCTTTGGACT  1 
+BRA0302                  (    1) GATTGAAAGCGGTTTGGATT  1 
+BMEII0946                (    1) GATTGAAAGCGGTTTGGATT  1 
+BRA0304_1                (    1) AATCCAAACCGCTTTCAATC  1 
+BruAb2_0877_1            (    1) AATCCAAACCGCTTTCAATC  1 
+BMEII0945_1              (    1) AATCCAAACCGCTTTCAATC  1 
+BruAb2_0879              (    1) GATTGAAAGCGGTTTGGATT  1 
+Jann_1945_1              (    1) TTTTCAAAGCGCTTTGGGGT  1 
+TM1040_3308_1            (    1) GATTCAAAGCGCTTTGATTG  1 
+Jann_1946                (    1) ACCCCAAAGCGCTTTGAAAA  1 
+TM1040_3307              (    1) CAATCAAAGCGCTTTGAATC  1 
+Meso_2855                (    1) TTCTCAAAGCGCTTTGAGCT  1 
+Meso_2854_1              (    1) AGCTCAAAGCGCTTTGAGAA  1 
+Jann_1945                (    1) AATTCCAAGCGCTTTGAAAG  1 
+Jann_1946_1              (    1) CTTTCAAAGCGCTTGGAATT  1 
+AGR_L_2970_1             (    1) AATTGAAAGCGCTTTTGACT  1 
+AGR_C_1045_1             (    1) TTCCCAAAGCGCTTTAGATT  1 
+RHE_CH00696              (    1) GTGTCAAAGCGCTTTGAAAT  1 
+AGR_C_1043               (    1) AATCTAAAGCGCTTTGGGAA  1 
+RHE_CH00695_1            (    1) ATTTCAAAGCGCTTTGACAC  1 
+RHE_CH00695              (    1) AATTAAAAGCGCTTTGAGCG  1 
+AGR_L_2966               (    1) AGTCAAAAGCGCTTTCAATT  1 
+RHE_CH00696_1            (    1) CGCTCAAAGCGCTTTTAATT  1 
+AGR_C_1045               (    1) TAGCCAAAGCGCTTTGATTG  1 
+AGR_C_1043_1             (    1) CAATCAAAGCGCTTTGGCTA  1 
+BRA0304                  (    1) TACCCAAACCGTTTTCGATT  1 
+BMEII0945                (    1) TACCCAAACCGTTTTCGATT  1 
+BruAb2_0877              (    1) TACCCAAACCGTTTTCGATT  1 
+BMEII0946_1              (    1) AATCGAAAACGGTTTGGGTA  1 
+BRA0302_1                (    1) AATCGAAAACGGTTTGGGTA  1 
+BruAb2_0879_1            (    1) AATCGAAAACGGTTTGGGTA  1 
+TM1040_3308              (    1) TTTTTAAAGCGCTTTGGAGG  1 
+TM1040_3307_1            (    1) CCTCCAAAGCGCTTTAAAAA  1 
+AGR_L_2970               (    1) AATTGAAATCGTTTTCAATT  1 
+RHE_PF00210_1            (    1) AATTGAAATCGATTTCAATT  1 
+RHE_PF00211_1            (    1) AATTGAAATCGATTTCAATT  1 
+AGR_L_2966_1             (    1) AATTGAAAACGATTTCAATT  1 
+thuE                     (    1) TACCCAAACCGTTTTCGAAT  1 
+mlr5115                  (    1) ATTTAAAAGCGCTTTGAGGG  1 
+mll5113_1                (    1) CCCTCAAAGCGCTTTTAAAT  1 
+RHE_PF00211              (    1) AATTGAAATCGATTTGGACA  1 
+thuR_1                   (    1) ATTCGAAAACGGTTTGGGTA  1 
+RHE_PF00210              (    1) TGTCCAAATCGATTTCAATT  1 
+thuE_1                   (    1) GATCCAAATCGTTTTAAATT  1 
+thuR                     (    1) AATTTAAAACGATTTGGATC  1 
+mll5109                  (    1) CATGCAATCCGCTTTGAAAG  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 20 n= 56 bayes= -664.386 E= 3.7e-319 
+    50     14    -87    -29 
+   104   -186    -87    -51 
+  -308      1   -187    122 
+ -1245    114   -245     81 
+  -250    176     25   -251 
+   169   -345  -1245  -1245 
+   172  -1245  -1245  -1245 
+   169  -1245  -1245   -410 
+  -150    -45    172   -151 
+ -1245    236  -1245  -1245 
+ -1245  -1245    235  -1245 
+  -150    176    -65   -151 
+ -1245  -1245  -1245    171 
+ -1245  -1245  -1245    171 
+ -1245  -1245   -345    168 
+  -250     25    175   -251 
+    87  -1245    119  -1245 
+   124   -186      1   -310 
+   -50    -64   -145     95 
+   -50    -86     13     60 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 20 nsites= 56 E= 3.7e-319 
+ 0.428571  0.214286  0.107143  0.250000 
+ 0.625000  0.053571  0.107143  0.214286 
+ 0.035714  0.196429  0.053571  0.714286 
+ 0.000000  0.428571  0.035714  0.535714 
+ 0.053571  0.660714  0.232143  0.053571 
+ 0.982143  0.017857  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.982143  0.000000  0.000000  0.017857 
+ 0.107143  0.142857  0.642857  0.107143 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.107143  0.660714  0.125000  0.107143 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  0.000000  0.017857  0.982143 
+ 0.053571  0.232143  0.660714  0.053571 
+ 0.553571  0.000000  0.446429  0.000000 
+ 0.714286  0.053571  0.196429  0.035714 
+ 0.214286  0.125000  0.071429  0.589286 
+ 0.214286  0.107143  0.214286  0.464286 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 regular expression
+--------------------------------------------------------------------------------
+[ATC][AT]T[TC][CG]AAAGCGCTTT[GC][AG]A[TA][TAG]
+--------------------------------------------------------------------------------
+
+
+
+
+Time  0.04 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+SUMMARY OF MOTIFS
+********************************************************************************
+
+--------------------------------------------------------------------------------
+	Combined block diagrams: non-overlapping sites with p-value < 0.0001
+--------------------------------------------------------------------------------
+SEQUENCE NAME            COMBINED P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+AGR_C_1045_1                     3.87e-08  [+1(3.87e-08)]
+BruAb2_0879                      6.67e-09  [+1(6.67e-09)]
+mll5113_1                        2.27e-07  [+1(2.27e-07)]
+BMEII0945_1                      6.67e-09  [+1(6.67e-09)]
+BruAb2_0877                      8.59e-08  [+1(8.59e-08)]
+thuR                             6.55e-07  [+1(6.55e-07)]
+thuE_1                           6.10e-07  [+1(6.10e-07)]
+AGR_L_2970_1                     3.50e-08  [+1(3.50e-08)]
+mll3105                          1.37e-09  [+1(1.37e-09)]
+AGR_L_2966                       4.79e-08  [+1(4.79e-08)]
+mlr5115_1                        3.35e-09  [+1(3.35e-09)]
+TM1040_3308                      1.37e-07  [+1(1.37e-07)]
+BruAb2_0877_1                    6.67e-09  [+1(6.67e-09)]
+BRA0304_1                        6.67e-09  [+1(6.67e-09)]
+BMEII0946                        6.67e-09  [+1(6.67e-09)]
+BMEII0945                        8.59e-08  [+1(8.59e-08)]
+Meso_2855                        1.79e-08  [+1(1.79e-08)]
+TM1040_3307                      1.79e-08  [+1(1.79e-08)]
+BruAb2_0879_1                    1.14e-07  [+1(1.14e-07)]
+BRA0302_1                        1.14e-07  [+1(1.14e-07)]
+BRA0302                          6.67e-09  [+1(6.67e-09)]
+BRA0304                          8.59e-08  [+1(8.59e-08)]
+RHE_CH00695                      4.79e-08  [+1(4.79e-08)]
+mll5113                          3.85e-09  [+1(3.85e-09)]
+AGR_L_2966_1                     1.77e-07  [+1(1.77e-07)]
+thuE                             1.92e-07  [+1(1.92e-07)]
+AGR_C_1043_1                     8.59e-08  [+1(8.59e-08)]
+Jann_1946_1                      3.12e-08  [+1(3.12e-08)]
+AGR_L_770                        5.89e-09  [+1(5.89e-09)]
+RHE_CH00695_1                    4.32e-08  [+1(4.32e-08)]
+RHE_CH03256                      2.95e-10  [+1(2.95e-10)]
+Jann_1945_1                      1.11e-08  [+1(1.11e-08)]
+RHE_PF00211_1                    1.77e-07  [+1(1.77e-07)]
+AGR_C_1045                       8.59e-08  [+1(8.59e-08)]
+Jann_1945                        3.12e-08  [+1(3.12e-08)]
+AGR_C_1043                       4.32e-08  [+1(4.32e-08)]
+Jann_1946                        1.79e-08  [+1(1.79e-08)]
+RHE_PF00210_1                    1.77e-07  [+1(1.77e-07)]
+AGR_L_2970                       1.77e-07  [+1(1.77e-07)]
+TM1040_3307_1                    1.77e-07  [+1(1.77e-07)]
+aglE                             2.04e-10  [+1(2.04e-10)]
+RHE_CH00696                      4.32e-08  [+1(4.32e-08)]
+TM1040_3308_1                    1.79e-08  [+1(1.79e-08)]
+Meso_2854_1                      2.82e-08  [+1(2.82e-08)]
+RHE_CH00696_1                    5.88e-08  [+1(5.88e-08)]
+aglE_1                           5.93e-10  [+1(5.93e-10)]
+aglR_1                           1.68e-10  [+1(1.68e-10)]
+Meso_2855_1                      4.50e-09  [+1(4.50e-09)]
+mll5109                          1.18e-06  [+1(1.18e-06)]
+BMEII0946_1                      1.14e-07  [+1(1.14e-07)]
+Meso_2854                        3.85e-09  [+1(3.85e-09)]
+aglR                             4.13e-10  [+1(4.13e-10)]
+mlr5115                          2.09e-07  [+1(2.09e-07)]
+thuR_1                           2.68e-07  [+1(2.68e-07)]
+RHE_PF00210                      2.90e-07  [+1(2.90e-07)]
+RHE_PF00211                      2.68e-07  [+1(2.68e-07)]
+--------------------------------------------------------------------------------
+
+********************************************************************************
+
+
+********************************************************************************
+Stopped because nmotifs = 1 reached.
+********************************************************************************
+
+CPU: bazzilab
+
+********************************************************************************

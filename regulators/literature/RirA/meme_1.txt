@@ -1,0 +1,1062 @@
+********************************************************************************
+MEME - Motif discovery tool
+********************************************************************************
+MEME version 4.9.0 (Release date: Wed Oct  3 11:07:26 EST 2012)
+
+For further information on how to interpret these results or to get
+a copy of the MEME software please access http://meme.nbcr.net.
+
+This file may be used as input to the MAST algorithm for searching
+sequence databases for matches to groups of motifs.  MAST is available
+for interactive use and downloading at http://meme.nbcr.net.
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey and Charles Elkan,
+"Fitting a mixture model by expectation maximization to discover
+motifs in biopolymers", Proceedings of the Second International
+Conference on Intelligent Systems for Molecular Biology, pp. 28-36,
+AAAI Press, Menlo Park, California, 1994.
+********************************************************************************
+
+
+********************************************************************************
+TRAINING SET
+********************************************************************************
+DATAFILE= input3.fa
+ALPHABET= ACGT
+Sequence name            Weight Length  Sequence name            Weight Length  
+-------------            ------ ------  -------------            ------ ------  
+RL2582                   1.0000    145  RL2580                   1.0000     84  
+RL2583                   1.0000    218  Smed_3020                1.0000    245  
+RL2616                   1.0000     96  Smed_0832                1.0000    238  
+RL2713                   1.0000    125  NGR_c36600               1.0000    145  
+RL2916                   1.0000    155  SMc03815                 1.0000    129  
+RL3010                   1.0000    401  RL3153                   1.0000    401  
+RL3288                   1.0000    314  SMc03818                 1.0000    190  
+RL3274                   1.0000    401  SMc03857                 1.0000    385  
+SMc03149                 1.0000    401  RL3319                   1.0000    263  
+RL3332                   1.0000    163  RL3434                   1.0000     95  
+RL3471                   1.0000    297  SMa0228                  1.0000    167  
+Smed_5216                1.0000    147  Smed_2053                1.0000    148  
+RL3522                   1.0000    210  Smed_5451                1.0000    139  
+RL3523                   1.0000    210  Smed_0986                1.0000    123  
+RL3693                   1.0000    401  Smed_0771                1.0000    312  
+Smed_5425                1.0000    233  SMc02483                 1.0000    123  
+RL3695                   1.0000    175  Smed_5867                1.0000    317  
+Smed_3095                1.0000    322  RL3696                   1.0000    175  
+RL3774                   1.0000    120  pRL120684                1.0000    372  
+RL3707                   1.0000    401  SMa0312                  1.0000    339  
+SMc01309                 1.0000    123  RL3827                   1.0000    134  
+pRL110061                1.0000    132  Smed_5926                1.0000    384  
+RL4040                   1.0000    108  Smed_3458                1.0000    167  
+SMc02726                 1.0000    124  RL4062                   1.0000    202  
+RL4065                   1.0000     92  RL4069                   1.0000     46  
+SMc04162                 1.0000     99  RL4106                   1.0000    401  
+RL4284                   1.0000    299  Smed_0392                1.0000    145  
+RHE_CH03957              1.0000    401  RL4344                   1.0000    401  
+SMc03242                 1.0000    136  RL4433                   1.0000     40  
+Smed_1463                1.0000    104  SMa2412                  1.0000    169  
+RL4495                   1.0000     73  Smed_0702                1.0000    104  
+RL0195                   1.0000    401  Smed_0843                1.0000     75  
+RL4547                   1.0000    401  RL1423                   1.0000    336  
+RHE_CH00290              1.0000    101  SMc04206                 1.0000    375  
+Smed_3528                1.0000     46  SMc00531                 1.0000     78  
+SMc03787                 1.0000    282  SMc04209                 1.0000    247  
+Smed_2116                1.0000    401  SMc04013                 1.0000     54  
+Smed_1467                1.0000    109  pRL120585                1.0000    358  
+Smed_0989                1.0000     45  SMa1832                  1.0000     43  
+Smed_1469                1.0000    179  SMc01855                 1.0000    199  
+Smed_3529                1.0000    145  SMc01488                 1.0000    112  
+RHE_CH03348              1.0000    118  mlr5523                  1.0000    401  
+SMc01306                 1.0000     44  Smed_5102                1.0000    153  
+SMc01514                 1.0000    230  Smed_3567                1.0000    145  
+SMc02727                 1.0000    124  RL0321                   1.0000     48  
+Smed_1001                1.0000     41  SMc01292                 1.0000    134  
+SMa1030                  1.0000     88  Smed_4448                1.0000    162  
+NGR_b14440               1.0000    244  Smed_2297                1.0000    282  
+NGR_b17590               1.0000    269  NGR_b20140               1.0000     43  
+mll4241                  1.0000    235  SMa1076                  1.0000    162  
+NGR_c00620               1.0000    125  RHE_CH02601              1.0000    401  
+Smed_2334                1.0000    324  NGR_c03440               1.0000    187  
+Smed_2337                1.0000    127  NGR_c01910               1.0000    193  
+NGR_c20870               1.0000    146  NGR_c03450               1.0000    187  
+Smed_2339                1.0000    137  Smed_5796                1.0000    170  
+NGR_c03900               1.0000    211  Smed_0327                1.0000    190  
+Smed_2504                1.0000    401  SMa1353                  1.0000    314  
+RHE_CH03550              1.0000    217  NGR_c03920               1.0000    361  
+Smed_2138                1.0000    315  Smed_2496                1.0000    401  
+SMc01095                 1.0000    129  NGR_c07340               1.0000     77  
+Smed_2557                1.0000    136  NGR_c07650               1.0000    290  
+NGR_c08520               1.0000     96  Smed_5144                1.0000    193  
+Smed_2656                1.0000    175  Smed_2667                1.0000    101  
+NGR_c09520               1.0000     78  NGR_c09100               1.0000    224  
+RL0704                   1.0000    255  NGR_c09090               1.0000    320  
+NGR_c11860               1.0000    401  SMc01714                 1.0000    193  
+Smed_2685                1.0000     53  NGR_c11810               1.0000    111  
+Smed_2838                1.0000    401  Smed_5254                1.0000    176  
+NGR_c12080               1.0000    128  NGR_c11940               1.0000     44  
+NGR_c12060               1.0000     41  SMc00529                 1.0000    219  
+Smed_1859                1.0000    187  RHE_CH00655              1.0000    392  
+NGR_c12340               1.0000    401  NGR_c15410               1.0000    155  
+mll3884                  1.0000     59  Smed_3054                1.0000    197  
+NGR_c13490               1.0000    180  Smed_3418                1.0000    401  
+RHE_CH00735              1.0000    401  NGR_c13650               1.0000     92  
+NGR_c15400               1.0000    226  NGR_c15420               1.0000     78  
+Smed_0811                1.0000    123  Smed_3495                1.0000    215  
+NGR_c16310               1.0000     98  NGR_c15460               1.0000    156  
+NGR_c19230               1.0000    353  SMa1749                  1.0000    401  
+NGR_c19290               1.0000    401  mlr3913                  1.0000     87  
+NGR_c21190               1.0000    227  RHE_CH00304              1.0000    169  
+RHE_PF00351              1.0000     64  SMc00785                 1.0000    200  
+RHE_PF00382              1.0000    338  SMc01471                 1.0000    148  
+mlr0016                  1.0000    189  Smed_1468                1.0000    155  
+RHE_PF00459              1.0000    195  SMc00784                 1.0000    200  
+mlr0015                  1.0000    227  mlr0019                  1.0000    102  
+RL1298                   1.0000    329  mll0051                  1.0000    229  
+Smed_2140                1.0000    162  NGR_c23530               1.0000    121  
+mlr0021                  1.0000    112  Smed_1027                1.0000    401  
+mlr0024                  1.0000     49  Smed_5594                1.0000     71  
+mlr0274                  1.0000    394  SMa0291                  1.0000    275  
+mll4223                  1.0000    154  mlr0283                  1.0000    401  
+mlr0315                  1.0000     52  RHE_CH01503              1.0000     75  
+mlr0291                  1.0000     62  SMc00830                 1.0000    179  
+mlr0312                  1.0000     89  mlr0604                  1.0000    210  
+mll1058                  1.0000    401  RHE_CH01215              1.0000     86  
+SMc01517                 1.0000     53  SMc01160                 1.0000    143  
+mll1091                  1.0000     62  SMc00537                 1.0000    351  
+mlr1147                  1.0000    300  RHE_CH03076              1.0000    401  
+mlr1155                  1.0000    148  RHE_CH04082              1.0000    164  
+mlr1532                  1.0000    199  Smed_5893                1.0000    127  
+mlr1159                  1.0000     61  RHE_CH03264              1.0000    109  
+mll1569                  1.0000     64  NGR_c21320               1.0000    401  
+mll1589                  1.0000    264  SMa1959                  1.0000     93  
+mll1646                  1.0000    122  SMc00922                 1.0000    190  
+mlr2934                  1.0000     74  mlr2692                  1.0000    323  
+mlr3554                  1.0000    158  NGR_c24560               1.0000    144  
+mlr3005                  1.0000    170  mll8365                  1.0000    155  
+mlr3146                  1.0000    133  mlr4379                  1.0000    285  
+RHE_CH01400              1.0000    124  SMc01788                 1.0000    401  
+mlr3364                  1.0000    401  SMc03996                 1.0000    100  
+SMc00086                 1.0000    122  RL4584                   1.0000    210  
+pRL120316                1.0000    401  Smed_0772                1.0000    269  
+Smed_0062                1.0000    128  RL4561                   1.0000    254  
+SMa0142                  1.0000    143  RL4696                   1.0000    211  
+pRL90278                 1.0000     76  Smed_2296                1.0000    282  
+RL0074                   1.0000    401  SMa0320                  1.0000    145  
+RL1615                   1.0000    102  SMc04276                 1.0000    401  
+SMc03231                 1.0000    187  pRL70036                 1.0000    401  
+SMc00062                 1.0000    253  pRL110221                1.0000    256  
+SMa0316                  1.0000     83  Smed_1066                1.0000    225  
+RL0278                   1.0000    116  SMa0643                  1.0000    401  
+SMc02415                 1.0000    189  RHE_CH00186              1.0000    401  
+SMa0943                  1.0000    232  RHE_CH00272              1.0000    187  
+SMc04318                 1.0000    382  RL0322                   1.0000    290  
+RL0536                   1.0000    401  SMa2259                  1.0000    401  
+RHE_CH00303              1.0000     46  RL0618                   1.0000    130  
+SMc01842                 1.0000    391  RHE_CH00586              1.0000    137  
+RL0777                   1.0000    345  Smed_0171                1.0000    311  
+SMc01611                 1.0000    161  mlr3822                  1.0000    181  
+SMc01580                 1.0000    398  NGR_c26590               1.0000    291  
+SMa1683                  1.0000    337  SMc02692                 1.0000    168  
+RL1053                   1.0000    190  RHE_CH00808              1.0000    141  
+SMa2337                  1.0000    272  SMa1770                  1.0000    401  
+mll5047                  1.0000     77  RL1347                   1.0000    195  
+SMc01516                 1.0000    124  SMa1860                  1.0000     70  
+RHE_PE00160              1.0000    154  RL1351                   1.0000    140  
+RHE_CH01690              1.0000     43  RL1396                   1.0000     46  
+mll5049                  1.0000     80  SMa1985                  1.0000    137  
+RL1791                   1.0000    132  Smed_2333                1.0000     60  
+SMc01747                 1.0000    230  RHE_CH01670              1.0000    401  
+SMa1461                  1.0000    127  RL1521                   1.0000    224  
+Smed_2103                1.0000    227  RHE_CH03544              1.0000    199  
+RHE_CH01692              1.0000    135  RL1769                   1.0000    401  
+SMc01814                 1.0000    200  Smed_0383                1.0000    117  
+RL1774                   1.0000     40  RHE_CH02253              1.0000    193  
+NGR_c27150               1.0000    143  RL1789                   1.0000     43  
+RHE_CH02305              1.0000    138  RL2355                   1.0000    105  
+Smed_2336                1.0000    127  SMc00375                 1.0000    216  
+RHE_CH02251              1.0000    105  RHE_CH01818              1.0000     64  
+RL2041                   1.0000     66  SMc04007                 1.0000    230  
+SMc03985                 1.0000    146  RHE_CH03392              1.0000     60  
+SMc00401                 1.0000     49  SMc01609                 1.0000    316  
+RL2576                   1.0000     94  Smed_2234                1.0000    321  
+SMc02886                 1.0000    401  RHE_CH03546              1.0000     92  
+SMc02438                 1.0000    349  RHE_CH03817              1.0000    112  
+Smed_2263                1.0000    213  RL0864                   1.0000    215  
+RL0106                   1.0000    177  Smed_1146                1.0000    226  
+SMa2400                  1.0000     60  Smed_0394                1.0000    107  
+mll0712                  1.0000    212  RHE_CH02247              1.0000     93  
+msr5525                  1.0000    117  RHE_CH01665              1.0000    331  
+SMc02085                 1.0000    221  Smed_0400                1.0000    256  
+SMc01765                 1.0000     83  SMc00335                 1.0000    164  
+NGR_c28390               1.0000    177  Smed_0591                1.0000    128  
+mlr5943                  1.0000    401  Smed_1949                1.0000    363  
+Smed_1239                1.0000    334  Smed_0981                1.0000    401  
+RHE_CH02254              1.0000    290  RHE_CH03758              1.0000    297  
+Smed_2360                1.0000    200  RL4506                   1.0000    159  
+SMc00402                 1.0000    155  SMc01326                 1.0000    401  
+SMc04009                 1.0000    108  NGR_c29610               1.0000    240  
+pRL120610                1.0000     58  RHE_CH03887              1.0000    363  
+SMc01314                 1.0000    401  Smed_1509                1.0000    344  
+Smed_2595                1.0000    233  mlr6914                  1.0000    210  
+mll6319                  1.0000    347  RHE_CH00097              1.0000    174  
+RHE_CH02872              1.0000    162  SMc00703                 1.0000    136  
+NGR_c31850               1.0000    237  Smed_0701                1.0000     50  
+RHE_PE00372              1.0000    162  RHE_CH03277              1.0000    401  
+RHE_CH02859              1.0000    261  NGR_c32000               1.0000    136  
+SMa0612                  1.0000    305  SMc00591                 1.0000    311  
+RHE_CH04056              1.0000    188  Smed_2678                1.0000    284  
+Smed_0976                1.0000    265  NGR_c35420               1.0000    401  
+Smed_2680                1.0000    105  RHE_CH03970              1.0000    103  
+Smed_1973                1.0000    202  mlr3495                  1.0000    319  
+RL0295                   1.0000    106  Smed_1158                1.0000     99  
+mlr3829                  1.0000    115  RHE_CH02688              1.0000    401  
+NGR_c21540               1.0000    364  NGR_c22770               1.0000    401  
+RHE_CH02817              1.0000    401  RHE_CH02829              1.0000    384  
+SMc02255                 1.0000    139  NGR_c23190               1.0000     82  
+NGR_c23520               1.0000    121  NGR_c32250               1.0000    226  
+mll4168                  1.0000    232  SMc00819                 1.0000    194  
+RHE_CH02989              1.0000     83  SMc02073                 1.0000     98  
+RHE_CH03025              1.0000    391  NGR_c24530               1.0000    163  
+SMc00832                 1.0000    200  SMc01512                 1.0000     58  
+mll4300                  1.0000     43  RHE_CH03266              1.0000    178  
+NGR_c24760               1.0000    195  NGR_c24570               1.0000    144  
+RHE_CH03267              1.0000    178  NGR_c35860               1.0000    165  
+SMc02597                 1.0000    104  NGR_c25810               1.0000    242  
+mlr4524                  1.0000    242  RHE_PF00282              1.0000    292  
+SMc02598                 1.0000     50  SMc00578                 1.0000     63  
+NGR_c28120               1.0000    171  SMc00530                 1.0000    155  
+mll5116                  1.0000    266  mll5210                  1.0000    209  
+Smed_2940                1.0000     50  NGR_c28250               1.0000    104  
+SMa2414                  1.0000    169  SMc00592                 1.0000    233  
+Smed_1003                1.0000    134  SMa1746                  1.0000    293  
+NGR_c28370               1.0000    295  RHE_PF00298              1.0000    278  
+mlr5923                  1.0000    401  RHE_CH03586              1.0000    222  
+SMc01319                 1.0000    333  NGR_c28430               1.0000     46  
+mlr6916                  1.0000    195  NGR_c31260               1.0000     62  
+Smed_2966                1.0000    125  NGR_c31460               1.0000    164  
+mll3968                  1.0000    151  RHE_CH01169              1.0000    250  
+RHE_CH03904              1.0000     85  mll7034                  1.0000    158  
+NGR_c36590               1.0000     49  mll7281                  1.0000    401  
+SMc01294                 1.0000     41  NGR_c32110               1.0000    176  
+NGR_b06260               1.0000    186  SMc01267                 1.0000    401  
+mll7843                  1.0000    206  SMc01022                 1.0000    259  
+Smed_2976                1.0000    136  Smed_0328                1.0000    190  
+NGR_c24540               1.0000    191  mll9638                  1.0000    401  
+RHE_CH03915              1.0000    160  RHE_CH01276              1.0000    197  
+NGR_a01910               1.0000    401  NGR_b14570               1.0000    271  
+NGR_c36350               1.0000    267  NGR_b07440               1.0000    401  
+SMc00301                 1.0000     96  
+********************************************************************************
+
+********************************************************************************
+COMMAND LINE SUMMARY
+********************************************************************************
+This information can also be useful in the event you wish to report a
+problem with the MEME software.
+
+command: meme -dna input3.fa -mod zoops -bfile ../../genomes/bfile/Rm1021.ntfreq -w 20 
+
+model:  mod=         zoops    nmotifs=         1    evt=           inf
+object function=  E-value of product of p-values
+width:  minw=           20    maxw=           20    minic=        0.00
+width:  wg=             11    ws=              1    endgaps=       yes
+nsites: minsites=        2    maxsites=      441    wnsites=       0.8
+theta:  prob=            1    spmap=         uni    spfuzz=        0.5
+global: substring=     yes    branching=      no    wbranch=        no
+em:     prior=   dirichlet    b=            0.01    maxiter=        50
+        distance=    1e-05
+data:   n=           90555    N=             441
+strands: +
+sample: seed=            0    seqfrac=         1
+Letter frequencies in dataset:
+A 0.227 C 0.276 G 0.277 T 0.221 
+Background letter frequencies (from ../../genomes/bfile/Rm1021.ntfreq):
+A 0.189 C 0.311 G 0.311 T 0.189 
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  1	width =   20   sites =  61   llr = 752   E-value = 1.4e-042
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 1 Description
+--------------------------------------------------------------------------------
+Simplified        A  66713128124343281118
+pos.-specific     C  :::6::::6122212:3:71
+probability       G  :1:2::6:111:123:6::1
+matrix            T  3221791126354532192:
+
+         bits    2.4                     
+                 2.2                     
+                 1.9                  *  
+                 1.7      * *       * *  
+Relative         1.4   *  * *       * *  
+Entropy          1.2 * * ** *       * * *
+(17.8 bits)      1.0 *** ** *       * * *
+                 0.7 *** **** * *   * ***
+                 0.5 *** **** * *** * ***
+                 0.2 ************** *****
+                 0.0 --------------------
+
+Multilevel           AAACTTGACTATATGAGTCA
+consensus            TTT A A TATATATTC   
+sequence                                 
+                                         
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name             Start   P-value                    Site      
+-------------             ----- ---------            --------------------
+RHE_CH03266                  57  4.23e-10 TGGCGACAAT TAACTTGACTTTCTTACTCA TACTTTTTTA
+Smed_2297                   124  2.78e-09 TCACATAAGA AAACATGAGTATTATTGTCA ATATAAATTT
+RL3695                       57  2.78e-09 TGATGACAAT TATCTTGACTTTCTTACTCA TAGTTTTTTA
+Smed_0328                    26  3.80e-09 TTCGTGTTTT AAACTTAACTAACTCAATCA TCTTTCTGCC
+Smed_2336                     5  4.44e-09       TTAG TATCTTGACTTCATTACTCA TATTTCTTTA
+SMc01514                    112  4.44e-09 TTCCATTTAG TATCTTGACTTCATTACTCA TATTTCTTTA
+SMa2412                      58  6.97e-09 CAAATTGCCA ATACAAGACTATTTAAGTCA TGTTTTATGG
+SMa2414                      87  9.31e-09 TTAGCCCATA AAACATGACTTAAATAGTCT TGTATTGGCA
+SMc00785                     26  1.63e-08 TTCGTGTTTT AAACTTAACTTAGTCAATCA TATTTCTCGT
+RL3696                       56  1.63e-08 GCAATCTCAA AAACTTGACTGTATTTGTCT CCTATTGCGT
+SMc00592                    177  1.88e-08 CTTCGGCTTT ATACTTGACGATCAAAGTCA GCAATAATAT
+Smed_2296                   134  2.15e-08 GCCCCAAATT TATATTGACAATAATACTCA TGTTTTCTTA
+NGR_c24560                   23  2.15e-08 TTCCAATTAG TATCTTGACTGCATTACTCA TATTTCTTTA
+RHE_CH03264                  24  2.46e-08 AGTCTACTTT ATACTTTACTCTAAAAATCA AGTTTAATAA
+RL3693                      316  2.46e-08 AATCAACTTT ATACTTTACTCTAAAAATCA AGTTTAATAA
+RL4584                       78  3.19e-08 TATTCCCTTG TAATATGAAATATTTAGTCA AGATATTGTG
+SMc01747                     94  4.14e-08 GTCCTTAAAG AAATATGAGTAATGAAGTCA AGATACTAAA
+Smed_2337                    98  4.14e-08 GTCCATAAAG AAATATGAGTAATGAAGTCA AGATACTAAA
+mlr3495                     249  5.33e-08 GCAGGCAAAT AATGTTGACTATTCGTGTCA TGTATCGATA
+NGR_c24570                   97  6.83e-08 GTCCTTAAAG AAATATGAGTAATGCAGTCA AGATACTAAT
+RHE_CH04056                 117  6.83e-08 CTCGGCGCAG AAACTTGAAATAGGTAGTCA AGAAAAATAT
+Smed_2334                   201  1.11e-07 ACTCATGTTT ATACTTTACTACTTCTATCA AGTTTAATAG
+RL2713                       57  1.24e-07 CTAAAACATA GAACTTGATTCATTAAGTCA TATTTCTTAT
+SMc02085                     37  1.57e-07 TCTGCCGCAT ATTCTTGATTATTGTACTCC ACAATCTTGT
+Smed_1146                    36  1.57e-07 CTGCTGCCAT ATTCTTGATTATTGTACTCC ACAATCTTGT
+NGR_c13490                   45  1.57e-07 CCACGCTGTT ATTCATGATTATTATACTCC AGATATCCTT
+NGR_c09100                  180  1.76e-07 TTCGGCGCTT ATACTTGACGACGAGAGTCA GCAATAATAT
+RHE_CH03267                  59  1.97e-07 GCAATCCCTA AAACTTGACTGCATTAGTAT CCTATTGCGT
+RHE_CH03076                 255  1.97e-07 TCGCCAGCAT TATGTTGACAACAGAAGTCA TGTTTTTTAT
+RHE_CH02254                  49  2.20e-07 GGCGACAACA TGACTTGACTAACGTTGTCA GCTTTTCTAA
+SMc00529                     51  3.42e-07 GGTGCCGATC TGTCTTGACTAAACCAGTCA GCTTTTCTAG
+Smed_1469                    52  3.42e-07 CGCGCCGATC TGTCTTGACTAAACCAGTCA GCTTTTCTAG
+SMa1749                     282  4.71e-07 AGTTTGCAAA TAAAATGAGAATACGAGTCA ACTTACTTGG
+SMc01842                    359  6.43e-07 CAAATCACAT AAACATATCTTTATGTGTTG ATGGGGAAGG
+NGR_c21320                  368  6.43e-07 CAAATCACAT AAACATATCTTTATGTGTTG ATGAGGATCG
+Smed_2116                   369  6.43e-07 CAAATCACAT AAACATATCTTTATGTGTTG ATGGGGAAGA
+NGR_c03450                   27  7.12e-07 GTGGTGCTTA TAAGTTAACCGAGTGAGTCA TATTTCTACA
+mlr1147                     125  8.71e-07 CCGCGCACAT AAAGTTGACGAGAATATTCA TCTATGATGC
+RL2583                       49  8.71e-07 GATGACAACA TGACTTGACTAGTGTTGTCA GCTTTTCTAA
+Smed_0772                   225  1.56e-06 CTGCGTTTTG ATACTTGACGCCCAAACTCA GCAATAATAT
+SMc01611                     73  2.73e-06 CGCCGCCAAA ATAGTTGATCTAGACACTCA TCTTATCGTT
+Smed_2140                    72  2.73e-06 CCCGGTCAAA ATAGTTGATCTAGACACTCA GCTTATCATT
+RHE_CH03277                 339  2.98e-06 ACCGTTTGAT AAATTTTTAAACCTGAGTTA CGCTTTCCTC
+RHE_CH02872                 133  2.98e-06 TAAATCACAT AAAGATATCTTTATATGTTG ATTGGGCCAA
+RL3707                      338  2.98e-06 ACCGTTTGAT AAATTTTTAAACCTGAGTTA CGCTTTCCCT
+Smed_3567                   124  3.26e-06 TTTTTGAAAA TCACGTAACATATTGAGTTA CA        
+RL4696                      175  3.89e-06 CTTTAGCAGA AAACACGATAGTCAGTGTCA TGTTTGGAAT
+RHE_CH04082                 145  3.89e-06 CTTTAGCAGA AAACACGATAGTCAGTGTCA           
+SMc01160                    122  7.68e-06 TTTCCCGGCG TCACGTAACACATTGAGTTA CA        
+Smed_2678                   114  8.33e-06 CAACGCAACT CTAATCGATTATATCAGTCA CTCCTGTGAC
+RL0322                       99  9.80e-06 AAATCATTCC AAACTAGAGTGTTTGACACC AGTTTGCTTT
+SMc00402                     53  1.06e-05 AAGCCGTTCT AAACTATACACTTTGACACC AGTTTACTTT
+Smed_3529                    44  1.06e-05 AAGCCATTCT AAACTATACACTTTGACACC AGTTTGCTTT
+RL0536                      136  1.24e-05 GCTCATCCTA TTGCATAATTCAAAGTGTTA CAGCGTCTTT
+NGR_c24760                  123  1.34e-05 AGCGCGACCA AAATTTTACCGTTTGATAAA AAAATAAAGC
+NGR_b14440                   11  1.97e-05 GATGGCGATA TTAATTATTCATTGGATTTA TCGCAATCGC
+SMa1030                      56  2.28e-05 GGGTAGGAGT AATGTTGGTAATATGACTAG CAGCAATTTA
+SMc04162                     76  2.46e-05 TGGACGATGA TAAGTTATGGCTTATAATAA GCTA      
+SMa2400                      33  1.55e-04 TCGCAGAAGC AGAGTGATTGTAAAGAGTTA GACCGAGA  
+RHE_PF00382                 209  1.75e-04 GCTCTGGAAT TAGGTTAGATCTTTCAGACA ACAAAAAGTG
+NGR_c07650                   76  2.19e-04 AATAGATCGA AATCGTTAGCGTAGCATTAA CTATGGACCT
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+RHE_CH03266                       4.2e-10  56_[+1]_102
+Smed_2297                         2.8e-09  123_[+1]_139
+RL3695                            2.8e-09  56_[+1]_99
+Smed_0328                         3.8e-09  25_[+1]_145
+Smed_2336                         4.4e-09  4_[+1]_103
+SMc01514                          4.4e-09  111_[+1]_99
+SMa2412                             7e-09  57_[+1]_92
+SMa2414                           9.3e-09  86_[+1]_63
+SMc00785                          1.6e-08  25_[+1]_155
+RL3696                            1.6e-08  55_[+1]_100
+SMc00592                          1.9e-08  176_[+1]_37
+Smed_2296                         2.1e-08  133_[+1]_129
+NGR_c24560                        2.1e-08  22_[+1]_102
+RHE_CH03264                       2.5e-08  23_[+1]_66
+RL3693                            2.5e-08  315_[+1]_66
+RL4584                            3.2e-08  77_[+1]_113
+SMc01747                          4.1e-08  93_[+1]_117
+Smed_2337                         4.1e-08  97_[+1]_10
+mlr3495                           5.3e-08  248_[+1]_51
+NGR_c24570                        6.8e-08  96_[+1]_28
+RHE_CH04056                       6.8e-08  116_[+1]_52
+Smed_2334                         1.1e-07  200_[+1]_104
+RL2713                            1.2e-07  56_[+1]_49
+SMc02085                          1.6e-07  36_[+1]_165
+Smed_1146                         1.6e-07  35_[+1]_171
+NGR_c13490                        1.6e-07  44_[+1]_116
+NGR_c09100                        1.8e-07  179_[+1]_25
+RHE_CH03267                         2e-07  58_[+1]_100
+RHE_CH03076                         2e-07  254_[+1]_127
+RHE_CH02254                       2.2e-07  48_[+1]_222
+SMc00529                          3.4e-07  50_[+1]_149
+Smed_1469                         3.4e-07  51_[+1]_108
+SMa1749                           4.7e-07  281_[+1]_100
+SMc01842                          6.4e-07  358_[+1]_13
+NGR_c21320                        6.4e-07  367_[+1]_14
+Smed_2116                         6.4e-07  368_[+1]_13
+NGR_c03450                        7.1e-07  26_[+1]_141
+mlr1147                           8.7e-07  124_[+1]_156
+RL2583                            8.7e-07  48_[+1]_150
+Smed_0772                         1.6e-06  224_[+1]_25
+SMc01611                          2.7e-06  72_[+1]_69
+Smed_2140                         2.7e-06  71_[+1]_71
+RHE_CH03277                         3e-06  338_[+1]_43
+RHE_CH02872                         3e-06  132_[+1]_10
+RL3707                              3e-06  337_[+1]_44
+Smed_3567                         3.3e-06  123_[+1]_2
+RL4696                            3.9e-06  174_[+1]_17
+RHE_CH04082                       3.9e-06  144_[+1]
+SMc01160                          7.7e-06  121_[+1]_2
+Smed_2678                         8.3e-06  113_[+1]_151
+RL0322                            9.8e-06  98_[+1]_172
+SMc00402                          1.1e-05  52_[+1]_83
+Smed_3529                         1.1e-05  43_[+1]_82
+RL0536                            1.2e-05  135_[+1]_246
+NGR_c24760                        1.3e-05  122_[+1]_53
+NGR_b14440                          2e-05  10_[+1]_214
+SMa1030                           2.3e-05  55_[+1]_13
+SMc04162                          2.5e-05  75_[+1]_4
+SMa2400                           0.00016  32_[+1]_8
+RHE_PF00382                       0.00017  208_[+1]_110
+NGR_c07650                        0.00022  75_[+1]_195
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 1 width=20 seqs=61
+RHE_CH03266              (   57) TAACTTGACTTTCTTACTCA  1 
+Smed_2297                (  124) AAACATGAGTATTATTGTCA  1 
+RL3695                   (   57) TATCTTGACTTTCTTACTCA  1 
+Smed_0328                (   26) AAACTTAACTAACTCAATCA  1 
+Smed_2336                (    5) TATCTTGACTTCATTACTCA  1 
+SMc01514                 (  112) TATCTTGACTTCATTACTCA  1 
+SMa2412                  (   58) ATACAAGACTATTTAAGTCA  1 
+SMa2414                  (   87) AAACATGACTTAAATAGTCT  1 
+SMc00785                 (   26) AAACTTAACTTAGTCAATCA  1 
+RL3696                   (   56) AAACTTGACTGTATTTGTCT  1 
+SMc00592                 (  177) ATACTTGACGATCAAAGTCA  1 
+Smed_2296                (  134) TATATTGACAATAATACTCA  1 
+NGR_c24560               (   23) TATCTTGACTGCATTACTCA  1 
+RHE_CH03264              (   24) ATACTTTACTCTAAAAATCA  1 
+RL3693                   (  316) ATACTTTACTCTAAAAATCA  1 
+RL4584                   (   78) TAATATGAAATATTTAGTCA  1 
+SMc01747                 (   94) AAATATGAGTAATGAAGTCA  1 
+Smed_2337                (   98) AAATATGAGTAATGAAGTCA  1 
+mlr3495                  (  249) AATGTTGACTATTCGTGTCA  1 
+NGR_c24570               (   97) AAATATGAGTAATGCAGTCA  1 
+RHE_CH04056              (  117) AAACTTGAAATAGGTAGTCA  1 
+Smed_2334                (  201) ATACTTTACTACTTCTATCA  1 
+RL2713                   (   57) GAACTTGATTCATTAAGTCA  1 
+SMc02085                 (   37) ATTCTTGATTATTGTACTCC  1 
+Smed_1146                (   36) ATTCTTGATTATTGTACTCC  1 
+NGR_c13490               (   45) ATTCATGATTATTATACTCC  1 
+NGR_c09100               (  180) ATACTTGACGACGAGAGTCA  1 
+RHE_CH03267              (   59) AAACTTGACTGCATTAGTAT  1 
+RHE_CH03076              (  255) TATGTTGACAACAGAAGTCA  1 
+RHE_CH02254              (   49) TGACTTGACTAACGTTGTCA  1 
+SMc00529                 (   51) TGTCTTGACTAAACCAGTCA  1 
+Smed_1469                (   52) TGTCTTGACTAAACCAGTCA  1 
+SMa1749                  (  282) TAAAATGAGAATACGAGTCA  1 
+SMc01842                 (  359) AAACATATCTTTATGTGTTG  1 
+NGR_c21320               (  368) AAACATATCTTTATGTGTTG  1 
+Smed_2116                (  369) AAACATATCTTTATGTGTTG  1 
+NGR_c03450               (   27) TAAGTTAACCGAGTGAGTCA  1 
+mlr1147                  (  125) AAAGTTGACGAGAATATTCA  1 
+RL2583                   (   49) TGACTTGACTAGTGTTGTCA  1 
+Smed_0772                (  225) ATACTTGACGCCCAAACTCA  1 
+SMc01611                 (   73) ATAGTTGATCTAGACACTCA  1 
+Smed_2140                (   72) ATAGTTGATCTAGACACTCA  1 
+RHE_CH03277              (  339) AAATTTTTAAACCTGAGTTA  1 
+RHE_CH02872              (  133) AAAGATATCTTTATATGTTG  1 
+RL3707                   (  338) AAATTTTTAAACCTGAGTTA  1 
+Smed_3567                (  124) TCACGTAACATATTGAGTTA  1 
+RL4696                   (  175) AAACACGATAGTCAGTGTCA  1 
+RHE_CH04082              (  145) AAACACGATAGTCAGTGTCA  1 
+SMc01160                 (  122) TCACGTAACACATTGAGTTA  1 
+Smed_2678                (  114) CTAATCGATTATATCAGTCA  1 
+RL0322                   (   99) AAACTAGAGTGTTTGACACC  1 
+SMc00402                 (   53) AAACTATACACTTTGACACC  1 
+Smed_3529                (   44) AAACTATACACTTTGACACC  1 
+RL0536                   (  136) TTGCATAATTCAAAGTGTTA  1 
+NGR_c24760               (  123) AAATTTTACCGTTTGATAAA  1 
+NGR_b14440               (   11) TTAATTATTCATTGGATTTA  1 
+SMa1030                  (   56) AATGTTGGTAATATGACTAG  1 
+SMc04162                 (   76) TAAGTTATGGCTTATAATAA  1 
+SMa2400                  (   33) AGAGTGATTGTAAAGAGTTA  1 
+RHE_PF00382              (  209) TAGGTTAGATCTTTCAGACA  1 
+NGR_c07650               (   76) AATCGTTAGCGTAGCATTAA  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 20 n= 82176 bayes= 12.3813 E= 1.4e-042 
+   176   -424   -424     79 
+   176   -324   -192     38 
+   196  -1257   -324     28 
+  -153    104    -79    -72 
+    47  -1257   -266    186 
+  -153   -266   -424    220 
+    28  -1257    100    -36 
+   212  -1257   -324    -36 
+  -121     88   -124     17 
+    28   -166   -166    160 
+   117    -92   -108     47 
+    72    -92   -324    138 
+   100    -92   -166     93 
+    56   -224    -79    133 
+   -21    -79     15     72 
+   206  -1257  -1257     17 
+   -94    -25     88   -153 
+  -121  -1257  -1257    228 
+  -121    125  -1257     -7 
+   203   -166   -192   -194 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 20 nsites= 61 E= 1.4e-042 
+ 0.639344  0.016393  0.016393  0.327869 
+ 0.639344  0.032787  0.081967  0.245902 
+ 0.737705  0.000000  0.032787  0.229508 
+ 0.065574  0.639344  0.180328  0.114754 
+ 0.262295  0.000000  0.049180  0.688525 
+ 0.065574  0.049180  0.016393  0.868852 
+ 0.229508  0.000000  0.622951  0.147541 
+ 0.819672  0.000000  0.032787  0.147541 
+ 0.081967  0.573770  0.131148  0.213115 
+ 0.229508  0.098361  0.098361  0.573770 
+ 0.426230  0.163934  0.147541  0.262295 
+ 0.311475  0.163934  0.032787  0.491803 
+ 0.377049  0.163934  0.098361  0.360656 
+ 0.278689  0.065574  0.180328  0.475410 
+ 0.163934  0.180328  0.344262  0.311475 
+ 0.786885  0.000000  0.000000  0.213115 
+ 0.098361  0.262295  0.573770  0.065574 
+ 0.081967  0.000000  0.000000  0.918033 
+ 0.081967  0.737705  0.000000  0.180328 
+ 0.770492  0.098361  0.081967  0.049180 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 regular expression
+--------------------------------------------------------------------------------
+[AT][AT][AT]C[TA]T[GA]A[CT][TA][AT][TA][AT][TA][GT][AT][GC]TCA
+--------------------------------------------------------------------------------
+
+
+
+
+Time 64.34 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+SUMMARY OF MOTIFS
+********************************************************************************
+
+--------------------------------------------------------------------------------
+	Combined block diagrams: non-overlapping sites with p-value < 0.0001
+--------------------------------------------------------------------------------
+SEQUENCE NAME            COMBINED P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+RL2582                           4.87e-01  145
+RL2580                           2.55e-01  84
+RL2583                           1.73e-04  48_[+1(8.71e-07)]_150
+Smed_3020                        7.39e-03  173_[+1(3.28e-05)]_52
+RL2616                           9.38e-02  96
+Smed_0832                        2.27e-01  238
+RL2713                           1.32e-05  56_[+1(1.24e-07)]_49
+NGR_c36600                       3.84e-03  46_[+1(3.06e-05)]_79
+RL2916                           2.54e-01  155
+SMc03815                         5.21e-02  129
+RL3010                           6.10e-02  401
+RL3153                           9.41e-01  401
+RL3288                           3.54e-02  314
+SMc03818                         6.08e-01  190
+RL3274                           2.40e-01  401
+SMc03857                         8.15e-02  385
+SMc03149                         5.53e-03  216_[+1(1.45e-05)]_165
+RL3319                           7.18e-02  263
+RL3332                           6.67e-04  130_[+1(4.63e-06)]_13
+RL3434                           6.38e-03  [+1(8.42e-05)]_75
+RL3471                           2.49e-01  297
+SMa0228                          1.60e-01  167
+Smed_5216                        2.41e-01  147
+Smed_2053                        3.31e-01  148
+RL3522                           1.30e-05  26_[+1(6.83e-08)]_16_[+1(7.88e-07)]_\
+    128
+Smed_5451                        2.60e-02  139
+RL3523                           7.28e-05  122_[+1(7.12e-07)]_16_\
+    [+1(3.81e-07)]_32
+Smed_0986                        3.56e-01  123
+RL3693                           9.38e-06  290_[+1(1.76e-07)]_5_[+1(2.46e-08)]_\
+    66
+Smed_0771                        4.56e-01  312
+Smed_5425                        4.62e-01  233
+SMc02483                         7.86e-02  123
+RL3695                           4.34e-07  56_[+1(2.78e-09)]_18_[+1(4.25e-06)]_\
+    61
+Smed_5867                        2.36e-01  317
+Smed_3095                        7.23e-01  322
+RL3696                           2.55e-06  55_[+1(1.63e-08)]_100
+RL3774                           5.88e-01  120
+pRL120684                        8.27e-01  372
+RL3707                           1.14e-03  337_[+1(2.98e-06)]_44
+SMa0312                          2.34e-02  148_[+1(7.40e-05)]_171
+SMc01309                         3.56e-01  123
+RL3827                           1.07e-01  134
+pRL110061                        5.61e-03  13_[+1(4.97e-05)]_99
+Smed_5926                        1.63e-01  384
+RL4040                           6.76e-02  108
+Smed_3458                        1.01e-01  167
+SMc02726                         2.41e-02  124
+RL4062                           5.72e-02  202
+RL4065                           1.88e-02  92
+RL4069                           1.00e+00  46
+SMc04162                         1.97e-03  75_[+1(2.46e-05)]_4
+RL4106                           2.97e-02  195_[+1(7.89e-05)]_186
+RL4284                           1.69e-02  13_[+1(6.08e-05)]_266
+Smed_0392                        2.54e-01  145
+RHE_CH03957                      4.84e-02  401
+RL4344                           6.16e-01  401
+SMc03242                         8.99e-01  136
+RL4433                           4.27e-02  40
+Smed_1463                        5.76e-01  104
+SMa2412                          1.04e-06  57_[+1(6.97e-09)]_92
+RL4495                           1.02e-01  73
+Smed_0702                        9.92e-01  104
+RL0195                           1.10e-01  401
+Smed_0843                        4.85e-01  75
+RL4547                           2.81e-01  401
+RL1423                           1.89e-03  264_[+1(5.98e-06)]_52
+RHE_CH00290                      5.71e-02  101
+SMc04206                         3.91e-01  375
+Smed_3528                        9.99e-01  46
+SMc00531                         1.68e-01  78
+SMc03787                         8.59e-03  210_[+1(3.28e-05)]_52
+SMc04209                         4.24e-01  247
+Smed_2116                        2.46e-04  368_[+1(6.43e-07)]_13
+SMc04013                         6.56e-01  54
+Smed_1467                        7.40e-01  109
+pRL120585                        1.82e-01  358
+Smed_0989                        2.65e-01  45
+SMa1832                          7.41e-01  43
+Smed_1469                        5.47e-05  51_[+1(3.42e-07)]_108
+SMc01855                         4.18e-01  199
+Smed_3529                        1.34e-03  43_[+1(1.06e-05)]_82
+SMc01488                         1.91e-02  112
+RHE_CH03348                      1.44e-02  118
+mlr5523                          2.00e-04  141_[+1(5.23e-07)]_240
+SMc01306                         2.56e-01  44
+Smed_5102                        1.05e-01  153
+SMc01514                         9.36e-07  111_[+1(4.44e-09)]_99
+Smed_3567                        4.11e-04  123_[+1(3.26e-06)]_2
+SMc02727                         2.96e-01  124
+RL0321                           8.81e-01  48
+Smed_1001                        5.59e-01  41
+SMc01292                         6.25e-01  134
+SMa1030                          1.58e-03  55_[+1(2.28e-05)]_13
+Smed_4448                        2.61e-02  162
+NGR_b14440                       4.42e-03  10_[+1(1.97e-05)]_214
+Smed_2297                        7.32e-07  123_[+1(2.78e-09)]_139
+NGR_b17590                       3.59e-01  269
+NGR_b20140                       5.74e-01  43
+mll4241                          9.64e-01  235
+SMa1076                          4.05e-02  162
+NGR_c00620                       7.87e-01  125
+RHE_CH02601                      1.34e-02  258_[+1(3.52e-05)]_123
+Smed_2334                        3.37e-05  175_[+1(1.24e-07)]_5_[+1(1.11e-07)]_\
+    104
+NGR_c03440                       6.14e-02  187
+Smed_2337                        4.47e-06  59_[+1(8.33e-06)]_18_[+1(4.14e-08)]_\
+    10
+NGR_c01910                       5.79e-01  193
+NGR_c20870                       6.30e-01  146
+NGR_c03450                       1.20e-04  26_[+1(7.12e-07)]_141
+Smed_2339                        1.24e-01  137
+Smed_5796                        2.46e-02  170
+NGR_c03900                       5.80e-01  211
+Smed_0327                        3.37e-05  139_[+1(1.97e-07)]_31
+Smed_2504                        6.83e-01  401
+SMa1353                          4.08e-01  314
+RHE_CH03550                      1.92e-01  217
+NGR_c03920                       4.16e-01  361
+Smed_2138                        5.89e-01  315
+Smed_2496                        1.34e-01  401
+SMc01095                         7.56e-01  129
+NGR_c07340                       7.71e-01  77
+Smed_2557                        1.81e-01  136
+NGR_c07650                       5.78e-02  290
+NGR_c08520                       9.43e-01  96
+Smed_5144                        5.74e-02  193
+Smed_2656                        5.85e-01  175
+Smed_2667                        1.21e-01  101
+NGR_c09520                       3.53e-01  78
+NGR_c09100                       3.61e-05  179_[+1(1.76e-07)]_25
+RL0704                           3.81e-02  255
+NGR_c09090                       1.94e-01  320
+NGR_c11860                       1.94e-01  401
+SMc01714                         2.00e-01  193
+Smed_2685                        6.04e-01  53
+NGR_c11810                       8.56e-01  111
+Smed_2838                        1.16e-01  401
+Smed_5254                        1.62e-01  176
+NGR_c12080                       6.06e-01  128
+NGR_c11940                       2.56e-01  44
+NGR_c12060                       6.05e-01  41
+SMc00529                         6.84e-05  50_[+1(3.42e-07)]_149
+Smed_1859                        2.89e-02  187
+RHE_CH00655                      1.31e-01  392
+NGR_c12340                       4.30e-02  401
+NGR_c15410                       5.80e-01  155
+mll3884                          8.41e-01  59
+Smed_3054                        7.81e-01  197
+NGR_c13490                       2.53e-05  44_[+1(1.57e-07)]_116
+Smed_3418                        1.62e-01  401
+RHE_CH00735                      8.04e-02  401
+NGR_c13650                       6.66e-02  92
+NGR_c15400                       2.67e-04  50_[+1(1.29e-06)]_156
+NGR_c15420                       7.12e-01  78
+Smed_0811                        2.08e-01  123
+Smed_3495                        6.80e-01  215
+NGR_c16310                       5.88e-01  98
+NGR_c15460                       1.99e-02  156
+NGR_c19230                       2.22e-01  353
+SMa1749                          1.80e-04  220_[+1(4.34e-05)]_41_\
+    [+1(4.71e-07)]_100
+NGR_c19290                       8.41e-01  401
+mlr3913                          8.01e-01  87
+NGR_c21190                       6.15e-02  227
+RHE_CH00304                      7.43e-03  85_[+1(4.97e-05)]_64
+RHE_PF00351                      5.07e-01  64
+SMc00785                         2.96e-06  25_[+1(1.63e-08)]_155
+RHE_PF00382                      5.42e-02  338
+SMc01471                         9.10e-01  148
+mlr0016                          7.36e-01  189
+Smed_1468                        2.63e-01  155
+RHE_PF00459                      2.55e-03  65_[+1(1.45e-05)]_110
+SMc00784                         3.57e-05  149_[+1(1.97e-07)]_31
+mlr0015                          1.01e-01  227
+mlr0019                          1.37e-01  102
+RL1298                           1.47e-01  329
+mll0051                          5.04e-01  229
+Smed_2140                        3.90e-04  71_[+1(2.73e-06)]_71
+NGR_c23530                       1.38e-01  121
+mlr0021                          9.11e-01  112
+Smed_1027                        2.60e-01  401
+mlr0024                          2.43e-01  49
+Smed_5594                        1.02e-01  71
+mlr0274                          3.81e-01  394
+SMa0291                          5.87e-01  275
+mll4223                          1.53e-01  154
+mlr0283                          1.94e-01  401
+mlr0315                          5.51e-01  52
+RHE_CH01503                      5.67e-01  75
+mlr0291                          1.98e-01  62
+SMc00830                         4.92e-01  179
+mlr0312                          2.15e-01  89
+mlr0604                          7.15e-01  210
+mll1058                          1.43e-02  23_[+1(3.78e-05)]_358
+RHE_CH01215                      8.58e-01  86
+SMc01517                         9.95e-01  53
+SMc01160                         9.52e-04  121_[+1(7.68e-06)]_2
+mll1091                          8.72e-01  62
+SMc00537                         2.03e-01  351
+mlr1147                          2.45e-04  124_[+1(8.71e-07)]_156
+RHE_CH03076                      7.53e-05  254_[+1(1.97e-07)]_127
+mlr1155                          4.91e-05  61_[+1(3.81e-07)]_67
+RHE_CH04082                      5.64e-04  144_[+1(3.89e-06)]
+mlr1532                          4.40e-01  199
+Smed_5893                        1.45e-01  127
+mlr1159                          5.79e-01  61
+RHE_CH03264                      2.21e-06  23_[+1(2.46e-08)]_66
+mll1569                          1.49e-01  64
+NGR_c21320                       2.46e-04  367_[+1(6.43e-07)]_14
+mll1589                          1.73e-03  209_[+1(7.07e-06)]_35
+SMa1959                          2.12e-02  93
+mll1646                          4.37e-04  51_[+1(4.25e-06)]_51
+SMc00922                         4.46e-01  190
+mlr2934                          9.98e-01  74
+mlr2692                          7.80e-01  323
+mlr3554                          9.05e-01  158
+NGR_c24560                       2.68e-06  22_[+1(2.15e-08)]_102
+mlr3005                          9.97e-01  170
+mll8365                          4.27e-01  155
+mlr3146                          7.13e-01  133
+mlr4379                          4.87e-01  285
+RHE_CH01400                      9.43e-01  124
+SMc01788                         3.49e-01  401
+mlr3364                          2.97e-02  187_[+1(7.89e-05)]_194
+SMc03996                         1.20e-01  100
+SMc00086                         5.54e-01  122
+RL4584                           6.10e-06  77_[+1(3.19e-08)]_30_[+1(7.12e-07)]_\
+    63
+pRL120316                        5.53e-03  260_[+1(1.45e-05)]_121
+Smed_0772                        3.91e-04  224_[+1(1.56e-06)]_25
+Smed_0062                        9.61e-01  128
+RL4561                           6.18e-01  254
+SMa0142                          8.58e-01  143
+RL4696                           7.47e-04  174_[+1(3.89e-06)]_17
+pRL90278                         8.50e-01  76
+Smed_2296                        5.65e-06  133_[+1(2.15e-08)]_129
+RL0074                           4.84e-02  401
+SMa0320                          2.30e-01  145
+RL1615                           1.82e-01  102
+SMc04276                         9.99e-01  401
+SMc03231                         1.13e-01  187
+pRL70036                         1.55e-01  401
+SMc00062                         1.13e-01  253
+pRL110221                        1.09e-01  256
+SMa0316                          2.95e-01  83
+Smed_1066                        5.34e-01  225
+RL0278                           1.26e-01  116
+SMa0643                          6.30e-01  401
+SMc02415                         2.32e-02  189
+RHE_CH00186                      3.87e-01  401
+SMa0943                          2.66e-01  232
+RHE_CH00272                      1.04e-01  187
+SMc04318                         3.41e-02  145_[+1(9.55e-05)]_217
+RL0322                           2.65e-03  98_[+1(9.80e-06)]_172
+RL0536                           4.74e-03  135_[+1(1.24e-05)]_246
+SMa2259                          4.79e-01  401
+RHE_CH00303                      9.18e-01  46
+RL0618                           1.92e-01  130
+SMc01842                         2.39e-04  358_[+1(6.43e-07)]_13
+RHE_CH00586                      2.03e-01  137
+RL0777                           4.66e-02  345
+Smed_0171                        5.56e-02  311
+SMc01611                         3.87e-04  72_[+1(2.73e-06)]_69
+mlr3822                          9.06e-01  181
+SMc01580                         2.10e-01  398
+NGR_c26590                       1.49e-01  291
+SMa1683                          2.49e-01  337
+SMc02692                         4.35e-01  168
+RL1053                           2.80e-01  190
+RHE_CH00808                      2.64e-01  141
+SMa2337                          6.30e-04  209_[+1(2.49e-06)]_43
+SMa1770                          9.88e-01  401
+mll5047                          1.55e-01  77
+RL1347                           4.90e-01  195
+SMc01516                         3.31e-01  124
+SMa1860                          1.00e-01  70
+RHE_PE00160                      6.84e-01  154
+RL1351                           3.44e-02  140
+RHE_CH01690                      4.34e-01  43
+RL1396                           4.68e-02  46
+mll5049                          5.61e-01  80
+SMa1985                          7.15e-03  44_[+1(6.08e-05)]_73
+RL1791                           6.19e-01  132
+Smed_2333                        9.61e-01  60
+SMc01747                         8.73e-06  55_[+1(3.06e-05)]_18_[+1(4.14e-08)]_\
+    117
+RHE_CH01670                      3.74e-01  401
+SMa1461                          9.51e-01  127
+RL1521                           7.44e-02  224
+Smed_2103                        7.45e-01  227
+RHE_CH03544                      5.63e-02  199
+RHE_CH01692                      6.28e-01  135
+RL1769                           3.99e-01  401
+SMc01814                         2.43e-03  126_[+1(1.34e-05)]_54
+Smed_0383                        3.27e-02  117
+RL1774                           3.65e-01  40
+RHE_CH02253                      6.48e-01  193
+NGR_c27150                       8.78e-01  143
+RL1789                           4.34e-01  43
+RHE_CH02305                      1.41e-01  138
+RL2355                           9.74e-01  105
+Smed_2336                        4.79e-07  4_[+1(4.44e-09)]_103
+SMc00375                         3.15e-01  216
+RHE_CH02251                      2.00e-01  105
+RHE_CH01818                      9.86e-01  64
+RL2041                           4.02e-01  66
+SMc04007                         3.42e-02  230
+SMc03985                         2.24e-01  146
+RHE_CH03392                      3.63e-02  60
+SMc00401                         8.55e-01  49
+SMc01609                         5.90e-01  316
+RL2576                           5.60e-01  94
+Smed_2234                        9.75e-02  321
+SMc02886                         1.41e-01  401
+RHE_CH03546                      3.38e-01  92
+SMc02438                         1.06e-01  349
+RHE_CH03817                      1.52e-01  112
+Smed_2263                        5.24e-01  213
+RL0864                           2.56e-01  215
+RL0106                           7.50e-01  177
+Smed_1146                        3.25e-05  35_[+1(1.57e-07)]_171
+SMa2400                          6.35e-03  60
+Smed_0394                        3.44e-02  107
+mll0712                          6.31e-03  137_[+1(3.28e-05)]_55
+RHE_CH02247                      4.97e-01  93
+msr5525                          9.74e-01  117
+RHE_CH01665                      7.56e-01  331
+SMc02085                         3.17e-05  36_[+1(1.57e-07)]_165
+Smed_0400                        2.34e-01  256
+SMc01765                         4.57e-01  83
+SMc00335                         3.05e-01  164
+NGR_c28390                       4.21e-01  177
+Smed_0591                        3.89e-01  128
+mlr5943                          4.05e-02  401
+Smed_1949                        1.70e-02  113_[+1(4.97e-05)]_230
+Smed_1239                        3.15e-02  334
+Smed_0981                        2.21e-01  401
+RHE_CH02254                      5.97e-05  48_[+1(2.20e-07)]_222
+RHE_CH03758                      2.05e-01  297
+Smed_2360                        1.61e-02  142_[+1(8.97e-05)]_38
+RL4506                           3.76e-02  159
+SMc00402                         1.44e-03  52_[+1(1.06e-05)]_83
+SMc01326                         6.30e-01  401
+SMc04009                         7.36e-01  108
+NGR_c29610                       1.43e-02  190_[+1(6.50e-05)]_30
+pRL120610                        3.55e-01  58
+RHE_CH03887                      2.47e-01  363
+SMc01314                         4.12e-01  401
+Smed_1509                        2.54e-01  344
+Smed_2595                        1.98e-01  233
+mlr6914                          6.95e-02  210
+mll6319                          1.62e-01  347
+RHE_CH00097                      4.26e-01  174
+RHE_CH02872                      4.27e-04  132_[+1(2.98e-06)]_10
+SMc00703                         3.52e-01  136
+NGR_c31850                       9.42e-03  161_[+1(4.34e-05)]_56
+Smed_0701                        8.84e-01  50
+RHE_PE00372                      2.20e-02  162
+RHE_CH03277                      1.14e-03  265_[+1(4.65e-05)]_53_\
+    [+1(2.98e-06)]_43
+RHE_CH02859                      7.12e-02  261
+NGR_c32000                       1.23e-01  136
+SMa0612                          1.93e-01  305
+SMc00591                         1.81e-01  311
+RHE_CH04056                      1.15e-05  116_[+1(6.83e-08)]_52
+Smed_2678                        2.21e-03  113_[+1(8.33e-06)]_151
+Smed_0976                        6.59e-01  265
+NGR_c35420                       5.61e-01  401
+Smed_2680                        6.96e-01  105
+RHE_CH03970                      6.40e-01  103
+Smed_1973                        8.52e-02  202
+mlr3495                          1.60e-05  248_[+1(5.33e-08)]_51
+RL0295                           1.12e-02  106
+Smed_1158                        3.46e-01  99
+mlr3829                          1.46e-01  115
+RHE_CH02688                      3.62e-01  401
+NGR_c21540                       7.79e-01  364
+NGR_c22770                       2.11e-01  401
+RHE_CH02817                      4.25e-01  401
+RHE_CH02829                      3.03e-02  267_[+1(8.42e-05)]_97
+SMc02255                         2.32e-02  139
+NGR_c23190                       9.73e-01  82
+NGR_c23520                       1.72e-01  121
+NGR_c32250                       3.94e-01  226
+mll4168                          3.75e-05  144_[+1(8.71e-07)]_5_[+1(1.76e-07)]_\
+    43
+SMc00819                         2.58e-01  194
+RHE_CH02989                      1.93e-02  83
+SMc02073                         3.42e-01  98
+RHE_CH03025                      8.61e-01  391
+NGR_c24530                       6.77e-02  163
+SMc00832                         6.94e-02  200
+SMc01512                         2.70e-01  58
+mll4300                          3.14e-01  43
+RHE_CH03266                      6.73e-08  56_[+1(4.23e-10)]_18_[+1(9.80e-06)]_\
+    64
+NGR_c24760                       2.36e-03  122_[+1(1.34e-05)]_53
+NGR_c24570                       8.54e-06  58_[+1(3.89e-06)]_18_[+1(6.83e-08)]_\
+    28
+RHE_CH03267                      3.13e-05  58_[+1(1.97e-07)]_18_[+1(4.25e-06)]_\
+    62
+NGR_c35860                       3.07e-01  165
+SMc02597                         8.96e-01  104
+NGR_c25810                       7.48e-01  242
+mlr4524                          5.50e-01  242
+RHE_PF00282                      6.84e-02  292
+SMc02598                         9.51e-02  50
+SMc00578                         9.94e-01  63
+NGR_c28120                       1.34e-01  171
+SMc00530                         2.63e-01  155
+mll5116                          9.23e-01  266
+mll5210                          7.02e-01  209
+Smed_2940                        9.20e-02  50
+NGR_c28250                       2.12e-01  104
+SMa2414                          1.40e-06  86_[+1(9.31e-09)]_63
+SMc00592                         4.01e-06  176_[+1(1.88e-08)]_37
+Smed_1003                        6.25e-01  134
+SMa1746                          9.34e-02  293
+NGR_c28370                       8.95e-02  295
+RHE_PF00298                      8.44e-01  278
+mlr5923                          5.48e-01  401
+RHE_CH03586                      1.40e-02  88_[+1(6.94e-05)]_114
+SMc01319                         7.47e-01  333
+NGR_c28430                       6.88e-01  46
+mlr6916                          1.04e-01  195
+NGR_c31260                       8.88e-03  62
+Smed_2966                        2.49e-01  125
+NGR_c31460                       9.75e-01  164
+mll3968                          5.80e-01  151
+RHE_CH01169                      4.18e-02  250
+RHE_CH03904                      5.06e-02  85
+mll7034                          3.03e-01  158
+NGR_c36590                       5.75e-01  49
+mll7281                          4.39e-01  401
+SMc01294                         5.59e-01  41
+NGR_c32110                       4.30e-01  176
+NGR_b06260                       4.27e-01  186
+SMc01267                         2.60e-01  401
+mll7843                          7.88e-01  206
+SMc01022                         3.81e-01  259
+Smed_2976                        4.77e-02  136
+Smed_0328                        6.51e-07  25_[+1(3.80e-09)]_106_\
+    [+1(1.97e-05)]_19
+NGR_c24540                       3.69e-06  38_[+1(2.15e-08)]_5_[+1(8.71e-08)]_\
+    108
+mll9638                          2.60e-01  401
+RHE_CH03915                      2.98e-01  160
+RHE_CH01276                      1.96e-01  197
+NGR_a01910                       1.55e-01  401
+NGR_b14570                       7.48e-01  271
+NGR_c36350                       5.63e-01  267
+NGR_b07440                       2.11e-01  401
+SMc00301                         5.40e-01  96
+--------------------------------------------------------------------------------
+
+********************************************************************************
+
+
+********************************************************************************
+Stopped because nmotifs = 1 reached.
+********************************************************************************
+
+CPU: bazzilab
+
+********************************************************************************

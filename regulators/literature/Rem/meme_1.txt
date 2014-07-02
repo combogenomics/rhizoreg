@@ -1,0 +1,333 @@
+********************************************************************************
+MEME - Motif discovery tool
+********************************************************************************
+MEME version 4.9.0 (Release date: Wed Oct  3 11:07:26 EST 2012)
+
+For further information on how to interpret these results or to get
+a copy of the MEME software please access http://meme.nbcr.net.
+
+This file may be used as input to the MAST algorithm for searching
+sequence databases for matches to groups of motifs.  MAST is available
+for interactive use and downloading at http://meme.nbcr.net.
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey and Charles Elkan,
+"Fitting a mixture model by expectation maximization to discover
+motifs in biopolymers", Proceedings of the Second International
+Conference on Intelligent Systems for Molecular Biology, pp. 28-36,
+AAAI Press, Menlo Park, California, 1994.
+********************************************************************************
+
+
+********************************************************************************
+TRAINING SET
+********************************************************************************
+DATAFILE= input2.fa
+ALPHABET= ACGT
+Sequence name            Weight Length  Sequence name            Weight Length  
+-------------            ------ ------  -------------            ------ ------  
+RL0703                   1.0000    354  RL0707                   1.0000    354  
+RL0722                   1.0000    301  RL0727                   1.0000    380  
+RHE_CH00654              1.0000    491  RHE_CH00658              1.0000    261  
+RHE_CH00673              1.0000    299  RHE_CH00678              1.0000    368  
+mll2905                  1.0000    500  mlr2911                  1.0000    165  
+mlr2930                  1.0000    379  mlr2935                  1.0000    322  
+NGR_c02690               1.0000    156  NGR_c02740               1.0000    282  
+NGR_c02880               1.0000    474  NGR_c02930               1.0000    371  
+SMc03022                 1.0000    298  SMc03027                 1.0000    407  
+SMc03041                 1.0000    455  SMc03046                 1.0000    371  
+Smed_0250                1.0000    270  Smed_0255                1.0000    225  
+Smed_0270                1.0000    100  Smed_0275                1.0000    371  
+********************************************************************************
+
+********************************************************************************
+COMMAND LINE SUMMARY
+********************************************************************************
+This information can also be useful in the event you wish to report a
+problem with the MEME software.
+
+command: meme -dna input2.fa -mod zoops -bfile ../../genomes/bfile/Rm1021.ntfreq 
+
+model:  mod=         zoops    nmotifs=         1    evt=           inf
+object function=  E-value of product of p-values
+width:  minw=            8    maxw=           50    minic=        0.00
+width:  wg=             11    ws=              1    endgaps=       yes
+nsites: minsites=        2    maxsites=       24    wnsites=       0.8
+theta:  prob=            1    spmap=         uni    spfuzz=        0.5
+global: substring=     yes    branching=      no    wbranch=        no
+em:     prior=   dirichlet    b=            0.01    maxiter=        50
+        distance=    1e-05
+data:   n=            7954    N=              24
+strands: +
+sample: seed=            0    seqfrac=         1
+Letter frequencies in dataset:
+A 0.207 C 0.291 G 0.283 T 0.220 
+Background letter frequencies (from ../../genomes/bfile/Rm1021.ntfreq):
+A 0.189 C 0.311 G 0.311 T 0.189 
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  1	width =   32   sites =  23   llr = 424   E-value = 3.7e-061
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 1 Description
+--------------------------------------------------------------------------------
+Simplified        A  1393::334:4:7a2431332213::93:::1
+pos.-specific     C  35::473738:7:::12:4364557:1:3326
+probability       G  :::5::::2:6:::82::322331:::4421:
+matrix            T  62:2524:12:33::358:1:1::3a:23673
+
+         bits    2.4              *           *      
+                 2.2              *           *      
+                 1.9              *           *      
+                 1.7   *         **   *       **     
+Relative         1.4   *         **   *       **     
+Entropy          1.2   *      *  **   *       **     
+(26.6 bits)      1.0   * **   ** ***  *       **     
+                 0.7 * * **** ****** **      ***  ***
+                 0.5 ******** ****** **  *   ***  ***
+                 0.2 ********************* **********
+                 0.0 --------------------------------
+
+Multilevel           TCAGTCTCACGCAAGATTCACCCCCTAGGTTC
+consensus            CA ACTCACTATT  TA ACAGGAT  ACCCT
+sequence              T    A G      G  G        TT   
+                                                     
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name             Start   P-value                          Site            
+-------------             ----- ---------            --------------------------------
+RL0707                      198  2.86e-15 GAATTCCCCG TAAGTCCCACGCAAGATTACCGCACTAGGTTC GGGATAGTAA
+SMc03027                    253  1.25e-13 GCATCCCCGA CAAGTCCCACGCAAGATTACCGGCCTAGGTTC GCCATCATCA
+RHE_CH00658                 105  2.76e-13 CGAATTCCCG TAAGTCCCACGCAAGATTACCGCTCTAGGTTC CGGATAGTAA
+Smed_0255                    71  6.94e-13 CACTTCCCGA CAAGTCCCACGCAAGATTACCGCCCTAAGGTC GGCCTCATCA
+RL0722                       34  9.86e-13 GCGGCGCCAT TCATCCTCGCGCAAGTTTGACTGCCTAGTTTC CGGCATGAAG
+NGR_c02740                  126  1.93e-12 CGTTTCTCGA CAAGTCCCACGCAAGATTACCCGCCTAGGGTC CTCCTCATCT
+NGR_c02880                   92  3.66e-12 CCAACAACCT TCATTTTCGCACAAGTTTGACCGGCTAGTTTC CCTACGCAGT
+Smed_0275                   165  2.39e-11 CAGGCAAATC TTAATCAACTATTAAAATCACCCATTAATTTC CTCTAGTTGT
+RHE_CH00673                  35  3.55e-11 ACGGCGCCAT TCATCTTCGCGCAAGTTTGACTTCCTAGTTTC CGGCATGAAG
+SMc03046                    165  7.53e-11 CACGCAATTC TTAATCAACTATTAAAATCCCCCATTAACTTC CTCTAGTTGT
+NGR_c02930                  165  1.36e-10 CACGCATTCC TTAATCAACTATTAAAATCTCCCATTAACTTC CTCTAGTTGT
+RL0727                      175  3.32e-10 TACCCAGATC TTAATCAATTATTAGTTTCTGCCATTAACTTT AACGAGTTGT
+SMc03022                    133  5.60e-10 GTCCCCGCGG CCAGCCTCACGCAAGGATCGAACCCTATTTCA TCGGAGGAAA
+Smed_0250                   104  2.35e-09 GTCTCCGGGG CCAGCCTCACGCAAGGATCGAACCCTATGCCA TCGGTGGAAA
+RHE_CH00654                 188  4.33e-09 GACCCTTTCA TCAGCCTCACGCAAGGCAGAAACCCTATCCGT CTCGAAGAAA
+RL0703                      189  6.04e-09 GGGCCTTTCA TCAGCCTCACGCAAGGCAGAAACCCTATCGGT CTCAATGAAA
+RHE_CH00678                 163  6.55e-09 CGGGCGAGTC TTAATCAATTATTAATTTCCGCCATTCACTTT AACGAGTTGT
+mlr2911                      11  1.54e-08 CGGCTGCCCG CAAGGTCCGCGCAAGACTGGCGGCCTAGTCTT TGGGCACATG
+SMc03041                     83  2.73e-08 GCGCGGTCCA ACACCTTCGCACAAGTTTGACCGGATAGCCTT CCTTCGCAGT
+mll2905                     337  2.93e-08 AGCCCGGATT CAAGCCTCACACAAGGCACGGGGACTATCCCT TGCATCTGTT
+mlr2935                      65  1.36e-06 CTTGCCCAGA ACTTCCCACCACAAGCATATCTGGCTACGCAC TAATGCAACC
+Smed_0270                    10  1.74e-06  ATGAGCGCA TCGATTTCCCGTTATCTCAAAGACTTCAGTCC ACCGAAGATC
+mlr2930                      86  1.45e-05 GCCGCGCCCG ACCACAAGCCGGAAGCATCCGCACCTCAGGCC GATATCGGCA
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+RL0707                            2.9e-15  197_[+1]_125
+SMc03027                          1.3e-13  252_[+1]_123
+RHE_CH00658                       2.8e-13  104_[+1]_125
+Smed_0255                         6.9e-13  70_[+1]_123
+RL0722                            9.9e-13  33_[+1]_236
+NGR_c02740                        1.9e-12  125_[+1]_125
+NGR_c02880                        3.7e-12  91_[+1]_351
+Smed_0275                         2.4e-11  164_[+1]_175
+RHE_CH00673                       3.5e-11  34_[+1]_233
+SMc03046                          7.5e-11  164_[+1]_175
+NGR_c02930                        1.4e-10  164_[+1]_175
+RL0727                            3.3e-10  174_[+1]_174
+SMc03022                          5.6e-10  132_[+1]_134
+Smed_0250                         2.4e-09  103_[+1]_135
+RHE_CH00654                       4.3e-09  187_[+1]_272
+RL0703                              6e-09  188_[+1]_134
+RHE_CH00678                       6.5e-09  162_[+1]_174
+mlr2911                           1.5e-08  10_[+1]_123
+SMc03041                          2.7e-08  82_[+1]_341
+mll2905                           2.9e-08  336_[+1]_132
+mlr2935                           1.4e-06  64_[+1]_226
+Smed_0270                         1.7e-06  9_[+1]_59
+mlr2930                           1.4e-05  85_[+1]_262
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 1 width=32 seqs=23
+RL0707                   (  198) TAAGTCCCACGCAAGATTACCGCACTAGGTTC  1 
+SMc03027                 (  253) CAAGTCCCACGCAAGATTACCGGCCTAGGTTC  1 
+RHE_CH00658              (  105) TAAGTCCCACGCAAGATTACCGCTCTAGGTTC  1 
+Smed_0255                (   71) CAAGTCCCACGCAAGATTACCGCCCTAAGGTC  1 
+RL0722                   (   34) TCATCCTCGCGCAAGTTTGACTGCCTAGTTTC  1 
+NGR_c02740               (  126) CAAGTCCCACGCAAGATTACCCGCCTAGGGTC  1 
+NGR_c02880               (   92) TCATTTTCGCACAAGTTTGACCGGCTAGTTTC  1 
+Smed_0275                (  165) TTAATCAACTATTAAAATCACCCATTAATTTC  1 
+RHE_CH00673              (   35) TCATCTTCGCGCAAGTTTGACTTCCTAGTTTC  1 
+SMc03046                 (  165) TTAATCAACTATTAAAATCCCCCATTAACTTC  1 
+NGR_c02930               (  165) TTAATCAACTATTAAAATCTCCCATTAACTTC  1 
+RL0727                   (  175) TTAATCAATTATTAGTTTCTGCCATTAACTTT  1 
+SMc03022                 (  133) CCAGCCTCACGCAAGGATCGAACCCTATTTCA  1 
+Smed_0250                (  104) CCAGCCTCACGCAAGGATCGAACCCTATGCCA  1 
+RHE_CH00654              (  188) TCAGCCTCACGCAAGGCAGAAACCCTATCCGT  1 
+RL0703                   (  189) TCAGCCTCACGCAAGGCAGAAACCCTATCGGT  1 
+RHE_CH00678              (  163) TTAATCAATTATTAATTTCCGCCATTCACTTT  1 
+mlr2911                  (   11) CAAGGTCCGCGCAAGACTGGCGGCCTAGTCTT  1 
+SMc03041                 (   83) ACACCTTCGCACAAGTTTGACCGGATAGCCTT  1 
+mll2905                  (  337) CAAGCCTCACACAAGGCACGGGGACTATCCCT  1 
+mlr2935                  (   65) ACTTCCCACCACAAGCATATCTGGCTACGCAC  1 
+Smed_0270                (   10) TCGATTTCCCGTTATCTCAAAGACTTCAGTCC  1 
+mlr2930                  (   86) ACCACAAGCCGGAAGCATCCGCACCTCAGGCC  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 32 n= 7210 bayes= 8.23812 E= 3.7e-061 
+   -54     -3  -1117    158 
+    69     62  -1117     20 
+   220   -283   -283   -212 
+    69   -283     62    -12 
+ -1117     48   -283    146 
+  -212    125  -1117     20 
+    46     -3  -1117    120 
+    46    116   -283  -1117 
+   120    -25    -52   -112 
+ -1117    133  -1117     20 
+   105  -1117     97  -1117 
+ -1117    116   -283     46 
+   197  -1117  -1117     46 
+   240  -1117  -1117  -1117 
+   -12  -1117    133   -212 
+   105   -125    -52     46 
+    69    -84  -1117    146 
+   -54   -283  -1117    213 
+    69     33     -3  -1117 
+    88     16    -84    -54 
+    20     97    -84  -1117 
+   -12     33     -3    -54 
+  -112     75     16   -212 
+    69     75   -125   -212 
+  -212    116  -1117     46 
+ -1117  -1117  -1117    240 
+   220   -125  -1117  -1117 
+    88   -283     33     20 
+ -1117     16     33     46 
+ -1117    -25    -84    158 
+  -212    -52   -184    179 
+  -112     97  -1117     69 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 32 nsites= 23 E= 3.7e-061 
+ 0.130435  0.304348  0.000000  0.565217 
+ 0.304348  0.478261  0.000000  0.217391 
+ 0.869565  0.043478  0.043478  0.043478 
+ 0.304348  0.043478  0.478261  0.173913 
+ 0.000000  0.434783  0.043478  0.521739 
+ 0.043478  0.739130  0.000000  0.217391 
+ 0.260870  0.304348  0.000000  0.434783 
+ 0.260870  0.695652  0.043478  0.000000 
+ 0.434783  0.260870  0.217391  0.086957 
+ 0.000000  0.782609  0.000000  0.217391 
+ 0.391304  0.000000  0.608696  0.000000 
+ 0.000000  0.695652  0.043478  0.260870 
+ 0.739130  0.000000  0.000000  0.260870 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.173913  0.000000  0.782609  0.043478 
+ 0.391304  0.130435  0.217391  0.260870 
+ 0.304348  0.173913  0.000000  0.521739 
+ 0.130435  0.043478  0.000000  0.826087 
+ 0.304348  0.391304  0.304348  0.000000 
+ 0.347826  0.347826  0.173913  0.130435 
+ 0.217391  0.608696  0.173913  0.000000 
+ 0.173913  0.391304  0.304348  0.130435 
+ 0.086957  0.521739  0.347826  0.043478 
+ 0.304348  0.521739  0.130435  0.043478 
+ 0.043478  0.695652  0.000000  0.260870 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.869565  0.130435  0.000000  0.000000 
+ 0.347826  0.043478  0.391304  0.217391 
+ 0.000000  0.347826  0.391304  0.260870 
+ 0.000000  0.260870  0.173913  0.565217 
+ 0.043478  0.217391  0.086957  0.652174 
+ 0.086957  0.608696  0.000000  0.304348 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 regular expression
+--------------------------------------------------------------------------------
+[TC][CAT]A[GA][TC][CT][TCA][CA][ACG][CT][GA][CT][AT]AG[ATG][TA]T[CAG][AC][CA][CG][CG][CA][CT]TA[GAT][GCT][TC][TC][CT]
+--------------------------------------------------------------------------------
+
+
+
+
+Time  5.34 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+SUMMARY OF MOTIFS
+********************************************************************************
+
+--------------------------------------------------------------------------------
+	Combined block diagrams: non-overlapping sites with p-value < 0.0001
+--------------------------------------------------------------------------------
+SEQUENCE NAME            COMBINED P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+RL0703                           1.95e-06  188_[+1(6.04e-09)]_134
+RL0707                           9.25e-13  197_[+1(2.86e-15)]_125
+RL0722                           2.66e-10  33_[+1(9.86e-13)]_236
+RL0727                           1.16e-07  174_[+1(3.32e-10)]_174
+RHE_CH00654                      1.99e-06  187_[+1(4.33e-09)]_272
+RHE_CH00658                      6.34e-11  104_[+1(2.76e-13)]_125
+RHE_CH00673                      9.50e-09  34_[+1(3.55e-11)]_24_[+1(8.28e-05)]_\
+    177
+RHE_CH00678                      2.21e-06  162_[+1(6.55e-09)]_174
+mll2905                          1.37e-05  336_[+1(2.93e-08)]_132
+mlr2911                          2.06e-06  10_[+1(1.54e-08)]_123
+mlr2930                          5.02e-03  85_[+1(1.45e-05)]_262
+mlr2935                          3.96e-04  64_[+1(1.36e-06)]_226
+NGR_c02690                       1.15e-01  156
+NGR_c02740                       4.85e-10  125_[+1(1.93e-12)]_125
+NGR_c02880                       1.62e-09  91_[+1(3.66e-12)]_260_\
+    [+1(1.76e-05)]_59
+NGR_c02930                       4.63e-08  164_[+1(1.36e-10)]_175
+SMc03022                         1.49e-07  132_[+1(5.60e-10)]_134
+SMc03027                         4.71e-11  252_[+1(1.25e-13)]_123
+SMc03041                         1.16e-05  82_[+1(2.73e-08)]_39_[+1(7.83e-05)]_\
+    270
+SMc03046                         2.56e-08  164_[+1(7.53e-11)]_175
+Smed_0250                        5.62e-07  103_[+1(2.35e-09)]_135
+Smed_0255                        1.35e-10  70_[+1(6.94e-13)]_123
+Smed_0270                        1.20e-04  9_[+1(1.74e-06)]_59
+Smed_0275                        8.13e-09  164_[+1(2.39e-11)]_175
+--------------------------------------------------------------------------------
+
+********************************************************************************
+
+
+********************************************************************************
+Stopped because nmotifs = 1 reached.
+********************************************************************************
+
+CPU: bazzilab
+
+********************************************************************************

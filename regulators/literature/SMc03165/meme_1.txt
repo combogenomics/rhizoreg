@@ -1,0 +1,314 @@
+********************************************************************************
+MEME - Motif discovery tool
+********************************************************************************
+MEME version 4.9.0 (Release date: Wed Oct  3 11:07:26 EST 2012)
+
+For further information on how to interpret these results or to get
+a copy of the MEME software please access http://meme.nbcr.net.
+
+This file may be used as input to the MAST algorithm for searching
+sequence databases for matches to groups of motifs.  MAST is available
+for interactive use and downloading at http://meme.nbcr.net.
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey and Charles Elkan,
+"Fitting a mixture model by expectation maximization to discover
+motifs in biopolymers", Proceedings of the Second International
+Conference on Intelligent Systems for Molecular Biology, pp. 28-36,
+AAAI Press, Menlo Park, California, 1994.
+********************************************************************************
+
+
+********************************************************************************
+TRAINING SET
+********************************************************************************
+DATAFILE= input.fa
+ALPHABET= ACGT
+Sequence name            Weight Length  Sequence name            Weight Length  
+-------------            ------ ------  -------------            ------ ------  
+RHE_CH02982_1            1.0000     20  BruAb2_1087              1.0000     20  
+BMEII0146                1.0000     20  blr1118                  1.0000     20  
+RHE_CH02982              1.0000     20  blr3389                  1.0000     20  
+BruAb1_0564              1.0000     20  BR0542                   1.0000     20  
+RHE_CH02981_1            1.0000     20  BR0549                   1.0000     20  
+BAB2_1109                1.0000     20  BMEI1385                 1.0000     20  
+BAB1_0565                1.0000     20  AGR_L_777                1.0000     20  
+AGR_L_779                1.0000     20  AGR_L_3220               1.0000     20  
+RHE_CH02453              1.0000     20  RHE_CH03650              1.0000     20  
+BruAb1_0571              1.0000     20  RHE_CH01398              1.0000     20  
+RHE_CH02981              1.0000     20  SMc03165                 1.0000     20  
+BRA1150                  1.0000     20  BMEI1392                 1.0000     20  
+BAB1_0572                1.0000     20  
+********************************************************************************
+
+********************************************************************************
+COMMAND LINE SUMMARY
+********************************************************************************
+This information can also be useful in the event you wish to report a
+problem with the MEME software.
+
+command: meme -dna input.fa -mod oops 
+
+model:  mod=          oops    nmotifs=         1    evt=           inf
+object function=  E-value of product of p-values
+width:  minw=            8    maxw=           20    minic=        0.00
+width:  wg=             11    ws=              1    endgaps=       yes
+nsites: minsites=       25    maxsites=       25    wnsites=       0.8
+theta:  prob=            1    spmap=         uni    spfuzz=        0.5
+global: substring=     yes    branching=      no    wbranch=        no
+em:     prior=   dirichlet    b=            0.01    maxiter=        50
+        distance=    1e-05
+data:   n=             500    N=              25
+strands: +
+sample: seed=            0    seqfrac=         1
+Letter frequencies in dataset:
+A 0.288 C 0.212 G 0.164 T 0.336 
+Background letter frequencies (from dataset with add-one prior applied):
+A 0.288 C 0.212 G 0.165 T 0.335 
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  1	width =   20   sites =  25   llr = 474   E-value = 2.3e-163
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 1 Description
+--------------------------------------------------------------------------------
+Simplified        A  42::8:::8:::a23::a74
+pos.-specific     C  :1::2::::a:2:86:a::2
+probability       G  :::a:55:2:a:::::::1:
+matrix            T  66a::55a:::8:::a::24
+
+         bits    2.6           *         
+                 2.3    *     **     *   
+                 2.1    *     **     *   
+                 1.8    *     **     **  
+Relative         1.6   **   * ** ** ***  
+Entropy          1.3   **   **** ** ***  
+(27.3 bits)      1.0   *** ************  
+                 0.8 * ****************  
+                 0.5 ******************* 
+                 0.3 ********************
+                 0.0 --------------------
+
+Multilevel           TTTGAGTTACGTACCTCAAA
+consensus            AA  CTG G  C  A   TT
+sequence                                C
+                                         
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name             Start   P-value                    Site      
+-------------             ----- ---------            --------------------
+AGR_L_779                     1  3.65e-12          . TTTGAGGTACGTACCTCAAT           
+RHE_CH02453                   1  3.40e-11          . TTTGATGTACGTACCTCAAC           
+RHE_CH03650                   1  3.07e-10          . TTTGATTTACGTACATCAAA           
+blr1118                       1  3.47e-10          . AATGAGTTGCGTACCTCAAA           
+AGR_L_3220                    1  5.25e-10          . ATTGCTTTACGTACCTCAAA           
+BMEI1392                      1  5.84e-10          . TTTGCTTTACGTACCTCAAC           
+BAB1_0565                     1  5.84e-10          . TTTGCTTTACGTACCTCAAC           
+BR0542                        1  5.84e-10          . TTTGCTTTACGTACCTCAAC           
+BruAb1_0564                   1  5.84e-10          . TTTGCTTTACGTACCTCAAC           
+BAB1_0572                     1  7.53e-10          . TTTGATTTACGTACCTCATT           
+BruAb1_0571                   1  7.53e-10          . TTTGATTTACGTACCTCATT           
+BMEI1385                      1  7.53e-10          . TTTGATTTACGTACCTCATT           
+BR0549                        1  7.53e-10          . TTTGATTTACGTACCTCATT           
+SMc03165                      1  1.39e-09          . TCTGATTTACGTACATCAAA           
+AGR_L_777                     1  1.54e-09          . TATGAGGTACGTACATCATT           
+BRA1150                       1  2.76e-09          . AATGAGGTACGTAAATCAAA           
+BAB2_1109                     1  2.76e-09          . AATGAGGTACGTAAATCAAA           
+BMEII0146                     1  2.76e-09          . AATGAGGTACGTAAATCAAA           
+BruAb2_1087                   1  2.76e-09          . AATGAGGTACGTAAATCAAA           
+RHE_CH02981_1                 1  3.45e-09          . ACTGAGGTGCGCACCTCAGT           
+RHE_CH02982                   1  3.45e-09          . ACTGAGGTGCGCACCTCAGT           
+RHE_CH02982_1                 1  3.95e-09          . ATTGAAGTGCGCACCTCAAA           
+RHE_CH02981                   1  4.89e-09          . TTTGAGGTGCGCACTTCAAT           
+RHE_CH01398                   1  4.89e-09          . TTTGAGGTACGTCCATCAGA           
+blr3389                       1  8.51e-09          . TTTTAGTTGCGCACCTCAAA           
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+AGR_L_779                         3.7e-12  [+1]
+RHE_CH02453                       3.4e-11  [+1]
+RHE_CH03650                       3.1e-10  [+1]
+blr1118                           3.5e-10  [+1]
+AGR_L_3220                        5.3e-10  [+1]
+BMEI1392                          5.8e-10  [+1]
+BAB1_0565                         5.8e-10  [+1]
+BR0542                            5.8e-10  [+1]
+BruAb1_0564                       5.8e-10  [+1]
+BAB1_0572                         7.5e-10  [+1]
+BruAb1_0571                       7.5e-10  [+1]
+BMEI1385                          7.5e-10  [+1]
+BR0549                            7.5e-10  [+1]
+SMc03165                          1.4e-09  [+1]
+AGR_L_777                         1.5e-09  [+1]
+BRA1150                           2.8e-09  [+1]
+BAB2_1109                         2.8e-09  [+1]
+BMEII0146                         2.8e-09  [+1]
+BruAb2_1087                       2.8e-09  [+1]
+RHE_CH02981_1                     3.5e-09  [+1]
+RHE_CH02982                       3.5e-09  [+1]
+RHE_CH02982_1                     3.9e-09  [+1]
+RHE_CH02981                       4.9e-09  [+1]
+RHE_CH01398                       4.9e-09  [+1]
+blr3389                           8.5e-09  [+1]
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 1 width=20 seqs=25
+AGR_L_779                (    1) TTTGAGGTACGTACCTCAAT  1 
+RHE_CH02453              (    1) TTTGATGTACGTACCTCAAC  1 
+RHE_CH03650              (    1) TTTGATTTACGTACATCAAA  1 
+blr1118                  (    1) AATGAGTTGCGTACCTCAAA  1 
+AGR_L_3220               (    1) ATTGCTTTACGTACCTCAAA  1 
+BMEI1392                 (    1) TTTGCTTTACGTACCTCAAC  1 
+BAB1_0565                (    1) TTTGCTTTACGTACCTCAAC  1 
+BR0542                   (    1) TTTGCTTTACGTACCTCAAC  1 
+BruAb1_0564              (    1) TTTGCTTTACGTACCTCAAC  1 
+BAB1_0572                (    1) TTTGATTTACGTACCTCATT  1 
+BruAb1_0571              (    1) TTTGATTTACGTACCTCATT  1 
+BMEI1385                 (    1) TTTGATTTACGTACCTCATT  1 
+BR0549                   (    1) TTTGATTTACGTACCTCATT  1 
+SMc03165                 (    1) TCTGATTTACGTACATCAAA  1 
+AGR_L_777                (    1) TATGAGGTACGTACATCATT  1 
+BRA1150                  (    1) AATGAGGTACGTAAATCAAA  1 
+BAB2_1109                (    1) AATGAGGTACGTAAATCAAA  1 
+BMEII0146                (    1) AATGAGGTACGTAAATCAAA  1 
+BruAb2_1087              (    1) AATGAGGTACGTAAATCAAA  1 
+RHE_CH02981_1            (    1) ACTGAGGTGCGCACCTCAGT  1 
+RHE_CH02982              (    1) ACTGAGGTGCGCACCTCAGT  1 
+RHE_CH02982_1            (    1) ATTGAAGTGCGCACCTCAAA  1 
+RHE_CH02981              (    1) TTTGAGGTGCGCACTTCAAT  1 
+RHE_CH01398              (    1) TTTGAGGTACGTCCATCAGA  1 
+blr3389                  (    1) TTTTAGTTGCGCACCTCAAA  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 20 n= 25 bayes= -664.386 E= 2.3e-163 
+    32  -1129  -1129     93 
+   -26    -82  -1129     93 
+ -1129  -1129  -1129    158 
+ -1129  -1129    254   -306 
+   148     -9  -1129  -1129 
+  -284  -1129    154     52 
+ -1129  -1129    154     63 
+ -1129  -1129  -1129    158 
+   140  -1129     54  -1129 
+ -1129    224  -1129  -1129 
+ -1129  -1129    260  -1129 
+ -1129     -9  -1129    125 
+   174   -241  -1129  -1129 
+   -85    198  -1129  -1129 
+    15    159  -1129   -306 
+ -1129  -1129  -1129    158 
+ -1129    224  -1129  -1129 
+   180  -1129  -1129  -1129 
+   124  -1129    -46    -75 
+    61     -9  -1129     10 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 20 nsites= 25 E= 2.3e-163 
+ 0.360000  0.000000  0.000000  0.640000 
+ 0.240000  0.120000  0.000000  0.640000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  0.000000  0.960000  0.040000 
+ 0.800000  0.200000  0.000000  0.000000 
+ 0.040000  0.000000  0.480000  0.480000 
+ 0.000000  0.000000  0.480000  0.520000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.760000  0.000000  0.240000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.200000  0.000000  0.800000 
+ 0.960000  0.040000  0.000000  0.000000 
+ 0.160000  0.840000  0.000000  0.000000 
+ 0.320000  0.640000  0.000000  0.040000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.680000  0.000000  0.120000  0.200000 
+ 0.440000  0.200000  0.000000  0.360000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 regular expression
+--------------------------------------------------------------------------------
+[TA][TA]TG[AC][GT][TG]T[AG]CG[TC]AC[CA]TCA[AT][ATC]
+--------------------------------------------------------------------------------
+
+
+
+
+Time  0.03 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+SUMMARY OF MOTIFS
+********************************************************************************
+
+--------------------------------------------------------------------------------
+	Combined block diagrams: non-overlapping sites with p-value < 0.0001
+--------------------------------------------------------------------------------
+SEQUENCE NAME            COMBINED P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+RHE_CH02982_1                    3.95e-09  [+1(3.95e-09)]
+BruAb2_1087                      2.76e-09  [+1(2.76e-09)]
+BMEII0146                        2.76e-09  [+1(2.76e-09)]
+blr1118                          3.47e-10  [+1(3.47e-10)]
+RHE_CH02982                      3.45e-09  [+1(3.45e-09)]
+blr3389                          8.51e-09  [+1(8.51e-09)]
+BruAb1_0564                      5.84e-10  [+1(5.84e-10)]
+BR0542                           5.84e-10  [+1(5.84e-10)]
+RHE_CH02981_1                    3.45e-09  [+1(3.45e-09)]
+BR0549                           7.53e-10  [+1(7.53e-10)]
+BAB2_1109                        2.76e-09  [+1(2.76e-09)]
+BMEI1385                         7.53e-10  [+1(7.53e-10)]
+BAB1_0565                        5.84e-10  [+1(5.84e-10)]
+AGR_L_777                        1.54e-09  [+1(1.54e-09)]
+AGR_L_779                        3.65e-12  [+1(3.65e-12)]
+AGR_L_3220                       5.25e-10  [+1(5.25e-10)]
+RHE_CH02453                      3.40e-11  [+1(3.40e-11)]
+RHE_CH03650                      3.07e-10  [+1(3.07e-10)]
+BruAb1_0571                      7.53e-10  [+1(7.53e-10)]
+RHE_CH01398                      4.89e-09  [+1(4.89e-09)]
+RHE_CH02981                      4.89e-09  [+1(4.89e-09)]
+SMc03165                         1.39e-09  [+1(1.39e-09)]
+BRA1150                          2.76e-09  [+1(2.76e-09)]
+BMEI1392                         5.84e-10  [+1(5.84e-10)]
+BAB1_0572                        7.53e-10  [+1(7.53e-10)]
+--------------------------------------------------------------------------------
+
+********************************************************************************
+
+
+********************************************************************************
+Stopped because nmotifs = 1 reached.
+********************************************************************************
+
+CPU: bazzilab
+
+********************************************************************************

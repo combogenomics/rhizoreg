@@ -1,0 +1,611 @@
+********************************************************************************
+MEME - Motif discovery tool
+********************************************************************************
+MEME version 4.9.0 (Release date: Wed Oct  3 11:07:26 EST 2012)
+
+For further information on how to interpret these results or to get
+a copy of the MEME software please access http://meme.nbcr.net.
+
+This file may be used as input to the MAST algorithm for searching
+sequence databases for matches to groups of motifs.  MAST is available
+for interactive use and downloading at http://meme.nbcr.net.
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey and Charles Elkan,
+"Fitting a mixture model by expectation maximization to discover
+motifs in biopolymers", Proceedings of the Second International
+Conference on Intelligent Systems for Molecular Biology, pp. 28-36,
+AAAI Press, Menlo Park, California, 1994.
+********************************************************************************
+
+
+********************************************************************************
+TRAINING SET
+********************************************************************************
+DATAFILE= input.fa
+ALPHABET= ACGT
+Sequence name            Weight Length  Sequence name            Weight Length  
+-------------            ------ ------  -------------            ------ ------  
+BMEII0252                1.0000     20  BAB2_1009                1.0000     20  
+BruAb2_0454              1.0000     20  SMc03983                 1.0000     20  
+BRA0872                  1.0000     20  BAB2_0083                1.0000     20  
+SMc03983_1               1.0000     20  BR1273                   1.0000     20  
+AGR_C_311                1.0000     20  BR1805                   1.0000     20  
+RHE_CH00704              1.0000     20  eda2                     1.0000     20  
+RHE_CH00173              1.0000     20  BMEI1833                 1.0000     20  
+RHE_CH00037_1            1.0000     20  AGR_C_4782               1.0000     20  
+mll0929                  1.0000     20  BMEI0726                 1.0000     20  
+BR0285                   1.0000     20  mlr3050                  1.0000     20  
+RHE_CH03891              1.0000     20  SMc02479                 1.0000     20  
+AGR_L_2147               1.0000     20  BAB1_1813                1.0000     20  
+BR2089_1                 1.0000     20  BMEI0244                 1.0000     20  
+BAB1_1292                1.0000     20  BruAb2_0537              1.0000     20  
+AGR_C_56                 1.0000     20  mlr3754                  1.0000     20  
+BAB1_0112                1.0000     20  AGR_L_750                1.0000     20  
+BRA1048                  1.0000     20  BRA0778                  1.0000     20  
+AGR_C_1065               1.0000     20  BR2089                   1.0000     20  
+BruAb1_0112              1.0000     20  BruAb1_1903              1.0000     20  
+SMc02495                 1.0000     20  Meso_3395                1.0000     20  
+BMEII0513                1.0000     20  BMEI2037                 1.0000     20  
+BruAb2_0360              1.0000     20  BMEII0590                1.0000     20  
+BAB2_0364                1.0000     20  Meso_3595                1.0000     20  
+RHE_CH03635              1.0000     20  AGR_C_56_1               1.0000     20  
+RHE_CH03543              1.0000     20  AGR_L_2190               1.0000     20  
+mll3969                  1.0000     20  BAB1_1927                1.0000     20  
+mlr7586                  1.0000     20  RHE_CH00037              1.0000     20  
+BRA0693                  1.0000     20  Meso_3502                1.0000     20  
+BruAb1_1785              1.0000     20  SMc02834                 1.0000     20  
+AGR_L_2190_1             1.0000     20  pckA                     1.0000     20  
+BMEII0422                1.0000     20  BR0115                   1.0000     20  
+BruAb2_0084              1.0000     20  mll6516                  1.0000     20  
+pckA_1                   1.0000     20  BMEII0009                1.0000     20  
+Meso_3436                1.0000     20  mll4308                  1.0000     20  
+BMEI1636                 1.0000     20  BruAb1_1274              1.0000     20  
+Meso_0159                1.0000     20  Meso_0989                1.0000     20  
+BruAb2_0988              1.0000     20  mll3821                  1.0000     20  
+mlr5096                  1.0000     20  SMc03070                 1.0000     20  
+mlr5096_1                1.0000     20  BR1927                   1.0000     20  
+Meso_3502_1              1.0000     20  SMc04460                 1.0000     20  
+BAB2_0460                1.0000     20  RHE_CH03500_1            1.0000     20  
+BruAb1_0311              1.0000     20  BAB1_0316                1.0000     20  
+BAB2_0547                1.0000     20  AGR_C_706                1.0000     20  
+BMEI0137                 1.0000     20  RHE_CH00475              1.0000     20  
+RHE_CH03500              1.0000     20  BMEI2037_1               1.0000     20  
+SMc04006                 1.0000     20  
+********************************************************************************
+
+********************************************************************************
+COMMAND LINE SUMMARY
+********************************************************************************
+This information can also be useful in the event you wish to report a
+problem with the MEME software.
+
+command: meme -dna input.fa -mod oops -w 20 
+
+model:  mod=          oops    nmotifs=         1    evt=           inf
+object function=  E-value of product of p-values
+width:  minw=           20    maxw=           20    minic=        0.00
+width:  wg=             11    ws=              1    endgaps=       yes
+nsites: minsites=       91    maxsites=       91    wnsites=       0.8
+theta:  prob=            1    spmap=         uni    spfuzz=        0.5
+global: substring=     yes    branching=      no    wbranch=        no
+em:     prior=   dirichlet    b=            0.01    maxiter=        50
+        distance=    1e-05
+data:   n=            1820    N=              91
+strands: +
+sample: seed=            0    seqfrac=         1
+Letter frequencies in dataset:
+A 0.373 C 0.129 G 0.129 T 0.369 
+Background letter frequencies (from dataset with add-one prior applied):
+A 0.373 C 0.129 G 0.129 T 0.368 
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  1	width =   20   sites =  91   llr = 1041   E-value = 6.9e-398
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 1 Description
+--------------------------------------------------------------------------------
+Simplified        A  343::5aa2::8::388442
+pos.-specific     C  32:113::1a::::1::121
+probability       G  321:::::::a:::221112
+matrix            T  226982::7::2aa4:1344
+
+         bits    3.0           *         
+                 2.7          **         
+                 2.4          **         
+                 2.1          **         
+Relative         1.8          **         
+Entropy          1.5       ** ** *       
+(16.5 bits)      1.2       ** ** **      
+                 0.9    ** ** ** ** *    
+                 0.6    ** ******** **   
+                 0.3 * ************ **   
+                 0.0 --------------------
+
+Multilevel           AATTTAAATCGATTTAAAAT
+consensus            CTA  C        A  TTA
+sequence             G             G    G
+                                         
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name             Start   P-value                    Site      
+-------------             ----- ---------            --------------------
+SMc02834                      1  9.32e-09          . CCTTCAAATCGATTTAAACG           
+RHE_CH03500                   1  2.96e-08          . CCTTTCAAACGATTGAATTG           
+AGR_C_311                     1  6.11e-08          . GCTTCAAATCGATTTAATTC           
+Meso_3436                     1  7.71e-08          . CATTTCAATCGATTAGGGAG           
+RHE_CH00173                   1  7.71e-08          . CGATCAAATCGATTGAATTG           
+BR0115                        1  9.46e-08          . ATTTTCAATCGATTTAACAG           
+BruAb1_0112                   1  9.46e-08          . ATTTTCAATCGATTTAACAG           
+BAB1_0112                     1  9.46e-08          . ATTTTCAATCGATTTAACAG           
+BMEI1833                      1  9.46e-08          . ATTTTCAATCGATTTAACAG           
+mlr3754                       1  1.16e-07          . ACTTTCAATCGATTCGAGCT           
+AGR_C_706                     1  1.43e-07          . CGTCTAAATCGATTTAAGTT           
+BAB2_0547                     1  1.43e-07          . TCTTTCAACCGATTGAATTT           
+BRA0693                       1  1.43e-07          . TCTTTCAACCGATTGAATTT           
+mlr7586                       1  1.43e-07          . CATCTAAATCGATTGAATAT           
+BMEII0590                     1  1.43e-07          . TCTTTCAACCGATTGAATTT           
+BruAb2_0537                   1  1.43e-07          . TCTTTCAACCGATTGAATTT           
+AGR_L_2190                    1  2.99e-07          . AGTTTCAAACGATTGAAATC           
+AGR_L_750                     1  3.53e-07          . GATTTCAATCGTTTCAATCG           
+BruAb1_1274                   1  4.14e-07          . GCTCTAAATCGATTAAGGCT           
+BMEII0009                     1  4.14e-07          . GATTTAAATCGATTTATAAG           
+BruAb2_0084                   1  4.14e-07          . GATTTAAATCGATTTATAAG           
+BAB1_1292                     1  4.14e-07          . GCTCTAAATCGATTAAGGCT           
+BMEI0726                      1  4.14e-07          . GCTCTAAATCGATTAAGGCT           
+BR1273                        1  4.14e-07          . GCTCTAAATCGATTAAGGCT           
+BAB2_0083                     1  4.14e-07          . GATTTAAATCGATTTATAAG           
+BAB2_0460                     1  4.85e-07          . AATTTAAATCGATTAGATAT           
+BruAb2_0988                   1  4.85e-07          . GATTTAAAACGATTTAGCCG           
+pckA                          1  4.85e-07          . CGATTCAACCGATTAAAAAA           
+BMEII0513                     1  4.85e-07          . AATTTAAATCGATTAGATAT           
+BRA0778                       1  4.85e-07          . AATTTAAATCGATTAGATAT           
+BRA1048                       1  4.85e-07          . GATTTAAAACGATTTAGCCG           
+BruAb2_0454                   1  4.85e-07          . AATTTAAATCGATTAGATAT           
+BAB2_1009                     1  4.85e-07          . GATTTAAAACGATTTAGCCG           
+BMEII0252                     1  4.85e-07          . GATTTAAAACGATTTAGCCG           
+BAB1_0316                     1  5.65e-07          . AGATTAAATCGATTTGATTC           
+BruAb1_0311                   1  5.65e-07          . AGATTAAATCGATTTGATTC           
+BMEI1636                      1  5.65e-07          . AGATTAAATCGATTTGATTC           
+BMEI2037                      1  5.65e-07          . ATTTTAAATCGATTAAATAT           
+BR2089                        1  5.65e-07          . ATTTTAAATCGATTAAATAT           
+BR0285                        1  5.65e-07          . AGATTAAATCGATTTGATTC           
+Meso_3595                     1  6.52e-07          . AGCTTCAATCGATTTAGGAG           
+SMc03983                      1  8.64e-07          . CTTTTCAAACGATTAAAATT           
+mll4308                       1  9.86e-07          . CCATCTAACCGATTGAAAAT           
+mll6516                       1  9.86e-07          . AATTTAAATCGATTAGAATA           
+mll3969                       1  9.86e-07          . GATTTAAATCGGTTTAAACC           
+mlr3050                       1  1.12e-06          . CTTTTGAATCGATTGAAAAG           
+SMc02479                      1  1.27e-06          . CGATCTAACCGATTGAAATT           
+Meso_3502                     1  1.44e-06          . TTTTTAAATCGATTAAAGAA           
+SMc03070                      1  1.82e-06          . ATTTTAAATCGATTAGATTA           
+AGR_C_56                      1  1.82e-06          . GTCTTCAACCGATTTAAAAA           
+RHE_CH03500_1                 1  2.28e-06          . GATTTCAATCGTTTCAATGA           
+AGR_L_2190_1                  1  2.28e-06          . CATTTCAATCGTTTCAATGA           
+RHE_CH03891                   1  2.53e-06          . GCATCTAAACGATTGAAAAT           
+AGR_C_1065                    1  2.81e-06          . TTTTTAAATCGATTAGATTA           
+RHE_CH00704                   1  2.81e-06          . TTTTTAAATCGATTAGATTA           
+RHE_CH00037_1                 1  3.12e-06          . AATTTAAATCGATTAATTAT           
+eda2                          1  3.12e-06          . TTATTCAATCGTTTTAAAAG           
+SMc03983_1                    1  3.12e-06          . TATTTAAATCGTTTTAGCCC           
+AGR_C_56_1                    1  3.45e-06          . CTTTTAAATCGATTAATATA           
+BMEI0137                      1  3.80e-06          . AAATCTAACCGATTGAAAAC           
+BR1927                        1  3.80e-06          . AAATCTAACCGATTGAAAAC           
+BAB1_1927                     1  3.80e-06          . AAATCTAACCGATTGAAAAC           
+BruAb1_1903                   1  3.80e-06          . AAATCTAACCGATTGAAAAC           
+mll0929                       1  3.80e-06          . TGGTTCAATCGATTGATATT           
+RHE_CH00037                   1  4.19e-06          . CTCTTCAAACGATTTAAAAA           
+RHE_CH03635                   1  4.19e-06          . AATTTCAATCGTTTCAAGGA           
+Meso_3395                     1  4.19e-06          . CCATCTAAACGATTGAAAAA           
+pckA_1                        1  5.05e-06          . TCTTTAAATCGATTAATATA           
+mlr5096_1                     1  5.53e-06          . TTTTTAAATCGATTAATGAT           
+Meso_0159                     1  5.53e-06          . TTATTAAATCGATTAGACTA           
+RHE_CH00475                   1  7.81e-06          . TCGCTTAATCGATTGAAGAA           
+SMc04006                      1  8.48e-06          . GATTATAATCGATTAGAGTT           
+mll3821                       1  8.48e-06          . TTCCTAAATCGATTGGAATT           
+AGR_C_4782                    1  8.48e-06          . TGATCTAAACGATTGAAAAT           
+Meso_0989                     1  1.16e-05          . TTATTCAATCGATTCATATT           
+BMEII0422                     1  1.16e-05          . CATTTAAATCGTTATAATGT           
+BAB2_0364                     1  1.16e-05          . CATTTAAATCGTTATAATGT           
+BruAb2_0360                   1  1.16e-05          . CATTTAAATCGTTATAATGT           
+BRA0872                       1  1.16e-05          . CATTTAAATCGTTATAATGT           
+Meso_3502_1                   1  1.25e-05          . GCGTTTAAACGATTTAGTGA           
+AGR_L_2147                    1  1.35e-05          . CAATATAATCGATTAAACTC           
+BruAb1_1785                   1  1.56e-05          . GAATTAAATGGTTTTAAATT           
+BMEI0244                      1  1.56e-05          . GAATTAAATGGTTTTAAATT           
+BAB1_1813                     1  1.56e-05          . GAATTAAATGGTTTTAAATT           
+BR1805                        1  1.56e-05          . GAATTAAATGGTTTTAAATT           
+BMEI2037_1                    1  3.20e-05          . CGGGTTAAACGATTTAAAAA           
+BR2089_1                      1  3.20e-05          . CGGGTTAAACGATTTAAAAA           
+SMc02495                      1  4.51e-05          . CGAATAAATCGGTTGAATCA           
+mlr5096                       1  5.57e-05          . ATATATAAACGATTTAAACA           
+SMc04460                      1  7.48e-05          . TGTTTTAATCCTTTTAAAAA           
+RHE_CH03543                   1  1.11e-04          . AAATATAATCGATTAGCATT           
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+SMc02834                          9.3e-09  [+1]
+RHE_CH03500                         3e-08  [+1]
+AGR_C_311                         6.1e-08  [+1]
+Meso_3436                         7.7e-08  [+1]
+RHE_CH00173                       7.7e-08  [+1]
+BR0115                            9.5e-08  [+1]
+BruAb1_0112                       9.5e-08  [+1]
+BAB1_0112                         9.5e-08  [+1]
+BMEI1833                          9.5e-08  [+1]
+mlr3754                           1.2e-07  [+1]
+AGR_C_706                         1.4e-07  [+1]
+BAB2_0547                         1.4e-07  [+1]
+BRA0693                           1.4e-07  [+1]
+mlr7586                           1.4e-07  [+1]
+BMEII0590                         1.4e-07  [+1]
+BruAb2_0537                       1.4e-07  [+1]
+AGR_L_2190                          3e-07  [+1]
+AGR_L_750                         3.5e-07  [+1]
+BruAb1_1274                       4.1e-07  [+1]
+BMEII0009                         4.1e-07  [+1]
+BruAb2_0084                       4.1e-07  [+1]
+BAB1_1292                         4.1e-07  [+1]
+BMEI0726                          4.1e-07  [+1]
+BR1273                            4.1e-07  [+1]
+BAB2_0083                         4.1e-07  [+1]
+BAB2_0460                         4.8e-07  [+1]
+BruAb2_0988                       4.8e-07  [+1]
+pckA                              4.8e-07  [+1]
+BMEII0513                         4.8e-07  [+1]
+BRA0778                           4.8e-07  [+1]
+BRA1048                           4.8e-07  [+1]
+BruAb2_0454                       4.8e-07  [+1]
+BAB2_1009                         4.8e-07  [+1]
+BMEII0252                         4.8e-07  [+1]
+BAB1_0316                         5.6e-07  [+1]
+BruAb1_0311                       5.6e-07  [+1]
+BMEI1636                          5.6e-07  [+1]
+BMEI2037                          5.6e-07  [+1]
+BR2089                            5.6e-07  [+1]
+BR0285                            5.6e-07  [+1]
+Meso_3595                         6.5e-07  [+1]
+SMc03983                          8.6e-07  [+1]
+mll4308                           9.9e-07  [+1]
+mll6516                           9.9e-07  [+1]
+mll3969                           9.9e-07  [+1]
+mlr3050                           1.1e-06  [+1]
+SMc02479                          1.3e-06  [+1]
+Meso_3502                         1.4e-06  [+1]
+SMc03070                          1.8e-06  [+1]
+AGR_C_56                          1.8e-06  [+1]
+RHE_CH03500_1                     2.3e-06  [+1]
+AGR_L_2190_1                      2.3e-06  [+1]
+RHE_CH03891                       2.5e-06  [+1]
+AGR_C_1065                        2.8e-06  [+1]
+RHE_CH00704                       2.8e-06  [+1]
+RHE_CH00037_1                     3.1e-06  [+1]
+eda2                              3.1e-06  [+1]
+SMc03983_1                        3.1e-06  [+1]
+AGR_C_56_1                        3.5e-06  [+1]
+BMEI0137                          3.8e-06  [+1]
+BR1927                            3.8e-06  [+1]
+BAB1_1927                         3.8e-06  [+1]
+BruAb1_1903                       3.8e-06  [+1]
+mll0929                           3.8e-06  [+1]
+RHE_CH00037                       4.2e-06  [+1]
+RHE_CH03635                       4.2e-06  [+1]
+Meso_3395                         4.2e-06  [+1]
+pckA_1                              5e-06  [+1]
+mlr5096_1                         5.5e-06  [+1]
+Meso_0159                         5.5e-06  [+1]
+RHE_CH00475                       7.8e-06  [+1]
+SMc04006                          8.5e-06  [+1]
+mll3821                           8.5e-06  [+1]
+AGR_C_4782                        8.5e-06  [+1]
+Meso_0989                         1.2e-05  [+1]
+BMEII0422                         1.2e-05  [+1]
+BAB2_0364                         1.2e-05  [+1]
+BruAb2_0360                       1.2e-05  [+1]
+BRA0872                           1.2e-05  [+1]
+Meso_3502_1                       1.3e-05  [+1]
+AGR_L_2147                        1.3e-05  [+1]
+BruAb1_1785                       1.6e-05  [+1]
+BMEI0244                          1.6e-05  [+1]
+BAB1_1813                         1.6e-05  [+1]
+BR1805                            1.6e-05  [+1]
+BMEI2037_1                        3.2e-05  [+1]
+BR2089_1                          3.2e-05  [+1]
+SMc02495                          4.5e-05  [+1]
+mlr5096                           5.6e-05  [+1]
+SMc04460                          7.5e-05  [+1]
+RHE_CH03543                       0.00011  [+1]
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 1 width=20 seqs=91
+SMc02834                 (    1) CCTTCAAATCGATTTAAACG  1 
+RHE_CH03500              (    1) CCTTTCAAACGATTGAATTG  1 
+AGR_C_311                (    1) GCTTCAAATCGATTTAATTC  1 
+Meso_3436                (    1) CATTTCAATCGATTAGGGAG  1 
+RHE_CH00173              (    1) CGATCAAATCGATTGAATTG  1 
+BR0115                   (    1) ATTTTCAATCGATTTAACAG  1 
+BruAb1_0112              (    1) ATTTTCAATCGATTTAACAG  1 
+BAB1_0112                (    1) ATTTTCAATCGATTTAACAG  1 
+BMEI1833                 (    1) ATTTTCAATCGATTTAACAG  1 
+mlr3754                  (    1) ACTTTCAATCGATTCGAGCT  1 
+AGR_C_706                (    1) CGTCTAAATCGATTTAAGTT  1 
+BAB2_0547                (    1) TCTTTCAACCGATTGAATTT  1 
+BRA0693                  (    1) TCTTTCAACCGATTGAATTT  1 
+mlr7586                  (    1) CATCTAAATCGATTGAATAT  1 
+BMEII0590                (    1) TCTTTCAACCGATTGAATTT  1 
+BruAb2_0537              (    1) TCTTTCAACCGATTGAATTT  1 
+AGR_L_2190               (    1) AGTTTCAAACGATTGAAATC  1 
+AGR_L_750                (    1) GATTTCAATCGTTTCAATCG  1 
+BruAb1_1274              (    1) GCTCTAAATCGATTAAGGCT  1 
+BMEII0009                (    1) GATTTAAATCGATTTATAAG  1 
+BruAb2_0084              (    1) GATTTAAATCGATTTATAAG  1 
+BAB1_1292                (    1) GCTCTAAATCGATTAAGGCT  1 
+BMEI0726                 (    1) GCTCTAAATCGATTAAGGCT  1 
+BR1273                   (    1) GCTCTAAATCGATTAAGGCT  1 
+BAB2_0083                (    1) GATTTAAATCGATTTATAAG  1 
+BAB2_0460                (    1) AATTTAAATCGATTAGATAT  1 
+BruAb2_0988              (    1) GATTTAAAACGATTTAGCCG  1 
+pckA                     (    1) CGATTCAACCGATTAAAAAA  1 
+BMEII0513                (    1) AATTTAAATCGATTAGATAT  1 
+BRA0778                  (    1) AATTTAAATCGATTAGATAT  1 
+BRA1048                  (    1) GATTTAAAACGATTTAGCCG  1 
+BruAb2_0454              (    1) AATTTAAATCGATTAGATAT  1 
+BAB2_1009                (    1) GATTTAAAACGATTTAGCCG  1 
+BMEII0252                (    1) GATTTAAAACGATTTAGCCG  1 
+BAB1_0316                (    1) AGATTAAATCGATTTGATTC  1 
+BruAb1_0311              (    1) AGATTAAATCGATTTGATTC  1 
+BMEI1636                 (    1) AGATTAAATCGATTTGATTC  1 
+BMEI2037                 (    1) ATTTTAAATCGATTAAATAT  1 
+BR2089                   (    1) ATTTTAAATCGATTAAATAT  1 
+BR0285                   (    1) AGATTAAATCGATTTGATTC  1 
+Meso_3595                (    1) AGCTTCAATCGATTTAGGAG  1 
+SMc03983                 (    1) CTTTTCAAACGATTAAAATT  1 
+mll4308                  (    1) CCATCTAACCGATTGAAAAT  1 
+mll6516                  (    1) AATTTAAATCGATTAGAATA  1 
+mll3969                  (    1) GATTTAAATCGGTTTAAACC  1 
+mlr3050                  (    1) CTTTTGAATCGATTGAAAAG  1 
+SMc02479                 (    1) CGATCTAACCGATTGAAATT  1 
+Meso_3502                (    1) TTTTTAAATCGATTAAAGAA  1 
+SMc03070                 (    1) ATTTTAAATCGATTAGATTA  1 
+AGR_C_56                 (    1) GTCTTCAACCGATTTAAAAA  1 
+RHE_CH03500_1            (    1) GATTTCAATCGTTTCAATGA  1 
+AGR_L_2190_1             (    1) CATTTCAATCGTTTCAATGA  1 
+RHE_CH03891              (    1) GCATCTAAACGATTGAAAAT  1 
+AGR_C_1065               (    1) TTTTTAAATCGATTAGATTA  1 
+RHE_CH00704              (    1) TTTTTAAATCGATTAGATTA  1 
+RHE_CH00037_1            (    1) AATTTAAATCGATTAATTAT  1 
+eda2                     (    1) TTATTCAATCGTTTTAAAAG  1 
+SMc03983_1               (    1) TATTTAAATCGTTTTAGCCC  1 
+AGR_C_56_1               (    1) CTTTTAAATCGATTAATATA  1 
+BMEI0137                 (    1) AAATCTAACCGATTGAAAAC  1 
+BR1927                   (    1) AAATCTAACCGATTGAAAAC  1 
+BAB1_1927                (    1) AAATCTAACCGATTGAAAAC  1 
+BruAb1_1903              (    1) AAATCTAACCGATTGAAAAC  1 
+mll0929                  (    1) TGGTTCAATCGATTGATATT  1 
+RHE_CH00037              (    1) CTCTTCAAACGATTTAAAAA  1 
+RHE_CH03635              (    1) AATTTCAATCGTTTCAAGGA  1 
+Meso_3395                (    1) CCATCTAAACGATTGAAAAA  1 
+pckA_1                   (    1) TCTTTAAATCGATTAATATA  1 
+mlr5096_1                (    1) TTTTTAAATCGATTAATGAT  1 
+Meso_0159                (    1) TTATTAAATCGATTAGACTA  1 
+RHE_CH00475              (    1) TCGCTTAATCGATTGAAGAA  1 
+SMc04006                 (    1) GATTATAATCGATTAGAGTT  1 
+mll3821                  (    1) TTCCTAAATCGATTGGAATT  1 
+AGR_C_4782               (    1) TGATCTAAACGATTGAAAAT  1 
+Meso_0989                (    1) TTATTCAATCGATTCATATT  1 
+BMEII0422                (    1) CATTTAAATCGTTATAATGT  1 
+BAB2_0364                (    1) CATTTAAATCGTTATAATGT  1 
+BruAb2_0360              (    1) CATTTAAATCGTTATAATGT  1 
+BRA0872                  (    1) CATTTAAATCGTTATAATGT  1 
+Meso_3502_1              (    1) GCGTTTAAACGATTTAGTGA  1 
+AGR_L_2147               (    1) CAATATAATCGATTAAACTC  1 
+BruAb1_1785              (    1) GAATTAAATGGTTTTAAATT  1 
+BMEI0244                 (    1) GAATTAAATGGTTTTAAATT  1 
+BAB1_1813                (    1) GAATTAAATGGTTTTAAATT  1 
+BR1805                   (    1) GAATTAAATGGTTTTAAATT  1 
+BMEI2037_1               (    1) CGGGTTAAACGATTTAAAAA  1 
+BR2089_1                 (    1) CGGGTTAAACGATTTAAAAA  1 
+SMc02495                 (    1) CGAATAAATCGGTTGAATCA  1 
+mlr5096                  (    1) ATATATAAACGATTTAAACA  1 
+SMc04460                 (    1) TGTTTTAATCCTTTTAAAAA  1 
+RHE_CH03543              (    1) AAATATAATCGATTAGCATT  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 20 n= 91 bayes= -664.386 E= 6.9e-398 
+   -33     97     97    -90 
+     9     61     44    -67 
+   -38   -156   -124     74 
+  -508    -56   -256    125 
+  -308      3  -1315    116 
+    50    103   -356    -90 
+   142  -1315  -1315  -1315 
+   142  -1315  -1315  -1315 
+  -118      3  -1315     93 
+ -1315    289   -156  -1315 
+ -1315   -356    293  -1315 
+   113  -1315   -256   -116 
+ -1315  -1315  -1315    144 
+  -308  -1315  -1315    138 
+   -38    -97     90     14 
+   111  -1315     61  -1315 
+   102   -356      3   -190 
+     9    -10     14    -11 
+     9     35    -56     -7 
+   -62     14     69     14 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 20 nsites= 91 E= 6.9e-398 
+ 0.296703  0.252747  0.252747  0.197802 
+ 0.395604  0.197802  0.175824  0.230769 
+ 0.285714  0.043956  0.054945  0.615385 
+ 0.010989  0.087912  0.021978  0.879121 
+ 0.043956  0.131868  0.000000  0.824176 
+ 0.527473  0.263736  0.010989  0.197802 
+ 1.000000  0.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.164835  0.131868  0.000000  0.703297 
+ 0.000000  0.956044  0.043956  0.000000 
+ 0.000000  0.010989  0.989011  0.000000 
+ 0.813187  0.000000  0.021978  0.164835 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.043956  0.000000  0.000000  0.956044 
+ 0.285714  0.065934  0.241758  0.406593 
+ 0.802198  0.000000  0.197802  0.000000 
+ 0.758242  0.010989  0.131868  0.098901 
+ 0.395604  0.120879  0.142857  0.340659 
+ 0.395604  0.164835  0.087912  0.351648 
+ 0.241758  0.142857  0.208791  0.406593 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 regular expression
+--------------------------------------------------------------------------------
+[ACG][AT][TA]TT[AC]AATCGATT[TAG]AA[AT][AT][TAG]
+--------------------------------------------------------------------------------
+
+
+
+
+Time  0.10 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+SUMMARY OF MOTIFS
+********************************************************************************
+
+--------------------------------------------------------------------------------
+	Combined block diagrams: non-overlapping sites with p-value < 0.0001
+--------------------------------------------------------------------------------
+SEQUENCE NAME            COMBINED P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+BMEII0252                        4.85e-07  [+1(4.85e-07)]
+BAB2_1009                        4.85e-07  [+1(4.85e-07)]
+BruAb2_0454                      4.85e-07  [+1(4.85e-07)]
+SMc03983                         8.64e-07  [+1(8.64e-07)]
+BRA0872                          1.16e-05  [+1(1.16e-05)]
+BAB2_0083                        4.14e-07  [+1(4.14e-07)]
+SMc03983_1                       3.12e-06  [+1(3.12e-06)]
+BR1273                           4.14e-07  [+1(4.14e-07)]
+AGR_C_311                        6.11e-08  [+1(6.11e-08)]
+BR1805                           1.56e-05  [+1(1.56e-05)]
+RHE_CH00704                      2.81e-06  [+1(2.81e-06)]
+eda2                             3.12e-06  [+1(3.12e-06)]
+RHE_CH00173                      7.71e-08  [+1(7.71e-08)]
+BMEI1833                         9.46e-08  [+1(9.46e-08)]
+RHE_CH00037_1                    3.12e-06  [+1(3.12e-06)]
+AGR_C_4782                       8.48e-06  [+1(8.48e-06)]
+mll0929                          3.80e-06  [+1(3.80e-06)]
+BMEI0726                         4.14e-07  [+1(4.14e-07)]
+BR0285                           5.65e-07  [+1(5.65e-07)]
+mlr3050                          1.12e-06  [+1(1.12e-06)]
+RHE_CH03891                      2.53e-06  [+1(2.53e-06)]
+SMc02479                         1.27e-06  [+1(1.27e-06)]
+AGR_L_2147                       1.35e-05  [+1(1.35e-05)]
+BAB1_1813                        1.56e-05  [+1(1.56e-05)]
+BR2089_1                         3.20e-05  [+1(3.20e-05)]
+BMEI0244                         1.56e-05  [+1(1.56e-05)]
+BAB1_1292                        4.14e-07  [+1(4.14e-07)]
+BruAb2_0537                      1.43e-07  [+1(1.43e-07)]
+AGR_C_56                         1.82e-06  [+1(1.82e-06)]
+mlr3754                          1.16e-07  [+1(1.16e-07)]
+BAB1_0112                        9.46e-08  [+1(9.46e-08)]
+AGR_L_750                        3.53e-07  [+1(3.53e-07)]
+BRA1048                          4.85e-07  [+1(4.85e-07)]
+BRA0778                          4.85e-07  [+1(4.85e-07)]
+AGR_C_1065                       2.81e-06  [+1(2.81e-06)]
+BR2089                           5.65e-07  [+1(5.65e-07)]
+BruAb1_0112                      9.46e-08  [+1(9.46e-08)]
+BruAb1_1903                      3.80e-06  [+1(3.80e-06)]
+SMc02495                         4.51e-05  [+1(4.51e-05)]
+Meso_3395                        4.19e-06  [+1(4.19e-06)]
+BMEII0513                        4.85e-07  [+1(4.85e-07)]
+BMEI2037                         5.65e-07  [+1(5.65e-07)]
+BruAb2_0360                      1.16e-05  [+1(1.16e-05)]
+BMEII0590                        1.43e-07  [+1(1.43e-07)]
+BAB2_0364                        1.16e-05  [+1(1.16e-05)]
+Meso_3595                        6.52e-07  [+1(6.52e-07)]
+RHE_CH03635                      4.19e-06  [+1(4.19e-06)]
+AGR_C_56_1                       3.45e-06  [+1(3.45e-06)]
+RHE_CH03543                      1.11e-04  20
+AGR_L_2190                       2.99e-07  [+1(2.99e-07)]
+mll3969                          9.86e-07  [+1(9.86e-07)]
+BAB1_1927                        3.80e-06  [+1(3.80e-06)]
+mlr7586                          1.43e-07  [+1(1.43e-07)]
+RHE_CH00037                      4.19e-06  [+1(4.19e-06)]
+BRA0693                          1.43e-07  [+1(1.43e-07)]
+Meso_3502                        1.44e-06  [+1(1.44e-06)]
+BruAb1_1785                      1.56e-05  [+1(1.56e-05)]
+SMc02834                         9.32e-09  [+1(9.32e-09)]
+AGR_L_2190_1                     2.28e-06  [+1(2.28e-06)]
+pckA                             4.85e-07  [+1(4.85e-07)]
+BMEII0422                        1.16e-05  [+1(1.16e-05)]
+BR0115                           9.46e-08  [+1(9.46e-08)]
+BruAb2_0084                      4.14e-07  [+1(4.14e-07)]
+mll6516                          9.86e-07  [+1(9.86e-07)]
+pckA_1                           5.05e-06  [+1(5.05e-06)]
+BMEII0009                        4.14e-07  [+1(4.14e-07)]
+Meso_3436                        7.71e-08  [+1(7.71e-08)]
+mll4308                          9.86e-07  [+1(9.86e-07)]
+BMEI1636                         5.65e-07  [+1(5.65e-07)]
+BruAb1_1274                      4.14e-07  [+1(4.14e-07)]
+Meso_0159                        5.53e-06  [+1(5.53e-06)]
+Meso_0989                        1.16e-05  [+1(1.16e-05)]
+BruAb2_0988                      4.85e-07  [+1(4.85e-07)]
+mll3821                          8.48e-06  [+1(8.48e-06)]
+mlr5096                          5.57e-05  [+1(5.57e-05)]
+SMc03070                         1.82e-06  [+1(1.82e-06)]
+mlr5096_1                        5.53e-06  [+1(5.53e-06)]
+BR1927                           3.80e-06  [+1(3.80e-06)]
+Meso_3502_1                      1.25e-05  [+1(1.25e-05)]
+SMc04460                         7.48e-05  [+1(7.48e-05)]
+BAB2_0460                        4.85e-07  [+1(4.85e-07)]
+RHE_CH03500_1                    2.28e-06  [+1(2.28e-06)]
+BruAb1_0311                      5.65e-07  [+1(5.65e-07)]
+BAB1_0316                        5.65e-07  [+1(5.65e-07)]
+BAB2_0547                        1.43e-07  [+1(1.43e-07)]
+AGR_C_706                        1.43e-07  [+1(1.43e-07)]
+BMEI0137                         3.80e-06  [+1(3.80e-06)]
+RHE_CH00475                      7.81e-06  [+1(7.81e-06)]
+RHE_CH03500                      2.96e-08  [+1(2.96e-08)]
+BMEI2037_1                       3.20e-05  [+1(3.20e-05)]
+SMc04006                         8.48e-06  [+1(8.48e-06)]
+--------------------------------------------------------------------------------
+
+********************************************************************************
+
+
+********************************************************************************
+Stopped because nmotifs = 1 reached.
+********************************************************************************
+
+CPU: bazzilab
+
+********************************************************************************

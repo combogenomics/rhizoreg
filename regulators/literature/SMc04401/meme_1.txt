@@ -1,0 +1,354 @@
+********************************************************************************
+MEME - Motif discovery tool
+********************************************************************************
+MEME version 4.9.0 (Release date: Wed Oct  3 11:07:26 EST 2012)
+
+For further information on how to interpret these results or to get
+a copy of the MEME software please access http://meme.nbcr.net.
+
+This file may be used as input to the MAST algorithm for searching
+sequence databases for matches to groups of motifs.  MAST is available
+for interactive use and downloading at http://meme.nbcr.net.
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey and Charles Elkan,
+"Fitting a mixture model by expectation maximization to discover
+motifs in biopolymers", Proceedings of the Second International
+Conference on Intelligent Systems for Molecular Biology, pp. 28-36,
+AAAI Press, Menlo Park, California, 1994.
+********************************************************************************
+
+
+********************************************************************************
+TRAINING SET
+********************************************************************************
+DATAFILE= input.fa
+ALPHABET= ACGT
+Sequence name            Weight Length  Sequence name            Weight Length  
+-------------            ------ ------  -------------            ------ ------  
+RL1820_1                 1.0000     20  mlr3045_1                1.0000     20  
+XCC4222                  1.0000     20  XOO2069                  1.0000     20  
+BMEI0019_1               1.0000     20  XAC4355                  1.0000     20  
+BruAb1_2024_1            1.0000     20  XCV1598                  1.0000     20  
+Jann_3940_1              1.0000     20  BAB1_2050                1.0000     20  
+XOO1950                  1.0000     20  XCV1963                  1.0000     20  
+RL1820                   1.0000     20  XAC1910                  1.0000     20  
+Jann_3940                1.0000     20  UTI89_C4623              1.0000     20  
+mlr3045                  1.0000     20  c5024                    1.0000     20  
+SMc04401_1               1.0000     20  XCC1892                  1.0000     20  
+SMc04401                 1.0000     20  BAB1_2050_1              1.0000     20  
+XC_2729                  1.0000     20  XCC1507                  1.0000     20  
+BR2049                   1.0000     20  BMEI0019                 1.0000     20  
+XC_4311                  1.0000     20  BruAb1_2024              1.0000     20  
+XC_2296                  1.0000     20  RHE_CH01719              1.0000     20  
+Jann_3931                1.0000     20  RHE_CH01719_1            1.0000     20  
+BR2049_1                 1.0000     20  XAC1555                  1.0000     20  
+********************************************************************************
+
+********************************************************************************
+COMMAND LINE SUMMARY
+********************************************************************************
+This information can also be useful in the event you wish to report a
+problem with the MEME software.
+
+command: meme -dna input.fa -mod oops -w 20 
+
+model:  mod=          oops    nmotifs=         1    evt=           inf
+object function=  E-value of product of p-values
+width:  minw=           20    maxw=           20    minic=        0.00
+width:  wg=             11    ws=              1    endgaps=       yes
+nsites: minsites=       34    maxsites=       34    wnsites=       0.8
+theta:  prob=            1    spmap=         uni    spfuzz=        0.5
+global: substring=     yes    branching=      no    wbranch=        no
+em:     prior=   dirichlet    b=            0.01    maxiter=        50
+        distance=    1e-05
+data:   n=             680    N=              34
+strands: +
+sample: seed=            0    seqfrac=         1
+Letter frequencies in dataset:
+A 0.329 C 0.178 G 0.181 T 0.312 
+Background letter frequencies (from dataset with add-one prior applied):
+A 0.329 C 0.178 G 0.181 T 0.311 
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  1	width =   20   sites =  34   llr = 586   E-value = 1.3e-210
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 1 Description
+--------------------------------------------------------------------------------
+Simplified        A  355::4:a6::3:::aa414
+pos.-specific     C  :21::::::a:::a9:::21
+probability       G  42:::6a:::a1::::::13
+matrix            T  3149a:::4::6a:1::662
+
+         bits    2.5          **  *      
+                 2.2       *  **  *      
+                 2.0       *  **  **     
+                 1.7       *  ** ***     
+Relative         1.5     * ** ** *****   
+Entropy          1.2    ** ** ** *****   
+(24.9 bits)      1.0    ***** ** *****   
+                 0.7    ******** *****   
+                 0.5    **************** 
+                 0.2 ********************
+                 0.0 --------------------
+
+Multilevel           GAATTGGAACGTTCCAATTA
+consensus            ACT  A  T  A     ACG
+sequence             T                  T
+                                         
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name             Start   P-value                    Site      
+-------------             ----- ---------            --------------------
+SMc04401_1                    1  8.51e-11          . AAATTGGAACGTTCCAATTA           
+BR2049_1                      1  2.33e-10          . GCCTTGGAACGTTCCAATTA           
+BruAb1_2024                   1  2.33e-10          . GCCTTGGAACGTTCCAATTA           
+BAB1_2050_1                   1  2.33e-10          . GCCTTGGAACGTTCCAATTA           
+c5024                         1  1.04e-09          . AAATTAGATCGTTCCAATTA           
+UTI89_C4623                   1  1.04e-09          . AAATTAGATCGTTCCAATTA           
+BMEI0019_1                    1  1.65e-09          . GTCTTGGAACGTTCCAATTA           
+XCC1507                       1  1.89e-09          . TAATTGGATCGATCCAATCA           
+XC_2729                       1  1.89e-09          . TAATTGGATCGATCCAATCA           
+XAC1555                       1  2.13e-09          . TAATTGGATCGATCCAATTT           
+XOO1950                       1  2.13e-09          . TAATTGGATCGATCCAATTT           
+XCV1598                       1  2.13e-09          . TAATTGGATCGATCCAATTT           
+XOO2069                       1  2.13e-09          . TAATTGGATCGATCCAATTT           
+BMEI0019                      1  2.77e-09          . AGTTTAGAACGTTCCAAATG           
+BR2049                        1  2.77e-09          . AGTTTAGAACGTTCCAAATG           
+BAB1_2050                     1  2.77e-09          . AGTTTAGAACGTTCCAAATG           
+BruAb1_2024_1                 1  2.77e-09          . AGTTTAGAACGTTCCAAATG           
+mlr3045_1                     1  2.77e-09          . GGATTAGAACGTTCCAATAG           
+RHE_CH01719                   1  4.81e-09          . TTTTTGGAACGTTCCAAATA           
+RL1820_1                      1  4.81e-09          . CAATTGGAACGTTCCAAATA           
+SMc04401                      1  6.46e-09          . AATTTAGATCGTTCCAAATT           
+Jann_3940_1                   1  1.39e-08          . AAATCGGAACGTTCCAATTT           
+XC_2296                       1  1.62e-08          . GCATTAGAACGATCTAATCG           
+XCC1892                       1  1.62e-08          . GCATTAGAACGATCTAATCG           
+XAC1910                       1  1.62e-08          . GCATTAGAACGATCTAATCG           
+XCV1963                       1  1.62e-08          . GCATTAGAACGATCTAATCG           
+Jann_3931                     1  1.89e-08          . GAATTGGAACGTTCCAGAAG           
+RL1820                        1  2.20e-08          . TTTTTAGATCGTTCCAAATT           
+Jann_3940                     1  3.12e-08          . ATTGTGGAACGTTCCAATTA           
+XC_4311                       1  3.57e-08          . GATTTGGATCGGTCCAAAGC           
+XCC4222                       1  3.57e-08          . GATTTGGATCGGTCCAAAGC           
+mlr3045                       1  4.93e-08          . TAAATGGAACGTTCCAATAA           
+XAC4355                       1  9.74e-08          . AGTTTAGATCGATCCAAGCC           
+RHE_CH01719_1                 1  1.08e-07          . GATTTAAATCGTTCCAAAAG           
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+SMc04401_1                        8.5e-11  [+1]
+BR2049_1                          2.3e-10  [+1]
+BruAb1_2024                       2.3e-10  [+1]
+BAB1_2050_1                       2.3e-10  [+1]
+c5024                               1e-09  [+1]
+UTI89_C4623                         1e-09  [+1]
+BMEI0019_1                        1.6e-09  [+1]
+XCC1507                           1.9e-09  [+1]
+XC_2729                           1.9e-09  [+1]
+XAC1555                           2.1e-09  [+1]
+XOO1950                           2.1e-09  [+1]
+XCV1598                           2.1e-09  [+1]
+XOO2069                           2.1e-09  [+1]
+BMEI0019                          2.8e-09  [+1]
+BR2049                            2.8e-09  [+1]
+BAB1_2050                         2.8e-09  [+1]
+BruAb1_2024_1                     2.8e-09  [+1]
+mlr3045_1                         2.8e-09  [+1]
+RHE_CH01719                       4.8e-09  [+1]
+RL1820_1                          4.8e-09  [+1]
+SMc04401                          6.5e-09  [+1]
+Jann_3940_1                       1.4e-08  [+1]
+XC_2296                           1.6e-08  [+1]
+XCC1892                           1.6e-08  [+1]
+XAC1910                           1.6e-08  [+1]
+XCV1963                           1.6e-08  [+1]
+Jann_3931                         1.9e-08  [+1]
+RL1820                            2.2e-08  [+1]
+Jann_3940                         3.1e-08  [+1]
+XC_4311                           3.6e-08  [+1]
+XCC4222                           3.6e-08  [+1]
+mlr3045                           4.9e-08  [+1]
+XAC4355                           9.7e-08  [+1]
+RHE_CH01719_1                     1.1e-07  [+1]
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 1 width=20 seqs=34
+SMc04401_1               (    1) AAATTGGAACGTTCCAATTA  1 
+BR2049_1                 (    1) GCCTTGGAACGTTCCAATTA  1 
+BruAb1_2024              (    1) GCCTTGGAACGTTCCAATTA  1 
+BAB1_2050_1              (    1) GCCTTGGAACGTTCCAATTA  1 
+c5024                    (    1) AAATTAGATCGTTCCAATTA  1 
+UTI89_C4623              (    1) AAATTAGATCGTTCCAATTA  1 
+BMEI0019_1               (    1) GTCTTGGAACGTTCCAATTA  1 
+XCC1507                  (    1) TAATTGGATCGATCCAATCA  1 
+XC_2729                  (    1) TAATTGGATCGATCCAATCA  1 
+XAC1555                  (    1) TAATTGGATCGATCCAATTT  1 
+XOO1950                  (    1) TAATTGGATCGATCCAATTT  1 
+XCV1598                  (    1) TAATTGGATCGATCCAATTT  1 
+XOO2069                  (    1) TAATTGGATCGATCCAATTT  1 
+BMEI0019                 (    1) AGTTTAGAACGTTCCAAATG  1 
+BR2049                   (    1) AGTTTAGAACGTTCCAAATG  1 
+BAB1_2050                (    1) AGTTTAGAACGTTCCAAATG  1 
+BruAb1_2024_1            (    1) AGTTTAGAACGTTCCAAATG  1 
+mlr3045_1                (    1) GGATTAGAACGTTCCAATAG  1 
+RHE_CH01719              (    1) TTTTTGGAACGTTCCAAATA  1 
+RL1820_1                 (    1) CAATTGGAACGTTCCAAATA  1 
+SMc04401                 (    1) AATTTAGATCGTTCCAAATT  1 
+Jann_3940_1              (    1) AAATCGGAACGTTCCAATTT  1 
+XC_2296                  (    1) GCATTAGAACGATCTAATCG  1 
+XCC1892                  (    1) GCATTAGAACGATCTAATCG  1 
+XAC1910                  (    1) GCATTAGAACGATCTAATCG  1 
+XCV1963                  (    1) GCATTAGAACGATCTAATCG  1 
+Jann_3931                (    1) GAATTGGAACGTTCCAGAAG  1 
+RL1820                   (    1) TTTTTAGATCGTTCCAAATT  1 
+Jann_3940                (    1) ATTGTGGAACGTTCCAATTA  1 
+XC_4311                  (    1) GATTTGGATCGGTCCAAAGC  1 
+XCC4222                  (    1) GATTTGGATCGGTCCAAAGC  1 
+mlr3045                  (    1) TAAATGGAACGTTCCAATAA  1 
+XAC4355                  (    1) AGTTTAGATCGATCCAAGCC  1 
+RHE_CH01719_1            (    1) GATTTAAATCGTTCCAAAAG  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 20 n= 34 bayes= -664.386 E= 1.3e-210 
+    -2   -260    108    -23 
+    60     21     -4   -140 
+    69    -60  -1173     18 
+  -348  -1173   -262    160 
+ -1173   -260  -1173    164 
+    42  -1173    162  -1173 
+  -348  -1173    242  -1173 
+   160  -1173  -1173  -1173 
+    84  -1173  -1173     40 
+ -1173    249  -1173  -1173 
+ -1173  -1173    246  -1173 
+    -2  -1173   -162     99 
+ -1173  -1173  -1173    168 
+ -1173    249  -1173  -1173 
+ -1173    231  -1173   -140 
+   160  -1173  -1173  -1173 
+   156  -1173   -262  -1173 
+    10  -1173   -262     99 
+  -148     21   -162     99 
+    22   -101     84    -60 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 20 nsites= 34 E= 1.3e-210 
+ 0.323529  0.029412  0.382353  0.264706 
+ 0.500000  0.205882  0.176471  0.117647 
+ 0.529412  0.117647  0.000000  0.352941 
+ 0.029412  0.000000  0.029412  0.941176 
+ 0.000000  0.029412  0.000000  0.970588 
+ 0.441176  0.000000  0.558824  0.000000 
+ 0.029412  0.000000  0.970588  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.588235  0.000000  0.000000  0.411765 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.323529  0.000000  0.058824  0.617647 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.882353  0.000000  0.117647 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.970588  0.000000  0.029412  0.000000 
+ 0.352941  0.000000  0.029412  0.617647 
+ 0.117647  0.205882  0.058824  0.617647 
+ 0.382353  0.088235  0.323529  0.205882 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 regular expression
+--------------------------------------------------------------------------------
+[GAT][AC][AT]TT[GA]GA[AT]CG[TA]TCCAA[TA][TC][AGT]
+--------------------------------------------------------------------------------
+
+
+
+
+Time  0.02 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+SUMMARY OF MOTIFS
+********************************************************************************
+
+--------------------------------------------------------------------------------
+	Combined block diagrams: non-overlapping sites with p-value < 0.0001
+--------------------------------------------------------------------------------
+SEQUENCE NAME            COMBINED P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+RL1820_1                         4.81e-09  [+1(4.81e-09)]
+mlr3045_1                        2.77e-09  [+1(2.77e-09)]
+XCC4222                          3.57e-08  [+1(3.57e-08)]
+XOO2069                          2.13e-09  [+1(2.13e-09)]
+BMEI0019_1                       1.65e-09  [+1(1.65e-09)]
+XAC4355                          9.74e-08  [+1(9.74e-08)]
+BruAb1_2024_1                    2.77e-09  [+1(2.77e-09)]
+XCV1598                          2.13e-09  [+1(2.13e-09)]
+Jann_3940_1                      1.39e-08  [+1(1.39e-08)]
+BAB1_2050                        2.77e-09  [+1(2.77e-09)]
+XOO1950                          2.13e-09  [+1(2.13e-09)]
+XCV1963                          1.62e-08  [+1(1.62e-08)]
+RL1820                           2.20e-08  [+1(2.20e-08)]
+XAC1910                          1.62e-08  [+1(1.62e-08)]
+Jann_3940                        3.12e-08  [+1(3.12e-08)]
+UTI89_C4623                      1.04e-09  [+1(1.04e-09)]
+mlr3045                          4.93e-08  [+1(4.93e-08)]
+c5024                            1.04e-09  [+1(1.04e-09)]
+SMc04401_1                       8.51e-11  [+1(8.51e-11)]
+XCC1892                          1.62e-08  [+1(1.62e-08)]
+SMc04401                         6.46e-09  [+1(6.46e-09)]
+BAB1_2050_1                      2.33e-10  [+1(2.33e-10)]
+XC_2729                          1.89e-09  [+1(1.89e-09)]
+XCC1507                          1.89e-09  [+1(1.89e-09)]
+BR2049                           2.77e-09  [+1(2.77e-09)]
+BMEI0019                         2.77e-09  [+1(2.77e-09)]
+XC_4311                          3.57e-08  [+1(3.57e-08)]
+BruAb1_2024                      2.33e-10  [+1(2.33e-10)]
+XC_2296                          1.62e-08  [+1(1.62e-08)]
+RHE_CH01719                      4.81e-09  [+1(4.81e-09)]
+Jann_3931                        1.89e-08  [+1(1.89e-08)]
+RHE_CH01719_1                    1.08e-07  [+1(1.08e-07)]
+BR2049_1                         2.33e-10  [+1(2.33e-10)]
+XAC1555                          2.13e-09  [+1(2.13e-09)]
+--------------------------------------------------------------------------------
+
+********************************************************************************
+
+
+********************************************************************************
+Stopped because nmotifs = 1 reached.
+********************************************************************************
+
+CPU: bazzilab
+
+********************************************************************************
