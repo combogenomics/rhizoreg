@@ -14,3 +14,4 @@ Directories
 * replicons: contig mapping for the S. meliloti draft genomes
 * networks: regulatory networks, including operon and pangenome information
 * regulons: tab delimited files with the indications of the regulated genes for each strain
+* colomobs: S. meliloti gene expression compendium for validation purposes
